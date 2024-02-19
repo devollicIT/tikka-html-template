@@ -1,0 +1,256 @@
+/* ===============================
+
+# Template Name: TIKKA Portfolio
+# Author: Devollic
+# Description: Personal portfolio HTML Template
+# Version: 1.0
+
+=============================== */
+
+/* 
+*******************************
+Index
+*******************************
+
+# 01. Root variables
+# 02. Body
+# 03. Typography
+# 04. Common elements
+# 05. Navigation
+
+-------------------
+*/
+
+/* 
+  *************************
+  * 01. root variables
+  *************************
+*/
+
+:root {
+  --primary: #c8f31d;
+  --secondary: #131313;
+  --sectionBg: #191919;
+  --fontColor: #bfbfbf;
+}
+
+/* 
+  *************************
+  * 02. Body
+  *************************
+*/
+
+body {
+  background-color: var(--secondary);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+  *************************
+  * 03. Typography
+  *************************
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 62px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+p {
+  color: #ffffff;
+  opacity: 0.5;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 
+  *************************
+  * 04. Common elements
+  *************************
+*/
+
+.container {
+  width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+  outline: none;
+  border: none;
+}
+
+/* Fill button */
+.fillBtn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 30px;
+  gap: 10px;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+.fillBtn > p {
+  color: var(--secondary);
+  opacity: 1;
+}
+
+/* Button outline */
+.outlineBtn {
+  display: inline-flex;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+}
+
+/* Button right icon */
+.btnIcon {
+  font-size: 14px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+/* Input field */
+.inputField {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 1px solid #ffffff;
+  opacity: 0.2;
+  border-radius: 20px;
+  background-color: var(--sectionBg);
+  color: #ffffff;
+}
+
+/* 
+  *************************
+  * 05. Navigation
+  *************************
+*/
+
+.navMainWrapper {
+  height: 62px;
+  margin-top: 10px;
+  border-radius: 0px 20px 20px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(200, 243, 29, 0) 0.01%,
+    rgba(200, 243, 29, 0.2)
+  );
+}
+
+.navbarLinksWrapper {
+  gap: 25px;
+}
+
+.navbarLinksWrapper a i {
+  font-size: 10px;
+  font-weight: 900;
+}
+.navBtn {
+  background-color: var(--primary);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px 30px;
+  color: var(--secondary);
+}
+
+/* 
+  *************************
+  * 06. Banner
+  *************************
+*/
+.banner {
+  padding: 170px 0;
+}
+.subtitle {
+  font-size: 20px;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 11px;
+  margin: 0;
+}
+/* Banner title */
+.bannerTitle {
+  font-size: 60px;
+}
+.highlightedWord {
+  color: var(--primary);
+  opacity: 1;
+  position: relative;
+  font-size: 68px;
+}
+.highlightedWord::after {
+  content: "";
+  background: url("../img/home/highlighted-word.svg");
+  width: 90%;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.designation {
+  font-size: 28px;
+  margin: 20px 0;
+}
+/* Banner bio */
+.banner-bio {
+  padding-bottom: 10px;
+}
+
+/* Banner achievement checkbox */
+.banner-achievement-wrapper {
+  gap: 10px;
+  padding-top: 10px;
+}
+/* Banner buttons */
+.banner-buttons {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.banner-play-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.banner-play-button p {
+  font-size: 20px;
+}
