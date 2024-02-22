@@ -636,10 +636,15 @@ p {
   border: 2px solid rgba(255, 255, 255, 0.13);
   border-radius: 20px;
   margin: 120px auto;
+  overflow: hidden;
 }
 .newsletter-form {
   padding: 150px 60px;
 }
 .newsletter-content {
   padding: 0px 60px;
+}
+.newsletter-form-wrapper {
+  background: linear-gradient(90deg, #191919 0%, rgba(25, 25, 25, 0.51)),
+    url("../img/home/newletter-bg.png");
 }
