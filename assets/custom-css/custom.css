@@ -551,11 +551,15 @@ p {
   *************************
 */
 .service-cards-wrapper {
-  padding: 60px 0 270px 0;
+  padding: 60px 0 0 0;
+}
+.my-service-section {
+  padding-bottom: 35rem;
 }
 .service-card {
   text-align: center;
-  border: 1px solid var(--primary);
+  border: 1px solid rgba(200, 243, 29, 0.4);
+
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -564,17 +568,27 @@ p {
   padding: 40px;
 }
 
+/* 
+  *************************
+  * 08. Featured section
+  *************************
+*/
+
 .features-list {
   display: grid;
   grid-row-gap: 22px;
 }
 
 .featured-section {
-  background: red;
-  margin-top: -18rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 116px;
+  border: 1px solid rgba(200, 243, 29, 0.4);
+  border-radius: 20px;
+  align-items: center;
+  margin-top: -27rem;
+  margin-bottom: 120px;
 }
-.featured-section {
-  background: var(--sectionBg);
-  margin-top: -18rem;
-  padding: 70px 0;
+.featured-image {
+  margin: 70px 0 -70px -70px;
 }
