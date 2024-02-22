@@ -614,20 +614,32 @@
     <!-- ============================================ -->
 
     <!-- Start: Newsletter subscription -->
-    <section>
-      <div class="col-6">
-        <p>Call to Action</p>
-        <h1>Subscribe to Our Newsletter</h1>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when
-        </p>
-      </div>
-      <div class="col-6">
-        <form>
-          <input type="text" placeholder="Enter Your Email" />
-          <button class="button fillBtn">Subscribe</button>
-        </form>
+    <section class="container newsletter-section-wrapper">
+      <div class="align-items-center row">
+        <div class="col-6">
+          <div
+            class="d-flex flex-column h-100 justify-content-center newsletter-content"
+          >
+            <h1 class="sub-heading-text sub-heading-1">Call To Action</h1>
+            <h1 class="my-3">Subscribe to Our Newsletter</h1>
+            <p class="gray-paragraph">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <form
+            class="align-items-center d-flex gap-4 h-100 justify-content-between newsletter-form"
+          >
+            <input
+              class="inputField w-100"
+              type="text"
+              placeholder="Enter Your Email"
+            />
+            <button class="button fillBtn">Subscribe</button>
+          </form>
+        </div>
       </div>
     </section>
     <!-- End: Newsletter subscription section -->
