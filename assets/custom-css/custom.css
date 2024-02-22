@@ -337,7 +337,7 @@ p {
   overflow: hidden;
 }
 .progress-1 {
-  width: 75%;
+  /* width: 75%; */
   padding-bottom: 10px;
 }
 .progress-1 p {
@@ -493,4 +493,38 @@ p {
   padding: 11px 30px;
   height: 52px;
   border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+/* 
+  *************************
+  * 07. Educations and skills section
+  *************************
+*/
+.skills-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 87px;
+}
+.education-and-skills-header {
+  padding-bottom: 80px;
+}
+.edu-and-skills-title {
+  padding-bottom: 15px;
+}
+.index-skill-bar {
+  margin-top: 30px;
+}
+.wordpress-dev-progress {
+  width: 75%;
+}
+.python-dev-progress {
+  width: 90%;
+}
+.ken-university-progress {
+  width: 80%;
+}
+.ui-design-progress {
+  width: 90%;
 }
