@@ -484,15 +484,15 @@
     </section>
 
     <!-- Start:Portfolio section -->
-    <section>
+    <section class="container">
       <!-- Portfolio section header -->
-      <div>
+      <div class="row align-items-center">
         <!-- Title section -->
-        <div>
-          <p>My PORTFOLIO</p>
+        <div class="col-lg-6">
+          <h1 class="sub-heading-text sub-heading-1">My Portfolio</h1>
           <h1>Resonating Professionalism and Accomplishments</h1>
         </div>
-        <div>
+        <div class="col-lg-6 d-flex justify-content-end">
           <a href="#" class="button fillBtn">
             <p class="d-flex align-items-center justify-content-center m-0">
               View More <i class="fa-solid fa-arrow-right btnIcon"></i>
@@ -503,24 +503,109 @@
 
       <!-- Portfolio Cards -->
       <div>
-        <!-- Portfolio 1 -->
-        <div>
-          <div>
-            <div>
-              <img src="" alt="Portfolio Image" />
-            </div>
-            <div>
-              <p>video editing</p>
-              <h3>Promoting Excellence in Professional</h3>
-              <p>
-                Financial planners help people to gain knowledge aboutw toio
-                invest
-              </p>
-              <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        <!-- Card-1: Video Editing -->
+        <div class="row align-items-center">
+          <div class="col-8 portfolio-card">
+            <div class="d-flex">
+              <div>
+                <img
+                  class="portfolio-image"
+                  src="./assets/img/home/video-editing-portfolio.png"
+                  alt="Portfolio Image"
+                />
+              </div>
+              <div
+                class="portfolio-card-content ps-3 d-flex flex-column justify-content-center"
+              >
+                <p class="text-color">Video Editing</p>
+                <div class="my-10">
+                  <h3>Promoting Excellence in Professional</h3>
+                  <p class="gray-paragraph">
+                    Financial planners help people to gain knowledge aboutw toio
+                    invest
+                  </p>
+                </div>
+
+                <!-- Link button -->
+                <a class="link-btn" href="#"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
             </div>
           </div>
-          <div>
-            <img src="" alt="Watermark" />
+          <div class="col-4 ps-5">
+            <img
+              src="./assets/img/home/portfolio-watermark.svg"
+              alt="Watermark"
+            />
+          </div>
+        </div>
+
+        <!-- Card-2: Web development -->
+        <div class="col-8 portfolio-card my-5 mx-auto">
+          <div class="d-flex justify-content-center">
+            <div>
+              <img
+                class="portfolio-image"
+                src="./assets/img/home/web-development-portfolio.png"
+                alt="Portfolio Image"
+              />
+            </div>
+            <div
+              class="portfolio-card-content ps-3 d-flex flex-column justify-content-center"
+            >
+              <p class="text-color">Web Development</p>
+              <div class="my-10">
+                <h3>Looking to create a personal portfolio</h3>
+                <p class="gray-paragraph">
+                  Financial planners help people to gain knowledge aboutw toio
+                  invest
+                </p>
+              </div>
+
+              <!-- Link button -->
+              <a class="link-btn" href="#"
+                >Learn More <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-2: Copywriting -->
+        <div class="row align-items-center">
+          <div class="col-4 pe-5">
+            <img
+              src="./assets/img/home/portfolio-watermark-2.svg"
+              alt="Watermark"
+            />
+          </div>
+          <div class="col-8 portfolio-card">
+            <div class="d-flex">
+              <div>
+                <img
+                  class="portfolio-image"
+                  src="./assets/img/home/copywriting-portfolio.png"
+                  alt="Portfolio Image"
+                />
+              </div>
+              <div
+                class="portfolio-card-content ps-3 d-flex flex-column justify-content-center"
+              >
+                <p class="text-color">Copywriting</p>
+                <div class="my-10">
+                  <h3>You'll want to include information that</h3>
+                  <p class="gray-paragraph">
+                    Financial planners help people to gain knowledge aboutw toio
+                    invest
+                  </p>
+                </div>
+
+                <!-- Link button -->
+                <a class="link-btn" href="#"
+                  >Learn More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
