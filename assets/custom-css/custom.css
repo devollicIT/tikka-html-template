@@ -282,7 +282,7 @@ p {
   background-color: var(--primary);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  padding: 20px 30px;
+  padding: 18px 30px;
   color: var(--secondary);
 }
 
@@ -647,4 +647,14 @@ p {
 .newsletter-form-wrapper {
   background: linear-gradient(90deg, #191919 0%, rgba(25, 25, 25, 0.51)),
     url("../img/home/newletter-bg.png");
+}
+
+/* 
+  *************************
+  * 11. Company Logos
+  *************************
+*/
+.company-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
