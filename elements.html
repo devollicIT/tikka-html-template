@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.2/css/bootstrap.min.css"
+    />
+
+    <!-- Google fonts - Montserrat & Alata -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/custom-css/custom.css" />
+  </head>
+  <body class="my-5">
+    <!-- Start: Banner -->
+    <section class="container banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="">
+          <div class="banner_content text-center">
+            <h2>Elements</h2>
+            <div class="page_link">
+              <a href="index.html">Home</a>
+              <a href="elements.html">Elements</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Banner -->
+    <!-------------------->
+
+    <!-- Start: Headings, Sub Headings, Paragraph text -->
+    <section class="container d-flex justify-content-between gap-4">
+      <!-- Headings -->
+      <div class="col-4 column">
+        <h2 class="elements-titlebar">Headings</h2>
+        <h1>h-1 Heading</h1>
+        <h3>h-3 Heading</h3>
+        <h4>h-4 Heading</h4>
+      </div>
+
+      <!-- Sub Headings -->
+      <div class="col-4 column">
+        <h2 class="elements-titlebar">Sub Headings</h2>
+        <h1 class="sub-heading-text sub-heading-1">My Portfolio</h1>
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <hr class="sub-heading-horizontal-line" />
+          <h1 class="sub-heading-text">My Portfolio</h1>
+          <hr class="sub-heading-horizontal-line" />
+        </div>
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <h1 class="sub-heading-text">My Portfolio</h1>
+          <hr class="sub-heading-horizontal-line" />
+        </div>
+      </div>
+
+      <!-- Paragraph Text -->
+      <div class="col-4 column">
+        <h2 class="elements-titlebar">Paragraph Text</h2>
+        <p class="gray-paragraph">
+          HTML is a fundamental technology for creating web pages and is
+          complemented by other languages like CSS (Cascading Style Sheets) for
+          styling and JavaScript for interactivity. It follows a hierarchical
+          structure, with elements nested within one another to create complex
+          layouts and designs.
+        </p>
+        <hr />
+        <p class="white-paragraph">
+          HTML is a fundamental technology for creating web pages and is
+          complemented by other languages like CSS (Cascading Style Sheets) for
+          styling and JavaScript for interactivity. It follows a hierarchical
+          structure, with elements nested within one another to create complex
+          layouts and designs.
+        </p>
+      </div>
+    </section>
+    <!-- End: Headings, Sub Headings, Paragraph text -->
+    <!-------------------->
+
+    <!-- Start: Buttons section -->
+    <section class="container">
+      <h2 class="elements-titlebar mt-5 py-5">Sample Buttons</h2>
+      <div class="d-flex align-items-center gap-5">
+        <!-- Fill button -->
+        <a href="#" class="button fillBtn">
+          <p class="d-flex align-items-center justify-content-center m-0">
+            Hire Me <i class="fa-solid fa-arrow-right btnIcon"></i>
+          </p>
+        </a>
+
+        <!-- Outline button -->
+        <a href="#" class="button outlineBtn">
+          <p class="d-flex align-items-center justify-content-center m-0">
+            Hire Me <i class="fa-solid fa-arrow-right btnIcon"></i>
+          </p>
+        </a>
+
+        <!-- Link button -->
+        <a class="link-btn" href="#"
+          >Learn More <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </section>
+    <!-- End: Buttons section -->
+    <!-------------------->
+
+    <!-- Start: image elements -->
+    <section class="container">
+      <h2 class="elements-titlebar mt-5 py-5">Sample Image</h2>
+      <img src="./assets/img/home/aboutMe.png" alt="Sample Image" />
+    </section>
+    <!-- End: image elements -->
+    <!-------------------->
+
+    <!-- Start: list elements -->
+    <section class="container">
+      <h2 class="elements-titlebar mt-5 py-5">Sample List Items</h2>
+      <ul class="unordered-list-element">
+        <li>
+          <div class="element-list-item">
+            <i class="fa-solid fa-angles-right"></i
+            ><span>Achieve Excellence Academy</span>
+          </div>
+        </li>
+        <li>
+          <div class="element-list-item">
+            <i class="fa-solid fa-angles-right"></i
+            ><span>Achieve Excellence Academy</span>
+          </div>
+        </li>
+        <li>
+          <div class="element-list-item">
+            <i class="fa-solid fa-angles-right"></i
+            ><span>Achieve Excellence Academy</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- End: list elements -->
+    <!-------------------->
+
+    <!-- Start: Progress bar -->
+    <section class="container">
+      <h2 class="elements-titlebar mt-5 py-5">Progress bar</h2>
+      <div class="row">
+        <div class="col-6 d-flex flex-column gap-4">
+          <div class="progress-wrapper-1">
+            <div
+              class="d-flex align-items-end progress-1 justify-content-between"
+            >
+              <p class="m-0 d-inline-block">Skills</p>
+              <p class="m-0 d-inline-block">75%</p>
+            </div>
+          </div>
+          <!-- Progress -->
+          <div class="progress-wrapper-1">
+            <div
+              class="d-flex align-items-end progress-1 justify-content-between"
+            >
+              <p class="m-0 d-inline-block">Skills</p>
+              <p class="m-0 d-inline-block">75%</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-flex flex-column gap-4">
+          <div class="progress-wrapper-2 mt-2">
+            <div class="d-flex align-items-end progress-2 justify-content-end">
+              <p class="m-0 d-inline-block">75%</p>
+            </div>
+          </div>
+          <div class="progress-wrapper-2 mt-2">
+            <div class="d-flex align-items-end progress-2 justify-content-end">
+              <p class="m-0 d-inline-block">75%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End: Progress bar -->
+    <!-------------------->
+
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/6908033352.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
