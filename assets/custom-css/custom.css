@@ -33,6 +33,7 @@ Index
 # 19. Footer
 # 20. Elements Page
 # 21. About page
+# 22. Blog page
 
 -------------------
 */
@@ -793,7 +794,7 @@ ul {
   *************************
 */
 
-#about-page-banner {
+.global-page-banner-wrapper {
   background: url(../img/about/about-banner.png);
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -808,3 +809,9 @@ ul {
   align-items: center;
   margin-bottom: 180px;
 }
+
+/* 
+  *************************
+  * 22. Blog page
+  *************************
+*/
