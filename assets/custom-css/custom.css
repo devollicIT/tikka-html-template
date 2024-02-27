@@ -90,8 +90,8 @@ h1 {
   line-height: 62px;
 }
 h2 {
-  font-size: 40px;
-  line-height: 62px;
+  font-size: 36px;
+  line-height: 46px;
 }
 h3 {
   font-size: 30px;
@@ -156,6 +156,9 @@ ul {
 }
 .section-bg {
   background-color: var(--sectionBg);
+}
+.hr-divider {
+  border: 1px solid var(--primary);
 }
 
 /* 
@@ -815,3 +818,51 @@ ul {
   * 22. Blog page
   *************************
 */
+.blog-meta-wrapper {
+  width: 50%;
+  background: var(--sectionBg);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  border-right: 2px solid var(--primary);
+  right: 0;
+  bottom: -30px;
+}
+.blog-archive-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.blog-archive-search-widget {
+  padding: 30px;
+  background: var(--sectionBg);
+  border-radius: 20px;
+  border: 1px solid rgba(200, 243, 29, 0.4);
+}
+.bas-search-input {
+  padding: 15px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  background-color: var(--secondary);
+  outline: 1px solid var(--sectionBg);
+  color: #ffffff;
+}
+.bas-search-input::placeholder {
+  color: #ffffff;
+}
+.bas-search-input:focus {
+  outline: 1px solid var(--primary);
+}
+.bas-search-widget-button {
+  padding: 15px 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: var(--primary);
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid var(--primary);
+}
