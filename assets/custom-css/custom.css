@@ -15,8 +15,24 @@ Index
 # 01. Root variables
 # 02. Body
 # 03. Typography
-# 04. Common elements
-# 05. Navigation
+# 04. Common classes
+# 05. Custom class
+# 06. Buttons
+# 07. Form Elements
+# 08. Banner
+# 09. Counter section
+# 10. About me section
+# 11. Educations and skills section
+# 12. Services section
+# 13. Featured section
+# 14. Portfolio section
+# 15. Newsletter section
+# 16. Company Logos
+# 17. Slider navigation
+# 18. Blog card
+# 19. Footer
+# 20. Elements Page
+# 21. About page
 
 -------------------
 */
@@ -47,11 +63,6 @@ body {
   line-height: 30px;
   font-weight: 400;
   font-style: normal;
-}
-.container {
-  width: 1290px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* 
@@ -99,6 +110,19 @@ a {
 p {
   margin: 0;
 }
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+  *************************
+  * 04. Common classes
+  *************************
+*/
 .sub-heading-text {
   font-size: 14px;
   line-height: 32px;
@@ -122,11 +146,21 @@ p {
   color: #ffffff;
   margin: 0;
 }
+.global-page-banner {
+  padding: 110px 0;
+}
+.section-space {
+  padding: 60px 0;
+  margin: 60px auto;
+}
+.section-bg {
+  background-color: var(--sectionBg);
+}
 
 /* 
 
   *************************
-  * 03. Custom class
+  * 05. Custom class
   *************************
 */
 .text-color {
@@ -154,17 +188,9 @@ p {
   margin-top: 20px;
 }
 
-.section-space {
-  padding: 120px 0;
-  margin: 120px auto;
-}
-.section-bg {
-  background-color: var(--sectionBg);
-}
-
 /* 
   *************************
-  * 04. Buttons
+  * 06. Buttons
   *************************
 */
 
@@ -194,11 +220,11 @@ p {
   opacity: 1;
 }
 .fillBtn:hover {
-  background-color: transparent;
-  border: 1px solid var(--primary);
+  background-color: #ffffff;
+  border: 1px solid var(--secondary);
 }
 .fillBtn:hover p {
-  color: #ffffff;
+  color: var(--secondary);
 }
 
 /* Button outline */
@@ -224,6 +250,7 @@ p {
   transition: 0.3s;
   color: var(--primary);
 }
+
 /* Button right icon */
 .btnIcon {
   font-size: 14px;
@@ -233,7 +260,7 @@ p {
 
 /* 
   *************************
-  * 05. Form Elements
+  * 07. Form Elements
   *************************
 */
 
@@ -256,7 +283,7 @@ p {
 
 /* 
   *************************
-  * 05. Navigation
+  * 08. Navigation
   *************************
 */
 
@@ -289,113 +316,7 @@ p {
 
 /* 
   *************************
-  * 05. Elements
-  *************************
-*/
-.banner_area {
-  position: relative;
-  z-index: 1;
-  min-height: 485px;
-}
-
-.banner_area .banner_inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 485px;
-  background: url(../img/banner/common-banner.png) no-repeat right bottom;
-  background-size: 90% 85%;
-  width: 98%;
-  z-index: 1;
-}
-.elements-titlebar {
-  background: var(--primary);
-  color: var(--secondary);
-  margin-bottom: 20px;
-  padding: 5px;
-  border-radius: 6px;
-  text-align: center;
-}
-.column {
-  border: 1px solid var(--primary);
-  border-radius: 6px;
-  padding: 10px;
-}
-.element-list-item {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.unordered-list-element {
-  margin: 0;
-  padding: 0;
-}
-.unordered-list-element li {
-  list-style: none;
-}
-.progress-wrapper-1 {
-  background-color: var(--sectionBg);
-  height: 57px;
-  display: flex;
-  position: relative;
-  align-items: end;
-  padding: 0 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  overflow: hidden;
-}
-.progress-1 {
-  /* width: 75%; */
-  padding-bottom: 10px;
-}
-.progress-1 p {
-  color: #ffffff;
-}
-.progress-wrapper-1::after {
-  content: "";
-  display: block;
-  background-color: var(--primary);
-  height: 6px;
-  /* width: 75%; */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-top-right-radius: 20px;
-}
-
-/* Progress bar 2 */
-.progress-wrapper-2 {
-  background-color: var(--sectionBg);
-  height: 3px;
-  display: flex;
-  position: relative;
-  padding: 0 20px;
-  border-radius: 20px;
-}
-.progress-2 {
-  width: 75%;
-}
-.progress-2 p {
-  color: #ffffff;
-}
-.progress-wrapper-2::after {
-  content: "";
-  display: block;
-  background-color: #ffffff;
-  opacity: 0.5;
-  height: 100%;
-  width: 75%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-radius: 20px;
-}
-
-/* 
-  *************************
-  * 06. Banner
+  * 08. Banner
   *************************
 */
 .hero-main-section {
@@ -440,7 +361,6 @@ p {
   margin: 20px 0;
 }
 
-/* Banner achievement checkbox */
 .banner-achievement-wrapper {
   gap: 10px;
   padding-top: 10px;
@@ -451,7 +371,6 @@ p {
 /* Banner buttons */
 .banner-buttons {
   padding-top: 30px;
-  display: flex;
   gap: 30px;
 }
 .banner-play-button {
@@ -468,8 +387,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  width: 580px;
-  height: 640px;
   text-align: center;
 }
 .banner-right-image-wrapper img {
@@ -478,16 +395,20 @@ p {
 
 /* 
   *************************
-  * 06. Counter section
+  * 09. Counter section
   *************************
 */
+
 .counter-section {
   background-color: var(--sectionBg);
   border-radius: 20px;
   border: 1px solid rgba(200, 243, 29, 0.4);
-  padding: 40px;
-  height: 180px;
-  margin: 120px auto;
+  padding: 20px 0;
+}
+.counter-item {
+  border-bottom: none;
+  background-color: inherit;
+  border-right: 1px solid var(--primary);
 }
 .counter-section-divider {
   width: 1px;
@@ -508,7 +429,19 @@ p {
 
 /* 
   *************************
-  * 07. Educations and skills section
+  * 10. About me section
+  *************************
+*/
+
+.about-me-list-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+
+/* 
+  *************************
+  * 11. Educations and skills section
   *************************
 */
 .skills-area {
@@ -553,7 +486,7 @@ p {
 
 /* 
   *************************
-  * 08. Services section
+  * 12. Services section
   *************************
 */
 .service-cards-wrapper {
@@ -576,7 +509,7 @@ p {
 
 /* 
   *************************
-  * 08. Featured section
+  * 13. Featured section
   *************************
 */
 
@@ -610,7 +543,7 @@ p {
 
 /* 
   *************************
-  * 09. Portfolio section
+  * 14. Portfolio section
   *************************
 */
 .portfolio-card-content {
@@ -629,7 +562,7 @@ p {
 
 /* 
   *************************
-  * 10. Newsletter section
+  * 15. Newsletter section
   *************************
 */
 .newsletter-section-wrapper {
@@ -651,7 +584,7 @@ p {
 
 /* 
   *************************
-  * 11. Company Logos
+  * 16. Company Logos
   *************************
 */
 .company-logos {
@@ -661,7 +594,7 @@ p {
 
 /* 
   *************************
-  * 12. Slider navigation
+  * 17. Slider navigation
   *************************
 */
 .slider-nav {
@@ -696,7 +629,7 @@ p {
 
 /* 
   *************************
-  * 13. Blog card
+  * 18. Blog card
   *************************
 */
 .blog-card-2 {
@@ -722,7 +655,7 @@ p {
 
 /* 
   *************************
-  * 14. Footer
+  * 19. Footer
   *************************
 */
 .footer-main-wrapper {
@@ -735,10 +668,7 @@ p {
   padding-top: 120px;
 }
 .footer-social-icons-wrapper {
-  margin-top: 35px;
-}
-.footer-social-icons-wrapper li {
-  list-style: none;
+  margin: 35px 0;
 }
 .footer-social-icons-wrapper li a {
   padding: 11px 13px;
@@ -758,4 +688,123 @@ p {
   height: 1px;
   background: #fff;
   margin-top: 60px;
+}
+
+/* 
+  *************************
+  * 20. Elements Page
+  *************************
+*/
+.banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 485px;
+}
+
+.banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 485px;
+  background: url(../img/banner/common-banner.png) no-repeat right bottom;
+  background-size: 90% 85%;
+  width: 98%;
+  z-index: 1;
+}
+.elements-titlebar {
+  background: var(--primary);
+  color: var(--secondary);
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+}
+.column {
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  padding: 10px;
+}
+.element-list-item {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.progress-wrapper-1 {
+  background-color: var(--sectionBg);
+  height: 57px;
+  display: flex;
+  position: relative;
+  align-items: end;
+  padding: 0 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.progress-1 {
+  padding-bottom: 10px;
+}
+.progress-1 p {
+  color: #ffffff;
+}
+.progress-wrapper-1::after {
+  content: "";
+  display: block;
+  background-color: var(--primary);
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 20px;
+}
+
+/* Progress bar 2 */
+.progress-wrapper-2 {
+  background-color: var(--sectionBg);
+  height: 3px;
+  display: flex;
+  position: relative;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+.progress-2 {
+  width: 75%;
+}
+.progress-2 p {
+  color: #ffffff;
+}
+.progress-wrapper-2::after {
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  opacity: 0.5;
+  height: 100%;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+/* 
+  *************************
+  * 21. About page
+  *************************
+*/
+
+#about-page-banner {
+  background: url(../img/about/about-banner.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-feature-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 116px;
+  border: 1px solid rgba(200, 243, 29, 0.4);
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 180px;
 }

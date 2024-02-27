@@ -1,0 +1,52 @@
+/* Mobile screen */
+@media screen and (max-width: 576px) {
+  .company-logos {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+/* Tablet screen */
+@media screen and (max-width: 992px) {
+  .skills-area {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .featured-section {
+    flex-direction: column-reverse;
+  }
+  .counter-item {
+    border-bottom: 1px solid var(--primary);
+    background-color: var(--sectionBg);
+    border-right: inherit;
+  }
+  .counter-section .counter-item:nth-child(4) {
+    border-right: inherit;
+  }
+  .counter-section {
+    background-color: inherit;
+    border-radius: inherit;
+    border: inherit;
+    padding: inherit;
+  }
+  .featured-image {
+    margin: 0;
+  }
+  .portfolio-card-content {
+    padding-top: 110px;
+  }
+  .newsletter-content {
+    padding: 20px;
+  }
+  .newsletter-form {
+    padding: 10px;
+  }
+}
