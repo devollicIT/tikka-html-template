@@ -160,6 +160,11 @@ ul {
 .hr-divider {
   border: 1px solid var(--primary);
 }
+.horizontal-list-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
 
 /* 
 
@@ -429,18 +434,6 @@ ul {
   height: 52px;
   border-radius: 20px;
   margin-bottom: 25px;
-}
-
-/* 
-  *************************
-  * 10. About me section
-  *************************
-*/
-
-.about-me-list-items {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 20px;
 }
 
 /* 
@@ -824,9 +817,12 @@ ul {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   position: absolute;
+
+  bottom: -30px;
+}
+.blog-archive-meta {
   border-right: 2px solid var(--primary);
   right: 0;
-  bottom: -30px;
 }
 .blog-archive-wrapper {
   display: flex;
@@ -926,15 +922,73 @@ button.tags-pill {
 /* Pagination */
 .pagination-number {
   background: rgba(255, 255, 255, 0.05);
-  border: none;
   width: 67px;
   height: 67px;
   font-size: 20px;
   border-radius: 50%;
   color: #ffffff;
-  border: 1px slid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   transition: 0.3s all;
 }
 .pagination-number:hover {
   border: 1px solid var(--primary);
+}
+
+/* 
+  *************************
+  * 23. Single blog page
+  *************************
+*/
+
+.single-blog-meta {
+  border-left: 2px solid var(--primary);
+  left: 0;
+}
+.quote-wrapper {
+  background: var(--sectionBg);
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.quote-icon {
+  background: rgba(255, 255, 255, 0.05);
+  width: 67px;
+  height: 67px;
+  font-size: 20px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: 1px solid var(--primary);
+  transition: 0.3s all;
+}
+.quote-author-name {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+/* Post sharing */
+.tag-writing-box {
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  padding: 0 30px;
+  height: 75px;
+  margin-top: 60px;
+}
+.tag-writing-box input {
+  padding: 15px 0;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+.tag-writing-box input:focus {
+  border: none;
+  outline: none;
+}
+.tag-writing-box input::placeholder {
+  color: #bebebe;
+}
+.sharing-tag-and-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
