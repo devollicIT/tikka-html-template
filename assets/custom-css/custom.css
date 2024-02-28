@@ -1025,7 +1025,7 @@ button.tags-pill {
   flex-direction: column;
   gap: 60px;
 }
-.cm-input-field {
+.v2-input-field {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1037,10 +1037,10 @@ button.tags-pill {
   color: #bebebe;
   padding: 0 22px;
 }
-.cm-input-field::placeholder {
+.v2-input-field::placeholder {
   color: #bebebe;
 }
-.cm-input-field:focus {
+.v2-input-field:focus {
   outline: 1px solid rgba(200, 243, 29, 0.3);
 }
 .comment-write-form {
@@ -1055,4 +1055,18 @@ button.tags-pill {
 }
 .write-comment-paragraph {
   padding-top: 8px;
+}
+
+/* 
+  *************************
+  * 24. Contact page
+  *************************
+*/
+
+.page-banner-breadcrumb {
+  display: flex;
+  gap: 19px;
+}
+.cf-title {
+  width: 23%;
 }
