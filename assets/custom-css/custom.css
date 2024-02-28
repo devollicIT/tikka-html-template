@@ -49,6 +49,7 @@ Index
   --secondary: #131313;
   --sectionBg: #191919;
   --fontColor: #bfbfbf;
+  --body-text-color: #bebebe;
 }
 
 /* 
@@ -149,6 +150,9 @@ ul {
 }
 .global-page-banner {
   padding: 110px 0;
+}
+.body-text {
+  color: var(--body-text-color);
 }
 .section-space {
   padding: 60px 0;
@@ -991,4 +995,64 @@ button.tags-pill {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.comment-text.white-paragraph {
+  padding-top: 2px;
+}
+.comment-reply-button {
+  padding: 20px 30px;
+  border-radius: 45px;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  gap: 0;
+  align-items: center;
+  margin-top: 15px;
+}
+.single-comment {
+  gap: 30px;
+}
+.comment-box-wrapper {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.cm-input-field {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 1px solid rgba(200, 243, 29, 0.3);
+  opacity: 0.7;
+  border-radius: 20px;
+  background-color: var(--sectionBg);
+  color: #bebebe;
+  padding: 0 22px;
+}
+.cm-input-field::placeholder {
+  color: #bebebe;
+}
+.cm-input-field:focus {
+  outline: 1px solid rgba(200, 243, 29, 0.3);
+}
+.comment-write-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
+}
+.comment-writing-input-box {
+  height: 203px;
+  padding: 22px;
+}
+.write-comment-paragraph {
+  padding-top: 8px;
 }
