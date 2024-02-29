@@ -878,7 +878,38 @@ ul {
   align-items: center;
   margin-bottom: 180px;
 }
-
+.about-btn-wrapper {
+  padding-top: 40px;
+  gap: 40px;
+}
+.about-badge {
+  position: absolute;
+  top: 20px;
+  background: var(--primary);
+  padding: 13px;
+  border-radius: 20px;
+  left: 44px;
+}
+.badge-inner {
+  padding: 10px;
+  border: 1px dashed #000;
+  border-radius: 20px;
+}
+.badge-inner {
+  padding: 10px;
+  border: 1px dashed #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.badge-title {
+  color: var(--secondary);
+}
+.abt-title {
+  margin-top: 10px;
+}
 /* 
   *************************
   * 22. Blog page
