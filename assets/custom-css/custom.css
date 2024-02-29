@@ -514,6 +514,11 @@ ul {
   * 11. Educations and skills section
   *************************
 */
+.education-section-subtitle,
+.service-section-subtitle {
+  color: #fbd679;
+  margin-bottom: 6px;
+}
 .skills-area {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -553,6 +558,9 @@ ul {
 .ui-design-progress-wrapper::after {
   width: 90%;
 }
+.service-cards-row {
+  padding-top: 60px;
+}
 
 /* 
   *************************
@@ -577,6 +585,10 @@ ul {
   padding: 40px;
 }
 
+.link-btn:hover .btn-right-icon {
+  transition: 0.3s all;
+  transform: translateX(10px);
+}
 /* 
   *************************
   * 13. Featured section
@@ -597,9 +609,10 @@ ul {
   align-items: center;
   margin-top: -27rem;
   margin-bottom: 180px;
+  width: 90%;
 }
 .featured-image {
-  margin: 70px 0 -70px -70px;
+  /* margin: 70px 0 -70px -70px; */
 }
 .featured-image::after {
   content: url("../img/home/featured-image-icon.svg");
