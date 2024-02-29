@@ -261,12 +261,28 @@ ul {
 .outlineBtn {
   background-color: transparent;
 }
-.outlineBtn:hover {
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
+.outlineBtn span,
+.outlineBtn > .btnIcon {
+  color: #ffffff;
 }
-.outlineBtn:hover p {
+.outlineBtn .btnIcon {
+  color: #ffffff;
+}
+.outlineBtn:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  outline: none;
+}
+.outlineBtn:hover span,
+.outlineBtn > .btnIcon {
   color: var(--secondary);
+}
+
+.outlineBtn:hover .btnIcon {
+  color: var(--secondary);
+}
+.outlineBtn:hover .btn-plus-icon {
+  transform: rotate(-45deg);
 }
 /* Link button */
 .link-btn {
