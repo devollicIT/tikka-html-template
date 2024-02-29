@@ -603,23 +603,23 @@ ul {
 .featured-section {
   display: flex;
   justify-content: space-between;
-  gap: 116px;
+  /* gap: 116px; */
   border: 1px solid rgba(200, 243, 29, 0.4);
   border-radius: 20px;
   align-items: center;
+  background: var(--sectionBg);
   margin-top: -27rem;
   margin-bottom: 180px;
   width: 90%;
 }
 .featured-image {
-  /* margin: 70px 0 -70px -70px; */
+  margin: 70px 0 -100px -115px;
 }
-.featured-image::after {
+.single-feature-image::after {
   content: url("../img/home/featured-image-icon.svg");
   position: absolute;
   width: 20px;
   height: 20px;
-  /* background: url(""); */
   top: 0;
   left: 0;
 }
@@ -629,6 +629,12 @@ ul {
   * 14. Portfolio section
   *************************
 */
+.portfolio-cards-wrappers {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 53px;
+}
 .portfolio-card-content {
   background-color: #222222;
   border-right: 1px solid var(--primary);
@@ -653,9 +659,11 @@ ul {
   border-radius: 20px;
   margin: 120px auto;
   overflow: hidden;
+  background: linear-gradient(90deg, rgba(25, 25, 25, 0) 0.33%, #191919 37.33%);
 }
 .newsletter-form {
   padding: 150px 60px;
+  gap: 8.3px;
 }
 .newsletter-content {
   padding: 0px 60px;
@@ -663,6 +671,26 @@ ul {
 .newsletter-form-wrapper {
   background: linear-gradient(90deg, #191919 0%, rgba(25, 25, 25, 0.51)),
     url("../img/home/newletter-bg.png");
+}
+.subscription-form-title::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: var(--primary);
+  display: block;
+  position: absolute;
+  top: 82%;
+  right: 0;
+}
+.subscription-form-title::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+  position: absolute;
+  bottom: 17px;
+  right: 0;
+  transform: rotate(45deg);
 }
 
 /* 

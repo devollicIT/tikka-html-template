@@ -291,7 +291,7 @@
       </div>
 
       <!-- Education and skills content -->
-      <div class="skills-area mx-3 mx-md-0">
+      <div class="skills-area mx-3">
         <!-- Wordpress developer -->
         <div>
           <p class="job-duration">2014 - 2018</p>
@@ -476,10 +476,10 @@
     <!-- ============================================ -->
 
     <!-- Features card -->
-    <section class="container section-bg">
+    <section class="container">
       <div class="d-flex justify-content-end">
         <div class="featured-section p-4">
-          <div class="w-50">
+          <div class="w-75 position-relative single-feature-image">
             <img
               class="featured-image w-100 w-md-auto"
               src="./assets/img/home/featured-image.png"
@@ -547,19 +547,29 @@
         <div
           class="col-lg-6 d-flex justify-content-lg-end justify-content-start my-3 my-lg-0"
         >
-          <a href="#" class="button fillBtn">
+          <!-- <a href="#" class="button fillBtn">
             <p class="d-flex align-items-center justify-content-center m-0">
               View More <i class="fa-solid fa-arrow-right btnIcon"></i>
             </p>
+          </a> -->
+          <a href="#" class="button fillBtn">
+            <div
+              class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
+            >
+              <span class="d-block btn-text"> View More </span>
+              <p class="btn-plus-icon d-flex">
+                <i class="fa-solid fa-plus btnIcon"></i>
+              </p>
+            </div>
           </a>
         </div>
       </div>
 
       <!-- Portfolio Cards -->
-      <div>
+      <div class="portfolio-cards-wrappers">
         <!-- Card-1: Video Editing -->
-        <div class="row align-items-center mx-3">
-          <div class="col-12 col-lg-8 portfolio-card">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-8">
             <div class="d-lg-flex">
               <div>
                 <img
@@ -596,8 +606,8 @@
         </div>
 
         <!-- Card-2: Web Development -->
-        <div class="row align-items-center mx-3">
-          <div class="col-12 col-lg-8 portfolio-card mx-auto">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-8 mx-auto">
             <div class="d-lg-flex">
               <div>
                 <img
@@ -627,9 +637,16 @@
           </div>
         </div>
 
-        <!-- Card-1: Video Editing -->
-        <div class="row align-items-center mx-3">
-          <div class="col-12 col-lg-8 portfolio-card">
+        <!-- Card-3: Copywriting -->
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-4 d-lg-block d-none">
+            <img
+              class="w-75"
+              src="./assets/img/home/portfolio-watermark-2.svg"
+              alt="Watermark"
+            />
+          </div>
+          <div class="col-12 col-lg-8">
             <div class="d-lg-flex">
               <div>
                 <img
@@ -657,12 +674,6 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4 d-lg-block d-none ps-5">
-            <img
-              src="./assets/img/home/portfolio-watermark-2.svg"
-              alt="Watermark"
-            />
-          </div>
         </div>
       </div>
     </section>
@@ -677,7 +688,9 @@
             class="d-flex flex-column h-100 justify-content-center newsletter-content"
           >
             <h1 class="sub-heading-text sub-heading-1">Call To Action</h1>
-            <h1 class="my-3">Subscribe to Our Newsletter</h1>
+            <h1 class="my-3 subscription-form-title position-relative">
+              Subscribe to Our Newsletter
+            </h1>
             <p class="gray-paragraph">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when
@@ -913,7 +926,7 @@
             <div
               class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
             >
-              <img src="./assets/img/home/logo.svg" alt="Logo" />
+              <img src="./assets/img/home/footer-logo.png" alt="Logo" />
               <h3 class="">Tikka</h3>
             </div>
             <p class="gray-paragraph my-3">
