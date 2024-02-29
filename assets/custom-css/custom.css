@@ -141,7 +141,7 @@ ul {
 }
 .gray-paragraph {
   color: #ffffff;
-  opacity: 0.7;
+  opacity: 0.72;
   margin: 0;
 }
 .white-paragraph {
@@ -228,16 +228,33 @@ ul {
 .fillBtn {
   background-color: var(--primary);
 }
-.fillBtn > p {
+.fillBtn > span {
   color: var(--secondary);
   opacity: 1;
+  gap: 10px;
 }
 .fillBtn:hover {
   background-color: #ffffff;
   border: 1px solid var(--secondary);
 }
-.fillBtn:hover p {
+.fillBtn:hover span,
+.btnIcon {
   color: var(--secondary);
+}
+.btn-plus-icon {
+  transition: 0.3s;
+}
+.fillBtn:hover .btn-plus-icon {
+  transform: rotate(-45deg);
+}
+.fillBtn:hover i {
+  color: var(--secondary);
+}
+.btn-text {
+  color: var(--secondary);
+}
+.btn-inner-wrapper {
+  gap: 10px;
 }
 
 /* Button outline */
@@ -268,7 +285,6 @@ ul {
 .btnIcon {
   font-size: 14px;
   font-weight: 900;
-  padding-left: 10px;
 }
 
 /* 
@@ -338,9 +354,22 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.banner {
-  padding: 70px 0;
+.home-banner {
+  padding: 175px 0;
 }
+.home-banner-check-icon {
+  font-size: 18px;
+}
+.home-banner-checked-item {
+  gap: 10px !important;
+}
+.home-banner-list-wrapper {
+  padding-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
 .subtitle {
   font-size: 20px;
   font-family: "Alata", sans-serif;
@@ -369,6 +398,12 @@ ul {
   left: 50%;
   transform: translate(-50%, 0);
 }
+.highlightedWord::before {
+  content: url(../img/home/home-banner-star-1.svg);
+  position: absolute;
+  right: 45px;
+  top: -37px;
+}
 .designation {
   font-size: 28px;
   margin: 20px 0;
@@ -383,8 +418,14 @@ ul {
 }
 /* Banner buttons */
 .banner-buttons {
-  padding-top: 30px;
+  padding-top: 36px;
   gap: 30px;
+}
+.banner-buttons::after {
+  content: url(../img/home/banner-star-2.svg);
+  top: -10px;
+  position: absolute;
+  right: 0;
 }
 .banner-play-button {
   display: flex;
@@ -411,17 +452,26 @@ ul {
   * 09. Counter section
   *************************
 */
-
+.counter-main-wrapper {
+  padding: 120px 0;
+}
 .counter-section {
   background-color: var(--sectionBg);
   border-radius: 20px;
   border: 1px solid rgba(200, 243, 29, 0.4);
-  padding: 20px 0;
+  padding: 40px 0;
+  margin: 120px auto;
 }
 .counter-item {
   border-bottom: none;
   background-color: inherit;
   border-right: 1px solid var(--primary);
+  padding: 30px;
+}
+.counter-item-right {
+  border-bottom: none;
+  background-color: inherit;
+  padding: 30px;
 }
 .counter-section-divider {
   width: 1px;
@@ -438,6 +488,9 @@ ul {
   height: 52px;
   border-radius: 20px;
   margin-bottom: 25px;
+}
+.counter-title {
+  margin-top: 8px;
 }
 
 /* 

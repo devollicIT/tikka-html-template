@@ -31,7 +31,7 @@
       <div class="container">
         <!-- Navigation start -->
         <div
-          class="d-none align-items-center justify-content-between navMainWrapper"
+          class="d-flex align-items-center justify-content-between navMainWrapper"
         >
           <!-- Logo -->
           <div
@@ -71,7 +71,7 @@
         <!-------------------->
 
         <!-- Banner section start -->
-        <div class="row banner">
+        <div class="row home-banner">
           <!-- Banner left side -->
           <div class="col-12 col-lg-6">
             <p class="subtitle">Hello I’am</p>
@@ -83,32 +83,43 @@
               Financial planners help people to gain knowledge about toio invest
               and save their money in the most efficient
             </p>
-            <ul>
-              <li class="my-10">
-                <div class="element-list-item">
-                  <i class="fa-regular fa-circle-check text-color"></i
+            <ul class="home-banner-list-wrapper">
+              <li>
+                <div class="home-banner-checked-item element-list-item">
+                  <i
+                    class="fa-regular fa-circle-check text-color home-banner-check-icon"
+                  ></i
                   ><span>Achieve Excellence Academy</span>
                 </div>
               </li>
-              <li class="my-10">
-                <div class="element-list-item">
-                  <i class="fa-regular fa-circle-check text-color"></i>
-                  <span>Achieve Excellence Academy</span>
+              <li>
+                <div class="element-list-item home-banner-checked-item">
+                  <i
+                    class="fa-regular fa-circle-check text-color home-banner-check-icon"
+                  ></i>
+                  <span>Pathway to Success Coaching </span>
                 </div>
               </li>
             </ul>
-            <div class="banner-buttons d-md-flex flex-column flex-md-row">
+            <div
+              class="banner-buttons d-md-flex flex-column flex-md-row position-relative"
+            >
               <a href="#" class="button fillBtn">
-                <p class="d-flex align-items-center justify-content-center m-0">
-                  Hire Me <i class="fa-solid fa-plus btnIcon"></i>
-                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
+                >
+                  <span class="d-block btn-text"> Hire Me </span>
+                  <p class="btn-plus-icon d-flex">
+                    <i class="fa-solid fa-plus btnIcon"></i>
+                  </p>
+                </div>
               </a>
               <a href="#" class="banner-play-button mt-4 mt-md-0">
                 <img
                   src="./assets/img/home/banner-play-icon.svg"
                   alt="Banner Play Icon"
                 />
-                <p>Watch Now</p>
+                <h4>Watch Now</h4>
               </a>
             </div>
           </div>
@@ -126,46 +137,45 @@
         <!-- Banner section end -->
       </div>
     </section>
-
     <!-- End: Hero section -->
     <!-- ============================================ -->
 
     <!-- Start: Counter section -->
-    <section class="container section-space">
-      <div class="row g-4 counter-section">
-        <div
-          class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
-        >
-          <div class="counter-item p-5 text-center">
-            <h1>200+</h1>
-            <p class="white-paragraph">Team member</p>
+    <section class="container">
+      <div class="counter-section">
+        <div class="row">
+          <div
+            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+          >
+            <div class="counter-item text-center">
+              <h1>200+</h1>
+              <p class="white-paragraph counter-title">Team member</p>
+            </div>
           </div>
-        </div>
 
-        <div
-          class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
-        >
-          <div class="counter-item p-5 text-center">
-            <h1>20+</h1>
-            <p class="white-paragraph">Winning award</p>
-            <!-- <div class="counter-section-divider d-none d-md-block"></div> -->
+          <div
+            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+          >
+            <div class="counter-item text-center">
+              <h1>20+</h1>
+              <p class="white-paragraph counter-title">Winning award</p>
+            </div>
           </div>
-        </div>
-        <div
-          class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
-        >
-          <div class="counter-item p-5 text-center">
-            <h1>10k+</h1>
-            <p class="white-paragraph">Complete project</p>
-            <!-- <div class="counter-section-divider d-none d-md-block"></div> -->
+          <div
+            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+          >
+            <div class="counter-item text-center">
+              <h1>10k+</h1>
+              <p class="white-paragraph counter-title">Complete project</p>
+            </div>
           </div>
-        </div>
-        <div
-          class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
-        >
-          <div class="p-5 text-center counter-item">
-            <h1>900+</h1>
-            <p class="white-paragraph">Client review</p>
+          <div
+            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+          >
+            <div class="text-center counter-item-last">
+              <h1>900+</h1>
+              <p class="white-paragraph counter-title">Client review</p>
+            </div>
           </div>
         </div>
       </div>
