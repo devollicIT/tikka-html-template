@@ -1067,6 +1067,42 @@ button.tags-pill {
   display: flex;
   gap: 19px;
 }
-.cf-title {
-  width: 23%;
+.cf-title::after {
+  width: 116%;
+}
+.cf-input-field {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.cf-input-field:focus {
+  border: 1px solid rgba(200, 243, 29, 0.3);
+  outline: none;
+}
+.cf-description {
+  margin-top: 30px;
+}
+.contact-info {
+  gap: 30px;
+}
+.cf-icon {
+  font-size: 20px;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cf-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: -px;
+}
+.contact-info-wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
 }
