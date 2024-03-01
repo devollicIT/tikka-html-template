@@ -200,6 +200,12 @@ ul {
 .mt-20 {
   margin-top: 20px;
 }
+.my-20 {
+  margin: 20px 0;
+}
+.pt-120 {
+  padding-top: 120px;
+}
 
 /* 
   *************************
