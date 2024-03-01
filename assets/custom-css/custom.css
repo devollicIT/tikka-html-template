@@ -1247,3 +1247,41 @@ button.tags-pill {
   flex-direction: column;
   gap: 38px;
 }
+
+/* 
+  *************************
+  * 25. Home 2 CSS
+  *************************
+*/
+.home2-banner-wrapper {
+  background: url(../img/home2/banner-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.home2-bg-top-left {
+  background: url(../img/home2/banner-bg-top-left.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.home2-banner {
+  padding-top: 60px;
+}
+.home2-banner-icon {
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.home2-banner-title {
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -2.5px;
+  padding-bottom: 10px;
+}
+.home2-subtitle {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 62px;
+}
+.home2-banner-description {
+  margin-top: 17px;
+  padding-bottom: 40px;
+}
