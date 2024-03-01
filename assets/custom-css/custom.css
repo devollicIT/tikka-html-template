@@ -206,6 +206,9 @@ ul {
 .pt-120 {
   padding-top: 120px;
 }
+.pb-120 {
+  padding-bottom: 120px;
+}
 
 /* 
   *************************
@@ -718,7 +721,7 @@ ul {
   width: 60px;
   height: 60px;
   border-radius: 20px;
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
   background: transparent;
   color: #ffffff;
 }
@@ -1308,9 +1311,6 @@ button.tags-pill {
 }
 
 /* Services section */
-.home2-gallery-section {
-  padding-top: 100px;
-}
 .service-title-wrapper {
   gap: 30px;
 }
@@ -1329,4 +1329,79 @@ button.tags-pill {
   background: url(../img/home2/service-vector.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
+  padding-top: 100px;
+  background-color: var(--sectionBg);
+}
+
+/* Education section */
+.home2-education-title {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.home2-education-text {
+  padding-right: 45px;
+}
+.home2-education-divider {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.home2-education-degree-wrapper {
+  padding-top: 56px;
+}
+.section-header-right-text {
+  width: 66%;
+}
+
+/* Skills section */
+.best-skills-main-wrapper {
+  background: url(../img/home2/skills-bar-bg-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.home2-skills-progress-title {
+  width: 10%;
+}
+.home2-skills-progress {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.home2-skills-bar-wrapper {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 87px;
+}
+.home2-portfolio-slider-arrow {
+  border: 2px solid rgba(200, 243, 29, 0.2);
+}
+.home2-portfolio-slider-title {
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+.home2-portfolio-arrow-wrapper {
+  padding-top: 40px;
+}
+
+.home2-testimonial-left-wrapper {
+  background: linear-gradient(
+      90deg,
+      #131313 0%,
+      rgba(19, 19, 19, 0.99) 6.67%,
+      rgba(19, 19, 19, 0.79) 100%,
+      rgba(19, 19, 19, 0) 100%
+    ),
+    url(../img/home2/testimonial-left-bg.png);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+.home23-quote-text {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+.client-photo-wrapper::after {
+  content: url("../img/home2/testimonial-client-pic-bg.svg");
 }
