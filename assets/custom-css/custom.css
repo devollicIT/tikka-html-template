@@ -1306,3 +1306,27 @@ button.tags-pill {
   gap: 18px;
   margin-top: -10px;
 }
+
+/* Services section */
+.home2-gallery-section {
+  padding-top: 100px;
+}
+.service-title-wrapper {
+  gap: 30px;
+}
+.service-title {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.all-services-wrapper {
+  gap: 30px;
+}
+.service-left-image {
+  margin-bottom: -50px;
+}
+.home2-gallery-section {
+  background: url(../img/home2/service-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
