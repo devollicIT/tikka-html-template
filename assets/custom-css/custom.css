@@ -1291,3 +1291,18 @@ button.tags-pill {
   margin-top: 17px;
   padding-bottom: 40px;
 }
+
+/* Work process */
+.work-process-wrapper {
+  background: var(--sectionBg);
+  padding: 47px 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(200, 243, 29, 0.4);
+}
+.work-process-inner-wrapper {
+  gap: 20px;
+}
+.work-process-info {
+  gap: 18px;
+  margin-top: -10px;
+}
