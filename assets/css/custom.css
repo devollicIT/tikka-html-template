@@ -374,7 +374,7 @@ ul {
   *************************
 */
 .hero-main-section {
-  background: url("../img/home/main-hero-bg.svg");
+  background: url("../images/home/main-hero-bg.svg");
   background-color: var(--sectionBg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ ul {
 }
 .highlightedWord::after {
   content: "";
-  background: url("../img/home/highlighted-word.svg");
+  background: url("../images/home/highlighted-word.svg");
   width: 90%;
   height: 20px;
   display: block;
@@ -424,7 +424,7 @@ ul {
   transform: translate(-50%, 0);
 }
 .highlightedWord::before {
-  content: url(../img/home/home-banner-star-1.svg);
+  content: url(../images/home/home-banner-star-1.svg);
   position: absolute;
   right: 45px;
   top: -37px;
@@ -447,7 +447,7 @@ ul {
   gap: 30px;
 }
 .banner-buttons::after {
-  content: url(../img/home/banner-star-2.svg);
+  content: url(../images/home/banner-star-2.svg);
   top: -10px;
   position: absolute;
   right: 0;
@@ -461,7 +461,7 @@ ul {
   font-size: 20px;
 }
 .banner-right-image-wrapper {
-  background-image: url(../img/home/hero-bg-vector.svg);
+  background-image: url(../images/home/hero-bg-vector.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -491,7 +491,6 @@ ul {
   border-bottom: none;
   background-color: inherit;
   border-right: 1px solid var(--primary);
-  padding: 30px;
 }
 .counter-item-right {
   border-bottom: none;
@@ -625,7 +624,7 @@ ul {
   margin: 70px 0 -100px -115px;
 }
 .single-feature-image::after {
-  content: url("../img/home/featured-image-icon.svg");
+  content: url("../images/home/featured-image-icon.svg");
   position: absolute;
   width: 20px;
   height: 20px;
@@ -679,7 +678,7 @@ ul {
 }
 .newsletter-form-wrapper {
   background: linear-gradient(90deg, #191919 0%, rgba(25, 25, 25, 0.51)),
-    url("../img/home/newletter-bg.png");
+    url("../images/home/newletter-bg.png");
 }
 .subscription-form-title::after {
   content: "";
@@ -733,7 +732,7 @@ ul {
 }
 .testimonial-wrapper {
   margin-top: 60px;
-  background-image: url(../img/home/testimonial-area-vector.svg);
+  background-image: url(../images/home/testimonial-area-vector.svg);
   background-repeat: no-repeat;
   background-position-x: -8rem;
 }
@@ -779,7 +778,7 @@ ul {
   *************************
 */
 .footer-main-wrapper {
-  background: url("../img/home/footer-bg.svg");
+  background: url("../images/home/footer-bg.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -826,7 +825,7 @@ ul {
   overflow: hidden;
   width: 100%;
   min-height: 485px;
-  background: url(../img/banner/common-banner.png) no-repeat right bottom;
+  background: url(../images/banner/common-banner.png) no-repeat right bottom;
   background-size: 90% 85%;
   width: 98%;
   z-index: 1;
@@ -914,7 +913,7 @@ ul {
 */
 
 .global-page-banner-wrapper {
-  background: url(../img/about/about-banner.png);
+  background: url(../images/about/about-banner.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1263,12 +1262,12 @@ button.tags-pill {
   *************************
 */
 .home2-banner-wrapper {
-  background: url(../img/home2/banner-bg-right.svg);
+  background: url(../images/home2/banner-bg-right.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 .home2-bg-top-left {
-  background: url(../img/home2/banner-bg-top-left.svg);
+  background: url(../images/home2/banner-bg-top-left.svg);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -1326,7 +1325,7 @@ button.tags-pill {
   margin-bottom: -50px;
 }
 .home2-gallery-section {
-  background: url(../img/home2/service-vector.svg);
+  background: url(../images/home2/service-vector.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
   padding-top: 100px;
@@ -1354,7 +1353,7 @@ button.tags-pill {
 
 /* Skills section */
 .best-skills-main-wrapper {
-  background: url(../img/home2/skills-bar-bg-vector.svg);
+  background: url(../images/home2/skills-bar-bg-vector.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -1389,7 +1388,7 @@ button.tags-pill {
       rgba(19, 19, 19, 0.79) 100%,
       rgba(19, 19, 19, 0) 100%
     ),
-    url(../img/home2/testimonial-left-bg.png);
+    url(../images/home2/testimonial-left-bg.png);
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
@@ -1403,5 +1402,181 @@ button.tags-pill {
   padding-bottom: 32px;
 }
 .client-photo-wrapper::after {
-  content: url("../img/home2/testimonial-client-pic-bg.svg");
+  content: url("../images/home2/testimonial-client-pic-bg.svg");
+}
+.home2-testimonial-quote-wrapper {
+  margin-left: -10rem;
+  border-right: 1px solid var(--primary);
+}
+.client-info-wrapper {
+  gap: 20px;
+}
+
+/* Best experience section */
+.home2-exp-company-name {
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+}
+.text-color.home2-exp-title {
+  padding-top: 21px;
+  padding-bottom: 12px;
+}
+.home2-exp-card-inner-wrapper {
+  padding: 8px 45px;
+}
+.experience-card-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: var(--primary);
+}
+.experience-card-wrapper::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--primary);
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  left: -3px;
+}
+.row.home2-exp-wrapper-row {
+  padding-top: 56px;
+}
+.circle-bottom::after {
+  top: 100%;
+}
+.home2-section-title {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+/* Pricing list */
+.pricing-description {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.pricing-list-service-list {
+  row-gap: 10px;
+  padding-bottom: 30px;
+}
+.pricing-list-inner-wrapper {
+  background: #1c1c1c;
+  border-radius: 20px;
+  padding: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  gap: 80px;
+}
+.pricing-list-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.home2-pricing-section-header {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+/* Achievement section */
+.home2-achievement-main-wrapper {
+  background: var(--sectionBg);
+  padding: 80px;
+}
+.home2-achievement-title {
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+.achievement-count-main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.achievement-count-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 37px 80px;
+  border-radius: 20px;
+  background: linear-gradient(
+    89deg,
+    rgba(255, 255, 255, 0.1) 0.67%,
+    rgba(255, 255, 255, 0) 99.25%
+  );
+}
+
+/* Blog section */
+.home2-blog-title {
+  padding-bottom: 60px;
+}
+.home2-blog-card-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Footer */
+.home2-footer-ci-title {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.home2-footer-ci-main-wrapper {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.home2-footer-ci-icon {
+  font-size: 20px;
+  font-weight: 900;
+}
+.home2-footer-contact-info-inner-wrapper {
+  gap: 16px;
+}
+.home2-footer-ci-icon {
+  color: #fff;
+  opacity: 0.3;
+}
+.home2-footer-cf input,
+.home2-footer-cf textarea {
+  width: 100%;
+  background: transparent;
+  padding: 19px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: none;
+  border-left: none;
+  border-top: 0;
+  color: #ffffff;
+}
+.home2-footer-cf input::placeholder,
+.home2-footer-cf textarea::placeholder {
+  color: #ffffff;
+}
+.home2-footer-cf input:focus,
+.home2-footer-cf textarea:focus {
+  outline: none;
+}
+.home2-footer-form-submit-btn-icon-wrapper i {
+  font-size: 20px;
+  color: #fff;
+  transform: rotate(-45deg);
+  transition: 0.3s all;
+}
+.home2-footer-form-submit-btn:hover
+  .home2-footer-form-submit-btn-icon-wrapper
+  i {
+  color: var(--secondary);
+  transform: rotate(0deg);
+}
+.home2-footer-form-submit-btn {
+  margin-top: 40px;
+}
+.home2-footer {
+  background: url("../images/home2/home2-footer-bg.png");
 }
