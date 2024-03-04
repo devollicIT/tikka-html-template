@@ -1,664 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Blog Details</title>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Details</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-      <!-- Google fonts - Montserrat & Alata -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-         rel="stylesheet" />
+    <!-- Google fonts - Montserrat & Alata -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="./assets/css/custom.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
 
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="./assets/css/responsive.css" />
-   </head>
-   <body>
-      <!-- Start: Hero section -->
-      <section class="global-page-banner-wrapper">
-         <div class="container">
-            <!-- Navigation start -->
-            <div
-               class="d-flex align-items-center justify-content-between navMainWrapper">
-               <!-- Logo -->
-               <div
-                  class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                  <img src="./assets/images/home/logo.svg" alt="Logo" />
-                  <h3 class="">Tikka</h3>
-               </div>
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Mobile navigation -->
+    <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
+      <a class="navbar-brand" href="#">
+        <!-- Logo -->
+        <div
+          class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+        >
+          <img src="./assets/images/home/logo.svg" alt="Logo" />
+          <h3 class="">Tikka</h3>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+      </button>
 
-               <!-- Menu links -->
-               <div
-                  class="d-flex align-items-center justify-content-end menuWrapper">
-                  <nav class="navbarLinksWrapper d-flex align-items-center">
-                     <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#"
-                        >About Us <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#"
-                        >Services <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#"
-                        >Projects <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#"
-                        >Contact <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                  </nav>
-               </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="d-flex flex-column gap-2">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Page</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Start: Hero section -->
+    <section class="global-page-banner-wrapper">
+      <div class="container">
+        <!-- Navigation start -->
+        <div
+          class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper"
+        >
+          <!-- Logo -->
+          <div
+            class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+          >
+            <img src="./assets/images/home/logo.svg" alt="Logo" />
+            <h3 class="">Tikka</h3>
+          </div>
 
-               <!-- Button -->
-               <div>
-                  <a href="#">
-                     <div
-                        class="button navBtn d-flex justify-content-center align-items-center">
-                        Hire Me <i class="fa-solid fa-plus btnIcon"></i>
-                     </div>
-                  </a>
-               </div>
-            </div>
-            <!-- Navigation end -->
-            <!-------------------->
+          <!-- Menu links -->
+          <div
+            class="d-flex align-items-center justify-content-end menuWrapper"
+          >
+            <nav class="navbarLinksWrapper d-flex align-items-center">
+              <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">About Us <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+            </nav>
+          </div>
 
-            <!-- Banner section start -->
-            <div
-               class="align-items-center d-flex d-md-block flex-column global-page-banner">
-               <h1 class="pb-2">Blog Details</h1>
-               <h4><a href="/">Home</a> / Blog Details</h4>
-            </div>
-            <!-- Banner section end -->
-         </div>
-      </section>
-      <!-- End: Hero section -->
+          <!-- Button -->
+          <div>
+            <a href="#">
+              <div
+                class="button navBtn d-flex justify-content-center align-items-center"
+              >
+                Hire Me <i class="fa-solid fa-plus btnIcon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Navigation end -->
+        <!-------------------->
 
-      <!-- Start: Blog details section -->
-      <section class="container px-3 px-md-0 section-space">
-         <div class="row">
-            <div class="col-12 col-md-6 col-lg-8">
-               <div>
-                  <div class="position-relative">
-                     <img
-                        class="w-100"
-                        src="./assets/images/blog/blog-details.png"
-                        alt="Blog Thumbnail" />
-                     <div
-                        class="d-flex align-items-center justify-content-between p-3 blog-meta-wrapper single-blog-meta">
-                        <div class="d-flex align-items-center gap-3">
-                           <i class="fa-regular fa-user text-color"></i>
-                           <p class="white-paragraph">By Admin</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-3">
-                           <i class="fa-regular fa-folder-open text-color"></i>
-                           <p class="white-paragraph">Category</p>
-                        </div>
-                        <div class="d-flex align-items-center gap-3">
-                           <i class="fa-regular fa-comments text-color"></i>
-                           <p class="white-paragraph">Comments (05)</p>
-                        </div>
-                     </div>
-                  </div>
+        <!-- Banner section start -->
+        <div
+          class="align-items-center d-flex d-md-block flex-column global-page-banner"
+        >
+          <h1 class="pb-2">Blog Details</h1>
+          <h4><a href="/">Home</a> / Blog Details</h4>
+        </div>
+        <!-- Banner section end -->
+      </div>
+    </section>
+    <!-- End: Hero section -->
 
-                  <div class="pt-5">
-                     <h2>Designing a Legacy One Project at a Time</h2>
-                     <hr class="hr-divider" />
-                     <p class="white-paragraph">
-                        Miquam eros justo, posuere loborti viverra lao
-                        ullamcorper posuere viverra .Aliquam eros justo, posuere
-                        lobortis in non, viverra laoreet augue mattis start
-                        fermentum ullamcor viverra laoreet By Admin . Creativity
-                        . 29th Februarym 2022 . Leave a comment viverra laoreet
-                        augue mattis start fermentum
-                     </p>
-
-                     <!-- Client quote -->
-                     <div class="quote-wrapper">
-                        <button class="quote-icon">
-                           <i class="fa-solid fa-quote-right text-color"></i>
-                        </button>
-                        <h4 class="py-4">
-                           With a commitment to driving technological evolution,
-                           our IT solutions and desigm services are the
-                           cornerstone of your digital progression. We transcend
-                           boundariesi enabling businesses to not
-                        </h4>
-                        <h4 class="quote-author-name">Stanio lainto</h4>
-                        <p class="quote-author-company white-paragraph">
-                           Authore
-                        </p>
-                     </div>
-                     <p class="white-paragraph pt-4">
-                        Aliquam eros justo, posuere loborti viverra laoreet
-                        matti ullamcorper posuere viverra .Aliquam eros justo,
-                        posuere lobortis non, viverra laoreet augue mattis
-                        fermentum ullamcorper viverra laoreet Aliquam eros
-                        justo, posuere.
-                     </p>
-                     <h2 class="py-5">From Concept to Canvas My Creative</h2>
-                     <p class="white-paragraph">
-                        Aliquam eros justo, posuere loborti viverra laoreet
-                        matti ullamcorper posuere viverra .Aliquam eros justo,
-                        posuere lobortis, viverra laoreet augue mattis fermentum
-                        ullamcorper viverra laoreet Aliquam eros justo, posuere
-                        loborti viverra laoreet matti ullamcorper posuere
-                        viverra .Aliquam eros justo, posuere lobortis non.
-                     </p>
-                     <ul class="horizontal-list-items pt-4">
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Personalized campaigns</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Personalized campaigns</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Email autoresponders</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Email autoresponders</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>A Symphony of Creativity</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>A Symphony of Creativity</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Your Visual Experienc</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-check text-color"></i
-                              ><span>Your Visual Experienc</span>
-                           </div>
-                        </li>
-                     </ul>
-                     <p class="white-paragraph pt-4">
-                        Aliquam eros justo, posuere loborti viverra laoreet
-                        matti ullamcorper posuere viverra .Aliquam eros justo,
-                        posuere lobortis non, viverra laoreet augue mattis
-                        fermentum ullamcorper viverra laoreet Aliquam eros
-                        justo, posuere.
-                     </p>
-                  </div>
-
-                  <!-- Share post -->
-                  <div class="align-items-center tag-writing-box d-flex gap-2">
-                     <div class="sharing-tag-and-icon-wrapper w-100">
-                        <div class="d-flex">
-                           <i class="fa-solid fa-angles-right text-color"></i>
-                        </div>
-                        <div class="w-100">
-                           <input
-                              type="text"
-                              placeholder="Html, Css, Java, Wordpress, Designing" />
-                        </div>
-                     </div>
-
-                     <div>
-                        <ul class="d-flex gap-4 p-0">
-                           <li>
-                              <a href="#"
-                                 ><i
-                                    class="fa-brands fa-instagram text-color"></i
-                              ></a>
-                           </li>
-                           <li>
-                              <a href="#"
-                                 ><i
-                                    class="fa-brands fa-x-twitter text-color"></i
-                              ></a>
-                           </li>
-                           <li>
-                              <a href="#"
-                                 ><i
-                                    class="fa-brands fa-pinterest-p text-color"></i
-                              ></a>
-                           </li>
-                           <li>
-                              <a href="#"
-                                 ><i
-                                    class="fa-brands fa-linkedin text-color"></i
-                              ></a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-
-                  <!-- Comment box -->
-                  <div class="comment-box-wrapper">
-                     <!-- Comment-1 -->
-                     <div class="align-items-start d-flex single-comment">
-                        <img
-                           src="./assets/images/blog/commenter-image-1.png"
-                           alt="Commenter Picture" />
-                        <div>
-                           <h4 class="commenter-name">Stanio lainto</h4>
-                           <p class="comment-date white-paragraph">
-                              23 Decmeber
-                           </p>
-                           <p class="comment-text white-paragraph">
-                              ished fact that a reader will be distrol acted
-                              bioii the.ished fact that a reader will be
-                              distrolra acted laoreet Aliquam reader will be
-                              distrol acted ished fact that a reader will be
-                              distrol dsff shem acted bioii the.ished fact that
-                              a reader will .
-                           </p>
-                           <button class="comment-reply-button">Reply</button>
-                        </div>
-                     </div>
-
-                     <!-- Comment-2 -->
-                     <div class="align-items-start d-flex single-comment">
-                        <img
-                           src="./assets/images/blog/commenter-image-2.png"
-                           alt="Commenter Picture" />
-                        <div>
-                           <h4 class="commenter-name">Stanio lainto</h4>
-                           <p class="comment-date white-paragraph">
-                              23 Decmeber
-                           </p>
-                           <p class="comment-text white-paragraph">
-                              ished fact that a reader will be distrol acted
-                              bioii the.ished fact that a reader will be
-                              distrolra acted laoreet Aliquam reader will be
-                              distrol acted ished fact that a reader will be
-                              distrol dsff shem acted bioii the.ished fact that
-                              a reader will .
-                           </p>
-                           <button class="comment-reply-button">Reply</button>
-                        </div>
-                     </div>
-
-                     <!-- Leave a comment -->
-                     <div class="comment-writing-section">
-                        <h1>Leave a comment</h1>
-                        <p class="body-text write-comment-paragraph">
-                           Aliquam eros justo, posuere loborti viverra laoreet
-                           matti ullamcorper posuere viverra .Aliquam eros
-                           justo, posuere lobortis non, viverra laoreet augue
-                           mattis fermentum
-                        </p>
-                        <form class="comment-write-form">
-                           <div class="row">
-                              <div class="col-12 col-md-6">
-                                 <input
-                                    class="v2-input-field w-100"
-                                    type="text"
-                                    placeholder="Your Name" />
-                              </div>
-                              <div class="col-12 col-md-6">
-                                 <input
-                                    class="v2-input-field w-100"
-                                    type="text"
-                                    placeholder="Your Email" />
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-12">
-                                 <textarea
-                                    class="v2-input-field w-100 comment-writing-input-box"
-                                    placeholder="Write your message"
-                                    id=""
-                                    cols="30"
-                                    rows="10"></textarea>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-12">
-                                 <input
-                                    class="button fillBtn"
-                                    type="submit"
-                                    value="Submit Now" />
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                  </div>
-               </div>
+    <!-- Start: Blog details section -->
+    <section class="container px-3 px-md-0 section-space">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-8">
+          <div>
+            <div class="position-relative">
+              <img
+                class="w-100"
+                src="./assets/images/blog/blog-details.png"
+                alt="Blog Thumbnail"
+              />
+              <div
+                class="d-flex align-items-center justify-content-between p-3 blog-meta-wrapper single-blog-meta"
+              >
+                <div class="d-flex align-items-center gap-3">
+                  <i class="fa-regular fa-user text-color"></i>
+                  <p class="white-paragraph">By Admin</p>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                  <i class="fa-regular fa-folder-open text-color"></i>
+                  <p class="white-paragraph">Category</p>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                  <i class="fa-regular fa-comments text-color"></i>
+                  <p class="white-paragraph">Comments (05)</p>
+                </div>
+              </div>
             </div>
 
-            <!-- Blog details sidebar -->
-            <div class="col-12 col-md-6 col-lg-4">
-               <div class="pt-5 pt-md-0 sidebar-widgets-wrapper">
-                  <!-- Search widget -->
-                  <div class="sidebar-widget">
-                     <h4>Search</h4>
-                     <div class="d-flex mt-3">
-                        <input
-                           class="bas-search-input w-100"
-                           type="text"
-                           placeholder="Enter Your Email" />
-                        <button class="bas-search-widget-button">
-                           <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                     </div>
-                  </div>
+            <div class="pt-5">
+              <h2>Designing a Legacy One Project at a Time</h2>
+              <hr class="hr-divider" />
+              <p class="white-paragraph">
+                Miquam eros justo, posuere loborti viverra lao ullamcorper
+                posuere viverra .Aliquam eros justo, posuere lobortis in non,
+                viverra laoreet augue mattis start fermentum ullamcor viverra
+                laoreet By Admin . Creativity . 29th Februarym 2022 . Leave a
+                comment viverra laoreet augue mattis start fermentum
+              </p>
 
-                  <!-- Author box -->
-                  <div
-                     class="sidebar-widget author-box-widget d-flex flex-column align-items-center position-relative">
-                     <img
-                        class="bas-author-profile-image position-absolute"
-                        src="./assets/images/blog/author-profile-image.png"
-                        alt="Author Profile image" />
-                     <h3 class="author-name">Naturials paul</h3>
-                     <p class="white-paragraph text-center pb-3">
-                        Aliquam eros justo, posuere lobort viverrasi lao
-                        ullamcorper posuere
-                     </p>
-                     <ul class="d-flex gap-4 p-0">
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-facebook-f text-color"></i
-                           ></a>
-                        </li>
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-x-twitter text-color"></i
-                           ></a>
-                        </li>
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-linkedin text-color"></i
-                           ></a>
-                        </li>
-                     </ul>
+              <!-- Client quote -->
+              <div class="quote-wrapper">
+                <button class="quote-icon">
+                  <i class="fa-solid fa-quote-right text-color"></i>
+                </button>
+                <h4 class="py-4">
+                  With a commitment to driving technological evolution, our IT
+                  solutions and desigm services are the cornerstone of your
+                  digital progression. We transcend boundariesi enabling
+                  businesses to not
+                </h4>
+                <h4 class="quote-author-name">Stanio lainto</h4>
+                <p class="quote-author-company white-paragraph">Authore</p>
+              </div>
+              <p class="white-paragraph pt-4">
+                Aliquam eros justo, posuere loborti viverra laoreet matti
+                ullamcorper posuere viverra .Aliquam eros justo, posuere
+                lobortis non, viverra laoreet augue mattis fermentum ullamcorper
+                viverra laoreet Aliquam eros justo, posuere.
+              </p>
+              <h2 class="py-5">From Concept to Canvas My Creative</h2>
+              <p class="white-paragraph">
+                Aliquam eros justo, posuere loborti viverra laoreet matti
+                ullamcorper posuere viverra .Aliquam eros justo, posuere
+                lobortis, viverra laoreet augue mattis fermentum ullamcorper
+                viverra laoreet Aliquam eros justo, posuere loborti viverra
+                laoreet matti ullamcorper posuere viverra .Aliquam eros justo,
+                posuere lobortis non.
+              </p>
+              <ul class="horizontal-list-items pt-4">
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Personalized campaigns</span>
                   </div>
-
-                  <!-- Category box -->
-                  <div class="sidebar-widget">
-                     <h4 class="d-inline position-relative title-divider">
-                        Category
-                     </h4>
-                     <ul class="mt-4 bas-category-list unordered-list-element">
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Inspire Create Impress</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Your Story Our Canvas</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Artistry in Every Pixel</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Your Vision Our Passion</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Your Story with Design</span>
-                           </div>
-                        </li>
-                        <li>
-                           <div class="element-list-item">
-                              <i class="fa-solid fa-angles-right text-color"></i
-                              ><span>Designing Tomorrow Today</span>
-                           </div>
-                        </li>
-                     </ul>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Personalized campaigns</span>
                   </div>
-
-                  <!-- Recent news box -->
-                  <div class="sidebar-widget">
-                     <h4 class="d-inline position-relative title-divider">
-                        Recent News
-                     </h4>
-                     <ul class="pt-4">
-                        <li class="d-flex gap-4 pt-4">
-                           <div>
-                              <img
-                                 src="./assets/images/blog/recent-news-1.png"
-                                 alt="Blog Thumbnail" />
-                           </div>
-                           <div class="w-75">
-                              <p class="white-paragraph bas-recent-news-date">
-                                 Dec 12,2023
-                              </p>
-                              <p class="white-paragraph bas-recent-news-title">
-                                 Designing My Story One Project at a Time
-                              </p>
-                           </div>
-                        </li>
-                        <li class="d-flex gap-4 pt-4">
-                           <div>
-                              <img
-                                 src="./assets/images/blog/recent-news-2.png"
-                                 alt="Blog Thumbnail" />
-                           </div>
-                           <div class="w-75">
-                              <p class="white-paragraph bas-recent-news-date">
-                                 Dec 12,2023
-                              </p>
-                              <p class="white-paragraph bas-recent-news-title">
-                                 Innovate Create Elevate My Design Odyssey
-                              </p>
-                           </div>
-                        </li>
-                        <li class="d-flex gap-4 pt-4">
-                           <div>
-                              <img
-                                 src="./assets/images/blog/recent-news-3.png"
-                                 alt="Blog Thumbnail" />
-                           </div>
-                           <div class="w-75">
-                              <p class="white-paragraph bas-recent-news-date">
-                                 Dec 12,2023
-                              </p>
-                              <p class="white-paragraph bas-recent-news-title">
-                                 Exploring Boundle Creativity in Every Detail
-                              </p>
-                           </div>
-                        </li>
-                     </ul>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Email autoresponders</span>
                   </div>
-
-                  <!-- Tags box -->
-                  <div class="sidebar-widget">
-                     <h4 class="d-inline position-relative title-divider">
-                        Tags
-                     </h4>
-                     <div class="bas-tags-wrapper pt-4">
-                        <button class="tags-pill">All Projects</button>
-                        <button class="tags-pill">Stand</button>
-                        <button class="tags-pill">Regularly</button>
-                        <button class="tags-pill">Startup</button>
-                        <button class="tags-pill">Productsline</button>
-                     </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Email autoresponders</span>
                   </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <!-- Start: Footer section -->
-      <footer class="footer-main-wrapper">
-         <div class="container">
-            <!-- Footer heading -->
-            <div>
-               <h1 class="my-30">
-                  Got A <span class="text-color">Project</span> To Do ?
-               </h1>
-               <h3>madbuz@yahoo.com</h3>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>A Symphony of Creativity</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>A Symphony of Creativity</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Your Visual Experienc</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-check text-color"></i
+                    ><span>Your Visual Experienc</span>
+                  </div>
+                </li>
+              </ul>
+              <p class="white-paragraph pt-4">
+                Aliquam eros justo, posuere loborti viverra laoreet matti
+                ullamcorper posuere viverra .Aliquam eros justo, posuere
+                lobortis non, viverra laoreet augue mattis fermentum ullamcorper
+                viverra laoreet Aliquam eros justo, posuere.
+              </p>
             </div>
 
-            <!-- Footer details -->
-            <div class="row footer-content-wrapper">
-               <div class="col-12 col-lg-3">
-                  <!-- Logo -->
-                  <div
-                     class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                     <img src="./assets/images/home/logo.svg" alt="Logo" />
-                     <h3 class="">Tikka</h3>
-                  </div>
-                  <p class="gray-paragraph my-3">
-                     Lorem ipsum dolor amet, consectetur sell adipis elit phase
-                     nibh ellentes
+            <!-- Share post -->
+            <div class="align-items-center tag-writing-box d-flex gap-2">
+              <div class="sharing-tag-and-icon-wrapper w-100">
+                <div class="d-flex">
+                  <i class="fa-solid fa-angles-right text-color"></i>
+                </div>
+                <div class="w-100">
+                  <input
+                    type="text"
+                    placeholder="Html, Css, Java, Wordpress, Designing"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <ul class="d-flex gap-4 p-0">
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-instagram text-color"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-x-twitter text-color"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-pinterest-p text-color"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-linkedin text-color"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Comment box -->
+            <div class="comment-box-wrapper">
+              <!-- Comment-1 -->
+              <div class="align-items-start d-flex single-comment">
+                <img
+                  src="./assets/images/blog/commenter-image-1.png"
+                  alt="Commenter Picture"
+                />
+                <div>
+                  <h4 class="commenter-name">Stanio lainto</h4>
+                  <p class="comment-date white-paragraph">23 Decmeber</p>
+                  <p class="comment-text white-paragraph">
+                    ished fact that a reader will be distrol acted bioii
+                    the.ished fact that a reader will be distrolra acted laoreet
+                    Aliquam reader will be distrol acted ished fact that a
+                    reader will be distrol dsff shem acted bioii the.ished fact
+                    that a reader will .
                   </p>
-                  <ul class="d-flex footer-social-icons-wrapper gap-4 p-0">
-                     <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                     </li>
-                     <li>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                     </li>
-                     <li>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                     </li>
-                     <li>
-                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-12 col-lg-3">
-                  <h3>Useful Links</h3>
-                  <ul class="m-0 p-0 mt-4">
-                     <li class="list-unstyled gray-paragraph">
-                        <a href="#">About Us</a>
-                     </li>
-                     <li class="list-unstyled gray-paragraph">
-                        <a href="#">Our Team</a>
-                     </li>
-                     <li class="list-unstyled gray-paragraph">
-                        <a href="#">Recent News</a>
-                     </li>
-                     <li class="list-unstyled gray-paragraph">
-                        <a href="#">Projects</a>
-                     </li>
-                     <li class="list-unstyled gray-paragraph">
-                        <a href="#">Our All Services</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-12 col-lg-3">
-                  <h3>Latest News</h3>
-                  <ul class="m-0 p-0 d-flex flex-column gap-4 mt-4">
-                     <li class="d-flex gap-3">
-                        <div>
-                           <img
-                              src="./assets/images/home/latest-news-1.png"
-                              alt="Blogs" />
-                        </div>
-                        <div>
-                           <div class="d-flex gap-2 align-items-center">
-                              <i
-                                 class="fa-solid fa-calendar-days text-color"></i>
-                              <p class="gray-paragraph">October 19, 2022</p>
-                           </div>
-                           <p class="gray-paragraph">
-                              Market research helps businesses understand
-                           </p>
-                        </div>
-                     </li>
-                     <li class="d-flex gap-2">
-                        <div>
-                           <img
-                              src="./assets/images/home/latest-news-2.png"
-                              alt="Blogs" />
-                        </div>
-                        <div>
-                           <div class="d-flex gap-2 align-items-center">
-                              <i
-                                 class="fa-solid fa-calendar-days text-color"></i>
-                              <p class="gray-paragraph">October 19, 2022</p>
-                           </div>
-                           <p class="gray-paragraph">
-                              Market research helps businesses understand
-                           </p>
-                        </div>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-12 col-lg-3">
-                  <h3>Contact</h3>
-                  <ul class="m-0 p-0 mt-4">
-                     <li>
-                        <div class="d-flex gap-2 align-items-center">
-                           <i class="fa-solid fa-envelope text-color"></i>
-                           <p class="gray-paragraph">debra.holt@example.com</p>
-                        </div>
-                     </li>
-                     <li>
-                        <div class="d-flex gap-2 align-items-center">
-                           <i class="fa-solid fa-location-dot text-color"></i>
-                           <p class="gray-paragraph">
-                              3891 Ranchview Dr. Richardson, California 62639
-                           </p>
-                        </div>
-                     </li>
-                  </ul>
-               </div>
+                  <button class="comment-reply-button">Reply</button>
+                </div>
+              </div>
+
+              <!-- Comment-2 -->
+              <div class="align-items-start d-flex single-comment">
+                <img
+                  src="./assets/images/blog/commenter-image-2.png"
+                  alt="Commenter Picture"
+                />
+                <div>
+                  <h4 class="commenter-name">Stanio lainto</h4>
+                  <p class="comment-date white-paragraph">23 Decmeber</p>
+                  <p class="comment-text white-paragraph">
+                    ished fact that a reader will be distrol acted bioii
+                    the.ished fact that a reader will be distrolra acted laoreet
+                    Aliquam reader will be distrol acted ished fact that a
+                    reader will be distrol dsff shem acted bioii the.ished fact
+                    that a reader will .
+                  </p>
+                  <button class="comment-reply-button">Reply</button>
+                </div>
+              </div>
+
+              <!-- Leave a comment -->
+              <div class="comment-writing-section">
+                <h1>Leave a comment</h1>
+                <p class="body-text write-comment-paragraph">
+                  Aliquam eros justo, posuere loborti viverra laoreet matti
+                  ullamcorper posuere viverra .Aliquam eros justo, posuere
+                  lobortis non, viverra laoreet augue mattis fermentum
+                </p>
+                <form class="comment-write-form">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <input
+                        class="v2-input-field w-100"
+                        type="text"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <input
+                        class="v2-input-field w-100"
+                        type="text"
+                        placeholder="Your Email"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <textarea
+                        class="v2-input-field w-100 comment-writing-input-box"
+                        placeholder="Write your message"
+                        id=""
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <input
+                        class="button fillBtn"
+                        type="submit"
+                        value="Submit Now"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
-            <div class="footer-divider"></div>
-            <div class="d-flex justify-content-between align-items-center py-4">
-               <div>
+          </div>
+        </div>
+
+        <!-- Blog details sidebar -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="pt-5 pt-md-0 sidebar-widgets-wrapper">
+            <!-- Search widget -->
+            <div class="sidebar-widget">
+              <h4>Search</h4>
+              <div class="d-flex mt-3">
+                <input
+                  class="bas-search-input w-100"
+                  type="text"
+                  placeholder="Enter Your Email"
+                />
+                <button class="bas-search-widget-button">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Author box -->
+            <div
+              class="sidebar-widget author-box-widget d-flex flex-column align-items-center position-relative"
+            >
+              <img
+                class="bas-author-profile-image position-absolute"
+                src="./assets/images/blog/author-profile-image.png"
+                alt="Author Profile image"
+              />
+              <h3 class="author-name">Naturials paul</h3>
+              <p class="white-paragraph text-center pb-3">
+                Aliquam eros justo, posuere lobort viverrasi lao ullamcorper
+                posuere
+              </p>
+              <ul class="d-flex gap-4 p-0">
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-facebook-f text-color"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-x-twitter text-color"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-linkedin text-color"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category box -->
+            <div class="sidebar-widget">
+              <h4 class="d-inline position-relative title-divider">Category</h4>
+              <ul class="mt-4 bas-category-list unordered-list-element">
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Inspire Create Impress</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Your Story Our Canvas</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Artistry in Every Pixel</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Your Vision Our Passion</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Your Story with Design</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="element-list-item">
+                    <i class="fa-solid fa-angles-right text-color"></i
+                    ><span>Designing Tomorrow Today</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Recent news box -->
+            <div class="sidebar-widget">
+              <h4 class="d-inline position-relative title-divider">
+                Recent News
+              </h4>
+              <ul class="pt-4">
+                <li class="d-flex gap-4 pt-4">
+                  <div>
+                    <img
+                      src="./assets/images/blog/recent-news-1.png"
+                      alt="Blog Thumbnail"
+                    />
+                  </div>
+                  <div class="w-75">
+                    <p class="white-paragraph bas-recent-news-date">
+                      Dec 12,2023
+                    </p>
+                    <p class="white-paragraph bas-recent-news-title">
+                      Designing My Story One Project at a Time
+                    </p>
+                  </div>
+                </li>
+                <li class="d-flex gap-4 pt-4">
+                  <div>
+                    <img
+                      src="./assets/images/blog/recent-news-2.png"
+                      alt="Blog Thumbnail"
+                    />
+                  </div>
+                  <div class="w-75">
+                    <p class="white-paragraph bas-recent-news-date">
+                      Dec 12,2023
+                    </p>
+                    <p class="white-paragraph bas-recent-news-title">
+                      Innovate Create Elevate My Design Odyssey
+                    </p>
+                  </div>
+                </li>
+                <li class="d-flex gap-4 pt-4">
+                  <div>
+                    <img
+                      src="./assets/images/blog/recent-news-3.png"
+                      alt="Blog Thumbnail"
+                    />
+                  </div>
+                  <div class="w-75">
+                    <p class="white-paragraph bas-recent-news-date">
+                      Dec 12,2023
+                    </p>
+                    <p class="white-paragraph bas-recent-news-title">
+                      Exploring Boundle Creativity in Every Detail
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Tags box -->
+            <div class="sidebar-widget">
+              <h4 class="d-inline position-relative title-divider">Tags</h4>
+              <div class="bas-tags-wrapper pt-4">
+                <button class="tags-pill">All Projects</button>
+                <button class="tags-pill">Stand</button>
+                <button class="tags-pill">Regularly</button>
+                <button class="tags-pill">Startup</button>
+                <button class="tags-pill">Productsline</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start: Footer section -->
+    <footer class="footer-main-wrapper">
+      <div class="container">
+        <!-- Footer heading -->
+        <div>
+          <h1 class="my-30">
+            Got A <span class="text-color">Project</span> To Do ?
+          </h1>
+          <h3>madbuz@yahoo.com</h3>
+        </div>
+
+        <!-- Footer details -->
+        <div class="row footer-content-wrapper">
+          <div class="col-12 col-lg-3">
+            <!-- Logo -->
+            <div
+              class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+            >
+              <img src="./assets/images/home/logo.svg" alt="Logo" />
+              <h3 class="">Tikka</h3>
+            </div>
+            <p class="gray-paragraph my-3">
+              Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh
+              ellentes
+            </p>
+            <ul class="d-flex footer-social-icons-wrapper gap-4 p-0">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Useful Links</h3>
+            <ul class="m-0 p-0 mt-4">
+              <li class="list-unstyled gray-paragraph">
+                <a href="#">About Us</a>
+              </li>
+              <li class="list-unstyled gray-paragraph">
+                <a href="#">Our Team</a>
+              </li>
+              <li class="list-unstyled gray-paragraph">
+                <a href="#">Recent News</a>
+              </li>
+              <li class="list-unstyled gray-paragraph">
+                <a href="#">Projects</a>
+              </li>
+              <li class="list-unstyled gray-paragraph">
+                <a href="#">Our All Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Latest News</h3>
+            <ul class="m-0 p-0 d-flex flex-column gap-4 mt-4">
+              <li class="d-flex gap-3">
+                <div>
+                  <img
+                    src="./assets/images/home/latest-news-1.png"
+                    alt="Blogs"
+                  />
+                </div>
+                <div>
+                  <div class="d-flex gap-2 align-items-center">
+                    <i class="fa-solid fa-calendar-days text-color"></i>
+                    <p class="gray-paragraph">October 19, 2022</p>
+                  </div>
                   <p class="gray-paragraph">
-                     © Copyright 2024 | All Rights Reserved
+                    Market research helps businesses understand
                   </p>
-               </div>
-               <div>
-                  <ul class="d-flex m-0 p-0 gap-3">
-                     <li class="gray-paragraph list-unstyled gray-paragraph">
-                        <a href="#">Trams & Condition</a>
-                     </li>
-                     <li class="gray-paragraph list-unstyled gray-paragraph">
-                        <a href="#">Privacy Policy</a>
-                     </li>
-                     <li class="gray-paragraph list-unstyled gray-paragraph">
-                        <a href="#">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- End: Footer section -->
-      <!-- ============================================ -->
+                </div>
+              </li>
+              <li class="d-flex gap-2">
+                <div>
+                  <img
+                    src="./assets/images/home/latest-news-2.png"
+                    alt="Blogs"
+                  />
+                </div>
+                <div>
+                  <div class="d-flex gap-2 align-items-center">
+                    <i class="fa-solid fa-calendar-days text-color"></i>
+                    <p class="gray-paragraph">October 19, 2022</p>
+                  </div>
+                  <p class="gray-paragraph">
+                    Market research helps businesses understand
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Contact</h3>
+            <ul class="m-0 p-0 mt-4">
+              <li>
+                <div class="d-flex gap-2 align-items-center">
+                  <i class="fa-solid fa-envelope text-color"></i>
+                  <p class="gray-paragraph">debra.holt@example.com</p>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex gap-2 align-items-center">
+                  <i class="fa-solid fa-location-dot text-color"></i>
+                  <p class="gray-paragraph">
+                    3891 Ranchview Dr. Richardson, California 62639
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="d-flex justify-content-between align-items-center py-4">
+          <div>
+            <p class="gray-paragraph">© Copyright 2024 | All Rights Reserved</p>
+          </div>
+          <div>
+            <ul class="d-flex m-0 p-0 gap-3">
+              <li class="gray-paragraph list-unstyled gray-paragraph">
+                <a href="#">Trams & Condition</a>
+              </li>
+              <li class="gray-paragraph list-unstyled gray-paragraph">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="gray-paragraph list-unstyled gray-paragraph">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End: Footer section -->
+    <!-- ============================================ -->
 
-      <!-- Font Awesome kit -->
-      <script
-         src="https://kit.fontawesome.com/6908033352.js"
-         crossorigin="anonymous"></script>
-   </body>
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/6908033352.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

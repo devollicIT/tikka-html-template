@@ -1,184 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Contact</title>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-      <!-- Google fonts - Montserrat & Alata -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-         rel="stylesheet" />
+    <!-- Google fonts - Montserrat & Alata -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="./assets/css/custom.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
 
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="./assets/css/responsive.css" />
-   </head>
-   <body>
-      <!-- Start: Hero section -->
-      <section class="global-page-banner-wrapper">
-         <div class="container">
-            <!-- Navigation start -->
-            <div
-               class="d-flex align-items-center justify-content-between navMainWrapper">
-               <!-- Logo -->
-               <div
-                  class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                  <img src="./assets/images/home/logo.svg" alt="Logo" />
-                  <h3 class="">Tikka</h3>
-               </div>
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Mobile navigation -->
+    <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
+      <a class="navbar-brand" href="#">
+        <!-- Logo -->
+        <div
+          class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+        >
+          <img src="./assets/images/home/logo.svg" alt="Logo" />
+          <h3 class="">Tikka</h3>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+      </button>
 
-               <!-- Menu links -->
-               <div
-                  class="d-flex align-items-center justify-content-end menuWrapper">
-                  <nav class="navbarLinksWrapper d-flex align-items-center">
-                     <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#"
-                        >About Us <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#"
-                        >Services <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#"
-                        >Projects <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                     <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
-                     <a href="#"
-                        >Contact <i class="fa-solid fa-angle-down"></i
-                     ></a>
-                  </nav>
-               </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="d-flex flex-column gap-2">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Page</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Start: Hero section -->
+    <section class="global-page-banner-wrapper">
+      <div class="container">
+        <!-- Navigation start -->
+        <div
+          class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper"
+        >
+          <!-- Logo -->
+          <div
+            class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+          >
+            <img src="./assets/images/home/logo.svg" alt="Logo" />
+            <h3 class="">Tikka</h3>
+          </div>
 
-               <!-- Button -->
-               <div>
-                  <a href="#">
-                     <div
-                        class="button navBtn d-flex justify-content-center align-items-center">
-                        Hire Me <i class="fa-solid fa-plus btnIcon"></i>
-                     </div>
-                  </a>
-               </div>
+          <!-- Menu links -->
+          <div
+            class="d-flex align-items-center justify-content-end menuWrapper"
+          >
+            <nav class="navbarLinksWrapper d-flex align-items-center">
+              <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">About Us <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
+              <a href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+            </nav>
+          </div>
+
+          <!-- Button -->
+          <div>
+            <a href="#">
+              <div
+                class="button navBtn d-flex justify-content-center align-items-center"
+              >
+                Hire Me <i class="fa-solid fa-plus btnIcon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Navigation end -->
+        <!-------------------->
+
+        <!-- Banner section start -->
+        <div
+          class="align-items-center d-flex d-md-block flex-column global-page-banner"
+        >
+          <h1 class="pb-2">Contact Us</h1>
+          <h4 class="page-banner-breadcrumb">
+            <a href="/"><p>Home</p></a>
+            <p class="text-color">/</p>
+            <p>Contact Us</p>
+          </h4>
+        </div>
+        <!-- Banner section end -->
+      </div>
+    </section>
+    <!-- End: Hero section -->
+
+    <!-- Contact section start -->
+    <section class="container px-3 px-md-0 section-space">
+      <div class="row two-col-gap">
+        <div class="col-12 col-md-6 col-lg-8">
+          <h4 class="cf-title d-inline-block position-relative title-divider">
+            Feel free to message
+          </h4>
+          <form class="comment-write-form">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Email"
+                />
+              </div>
             </div>
-            <!-- Navigation end -->
-            <!-------------------->
+            <div class="row">
+              <div class="col-12">
+                <textarea
+                  class="v2-input-field cf-input-field w-100 comment-writing-input-box"
+                  placeholder="Write your message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <input
+                  class="button fillBtn"
+                  type="submit"
+                  value="Submit Now"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h4 class="cf-title d-inline-block position-relative title-divider">
+            Get in touch
+          </h4>
+          <p class="cf-description white-paragraph">
+            It is a long established fact that a reader will be distrol acted
+            bioiiy desig the rea dablea contentIt
+          </p>
+          <div class="contact-info-wrapper">
+            <!-- Address box -->
+            <div class="contact-info d-flex">
+              <div class="cf-icon">
+                <i class="fa-solid fa-location-dot text-color"></i>
+              </div>
+              <div class="cf-info-box">
+                <h4>Address</h4>
+                <p class="white-paragraph">
+                  2972 Westheimer Rd. Santa Ana, Illinois 85486
+                </p>
+              </div>
+            </div>
+            <!-- Email box -->
+            <div class="contact-info d-flex">
+              <div class="cf-icon">
+                <i class="fa-solid fa-envelope text-color"></i>
+              </div>
+              <div class="cf-info-box">
+                <h4>Email Address</h4>
+                <p class="white-paragraph">nevaeh.simmons@example.com</p>
+              </div>
+            </div>
+            <!-- Phone number box -->
+            <div class="contact-info d-flex">
+              <div class="cf-icon">
+                <i class="fa-solid fa-phone text-color"></i>
+              </div>
+              <div class="cf-info-box">
+                <h4>Phone number</h4>
+                <p class="white-paragraph">(704) 555-0127</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Hero section -->
 
-            <!-- Banner section start -->
-            <div
-               class="align-items-center d-flex d-md-block flex-column global-page-banner">
-               <h1 class="pb-2">Contact Us</h1>
-               <h4 class="page-banner-breadcrumb">
-                  <a href="/"><p>Home</p></a>
-                  <p class="text-color">/</p>
-                  <p>Contact Us</p>
-               </h4>
-            </div>
-            <!-- Banner section end -->
-         </div>
-      </section>
-      <!-- End: Hero section -->
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
 
-      <!-- Contact section start -->
-      <section class="container px-3 px-md-0 section-space">
-         <div class="row two-col-gap">
-            <div class="col-12 col-md-6 col-lg-8">
-               <h4
-                  class="cf-title d-inline-block position-relative title-divider">
-                  Feel free to message
-               </h4>
-               <form class="comment-write-form">
-                  <div class="row">
-                     <div class="col-12 col-md-6">
-                        <input
-                           class="v2-input-field cf-input-field w-100"
-                           type="text"
-                           placeholder="Your Name" />
-                     </div>
-                     <div class="col-12 col-md-6">
-                        <input
-                           class="v2-input-field cf-input-field w-100"
-                           type="text"
-                           placeholder="Your Email" />
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12">
-                        <textarea
-                           class="v2-input-field cf-input-field w-100 comment-writing-input-box"
-                           placeholder="Write your message"
-                           id=""
-                           cols="30"
-                           rows="10"></textarea>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12">
-                        <input
-                           class="button fillBtn"
-                           type="submit"
-                           value="Submit Now" />
-                     </div>
-                  </div>
-               </form>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-               <h4
-                  class="cf-title d-inline-block position-relative title-divider">
-                  Get in touch
-               </h4>
-               <p class="cf-description white-paragraph">
-                  It is a long established fact that a reader will be distrol
-                  acted bioiiy desig the rea dablea contentIt
-               </p>
-               <div class="contact-info-wrapper">
-                  <!-- Address box -->
-                  <div class="contact-info d-flex">
-                     <div class="cf-icon">
-                        <i class="fa-solid fa-location-dot text-color"></i>
-                     </div>
-                     <div class="cf-info-box">
-                        <h4>Address</h4>
-                        <p class="white-paragraph">
-                           2972 Westheimer Rd. Santa Ana, Illinois 85486
-                        </p>
-                     </div>
-                  </div>
-                  <!-- Email box -->
-                  <div class="contact-info d-flex">
-                     <div class="cf-icon">
-                        <i class="fa-solid fa-envelope text-color"></i>
-                     </div>
-                     <div class="cf-info-box">
-                        <h4>Email Address</h4>
-                        <p class="white-paragraph">
-                           nevaeh.simmons@example.com
-                        </p>
-                     </div>
-                  </div>
-                  <!-- Phone number box -->
-                  <div class="contact-info d-flex">
-                     <div class="cf-icon">
-                        <i class="fa-solid fa-phone text-color"></i>
-                     </div>
-                     <div class="cf-info-box">
-                        <h4>Phone number</h4>
-                        <p class="white-paragraph">(704) 555-0127</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End: Hero section -->
-      <!-- Font Awesome kit -->
-      <script
-         src="https://kit.fontawesome.com/6908033352.js"
-         crossorigin="anonymous"></script>
-   </body>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/6908033352.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
