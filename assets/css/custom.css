@@ -253,7 +253,8 @@ ul {
 .btn-plus-icon {
   transition: 0.3s;
 }
-.fillBtn:hover .btn-plus-icon {
+.fillBtn:hover .btn-plus-icon,
+.navBtn:hover .btn-plus-icon {
   transform: rotate(-45deg);
 }
 .fillBtn:hover i {
@@ -355,7 +356,6 @@ ul {
 .navbarLinksWrapper {
   gap: 25px;
 }
-
 .navbarLinksWrapper a i {
   font-size: 10px;
   font-weight: 900;
@@ -367,7 +367,13 @@ ul {
   padding: 18px 30px;
   color: var(--secondary);
 }
-
+.navBtn:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.fa-solid.fa-angle-down {
+  margin-left: 5px;
+}
 .mobile-menu {
   background-color: var(--secondary);
 }
@@ -552,7 +558,9 @@ ul {
 .abt-need-help-wrapper {
   gap: 15px;
 }
-
+.about-testimonial-wrapper {
+  margin-top: 60px;
+}
 /* 
   *************************
   * 11. Educations and skills section
@@ -1009,13 +1017,7 @@ ul {
   background-size: cover;
 }
 .about-feature-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 116px;
-  border: 1px solid rgba(200, 243, 29, 0.4);
-  border-radius: 20px;
-  align-items: center;
-  margin-bottom: 180px;
+  margin-top: 0;
 }
 .about-btn-wrapper {
   padding-top: 40px;

@@ -49,10 +49,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="d-flex flex-column gap-2">
           <li>
-            <a href="#">Home</a>
+            <a href="/index.html">Home</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="/about.html">About Us</a>
           </li>
           <li>
             <a href="#">Services</a>
@@ -61,13 +61,13 @@
             <a href="#">Projects</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="/blog.html">Blog</a>
           </li>
           <li>
             <a href="#">Page</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -92,13 +92,19 @@
             class="d-flex align-items-center justify-content-end menuWrapper"
           >
             <nav class="navbarLinksWrapper d-flex align-items-center">
-              <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-              <a href="#">About Us <i class="fa-solid fa-angle-down"></i></a>
+              <a href="/">Home <i class="fa-solid fa-angle-down"></i></a>
+              <a href="/about.html"
+                >About Us <i class="fa-solid fa-angle-down"></i
+              ></a>
               <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
               <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
-              <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+              <a href="/blog.html"
+                >Blog <i class="fa-solid fa-angle-down"></i
+              ></a>
               <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
-              <a href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+              <a href="/contact.html"
+                >Contact <i class="fa-solid fa-angle-down"></i
+              ></a>
             </nav>
           </div>
 
@@ -108,7 +114,10 @@
               <div
                 class="button navBtn d-flex justify-content-center align-items-center"
               >
-                Hire Me <i class="fa-solid fa-plus btnIcon"></i>
+                Hire Me
+                <p class="btn-plus-icon d-flex">
+                  <i class="fa-solid fa-plus btnIcon"></i>
+                </p>
               </div>
             </a>
           </div>
@@ -556,14 +565,14 @@
     </section>
 
     <!-- Start: Footer section -->
-    <footer class="footer-main-wrapper">
+    <footer class="footer-main-wrapper mt-0">
       <div class="container">
         <!-- Footer heading -->
         <div>
           <h1 class="my-30">
             Got A <span class="text-color">Project</span> To Do ?
           </h1>
-          <h3>madbuz@yahoo.com</h3>
+          <h3 class="footer-email position-relative">madbuz@yahoo.com</h3>
         </div>
 
         <!-- Footer details -->
@@ -573,7 +582,7 @@
             <div
               class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
             >
-              <img src="./assets/images/home/logo.svg" alt="Logo" />
+              <img src="./assets/images/home/footer-logo.png" alt="Logo" />
               <h3 class="">Tikka</h3>
             </div>
             <p class="gray-paragraph my-3">
@@ -597,7 +606,7 @@
           </div>
           <div class="col-12 col-lg-3">
             <h3>Useful Links</h3>
-            <ul class="m-0 p-0 mt-4">
+            <ul class="d-flex flex-column footer-useful-links m-0 mt-4 p-0">
               <li class="list-unstyled gray-paragraph">
                 <a href="#">About Us</a>
               </li>
@@ -618,7 +627,7 @@
           <div class="col-12 col-lg-3">
             <h3>Latest News</h3>
             <ul class="m-0 p-0 d-flex flex-column gap-4 mt-4">
-              <li class="d-flex gap-3">
+              <li class="d-flex footer-lst-news-list">
                 <div>
                   <img
                     src="./assets/images/home/latest-news-1.png"
@@ -635,7 +644,7 @@
                   </p>
                 </div>
               </li>
-              <li class="d-flex gap-2">
+              <li class="d-flex footer-lst-news-list">
                 <div>
                   <img
                     src="./assets/images/home/latest-news-2.png"
@@ -656,15 +665,15 @@
           </div>
           <div class="col-12 col-lg-3">
             <h3>Contact</h3>
-            <ul class="m-0 p-0 mt-4">
+            <ul class="d-flex flex-column footer-ci-wrapper m-0 mt-4 p-0">
               <li>
-                <div class="d-flex gap-2 align-items-center">
+                <div class="align-items-center d-flex main-foo-ci">
                   <i class="fa-solid fa-envelope text-color"></i>
                   <p class="gray-paragraph">debra.holt@example.com</p>
                 </div>
               </li>
               <li>
-                <div class="d-flex gap-2 align-items-center">
+                <div class="align-items-baseline d-flex main-foo-ci">
                   <i class="fa-solid fa-location-dot text-color"></i>
                   <p class="gray-paragraph">
                     3891 Ranchview Dr. Richardson, California 62639
@@ -675,12 +684,16 @@
           </div>
         </div>
         <div class="footer-divider"></div>
-        <div class="d-flex justify-content-between align-items-center py-4">
+        <div
+          class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4"
+        >
           <div>
             <p class="gray-paragraph">© Copyright 2024 | All Rights Reserved</p>
           </div>
           <div>
-            <ul class="d-flex m-0 p-0 gap-3">
+            <ul
+              class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0"
+            >
               <li class="gray-paragraph list-unstyled gray-paragraph">
                 <a href="#">Trams & Condition</a>
               </li>

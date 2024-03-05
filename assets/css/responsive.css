@@ -132,6 +132,9 @@
   .achievement-count-main-wrapper {
     grid-template-columns: 1fr;
   }
+  .global-page-banner {
+    padding: 40px 0;
+  }
 }
 
 /* Mobile screen */
