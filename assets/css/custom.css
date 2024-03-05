@@ -380,6 +380,12 @@ ul {
 .navbar-toggler-icon {
   color: #ffffff;
 }
+.dropdown-menu {
+  top: 20px !important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
 /* 
   *************************
   * 08. Banner
@@ -1354,9 +1360,8 @@ button.tags-pill {
   *************************
 */
 .home2-navigation-bar {
-  height: 80px;
-  display: flex;
-  align-items: center;
+  padding: 20px 0;
+  height: inherit;
 }
 .home2-nav-right {
   gap: 40px;
@@ -1661,6 +1666,9 @@ button.tags-pill {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.main-home-blog-header {
+  max-width: 724px;
 }
 
 /* Footer */

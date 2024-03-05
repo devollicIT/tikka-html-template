@@ -21,6 +21,9 @@
     <!-- Owl theme stylesheet -->
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/custom.css" />
 
@@ -107,7 +110,21 @@
               <a href="/blog.html"
                 >Blog <i class="fa-solid fa-angle-down"></i
               ></a>
-              <a href="#">Page <i class="fa-solid fa-angle-down"></i></a>
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  >Pages <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/home2.html">Home 2</a>
+                </div>
+              </div>
+
               <a href="/contact.html"
                 >Contact <i class="fa-solid fa-angle-down"></i
               ></a>
@@ -135,17 +152,40 @@
         <div class="row home-banner">
           <!-- Banner left side -->
           <div class="col-12 col-lg-6">
-            <p class="subtitle">Hello I’am</p>
-            <h1 class="bannerTitle">
+            <p data-aos="fade-up" n data-aos-duration="1000" class="subtitle">
+              Hello I’am
+            </p>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="bannerTitle"
+            >
               Darlene <span class="highlightedWord">Robertson</span>
             </h1>
-            <h2 class="designation">Web Designer</h2>
-            <p class="gray-paragraph">
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="designation"
+            >
+              Web Designer
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="gray-paragraph"
+            >
               Financial planners help people to gain knowledge about toio invest
               and save their money in the most efficient
             </p>
             <ul class="home-banner-list-wrapper">
-              <li>
+              <li
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
                 <div class="home-banner-checked-item element-list-item">
                   <i
                     class="fa-regular fa-circle-check text-color home-banner-check-icon"
@@ -153,7 +193,11 @@
                   ><span>Achieve Excellence Academy</span>
                 </div>
               </li>
-              <li>
+              <li
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
                 <div class="element-list-item home-banner-checked-item">
                   <i
                     class="fa-regular fa-circle-check text-color home-banner-check-icon"
@@ -165,7 +209,13 @@
             <div
               class="banner-buttons d-md-flex flex-column flex-md-row position-relative"
             >
-              <a href="#" class="button fillBtn">
+              <a
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+                href="#"
+                class="button fillBtn"
+              >
                 <div
                   class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
                 >
@@ -175,7 +225,13 @@
                   </p>
                 </div>
               </a>
-              <a href="#" class="banner-play-button mt-4 mt-md-0">
+              <a
+                data-aos="fade-up"
+                data-aos-delay="700"
+                data-aos-duration="1000"
+                href="#"
+                class="banner-play-button mt-4 mt-md-0"
+              >
                 <img
                   src="./assets/images/home/banner-play-icon.svg"
                   alt="Banner Play Icon"
@@ -187,7 +243,12 @@
 
           <!-- Banner right side -->
           <div class="col-12 col-lg-6">
-            <div class="banner-right-image-wrapper">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="banner-right-image-wrapper"
+            >
               <div class="banner-right-image-inner-wrapper">
                 <img
                   class="w-100"
@@ -211,7 +272,12 @@
           <div
             class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item p-2 p-lg-0 text-center">
+            <div
+              data-aos="fade-in"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="counter-item p-2 p-lg-0 text-center"
+            >
               <h1><span id="counter-up">200</span>+</h1>
               <p class="white-paragraph counter-title">Team member</p>
             </div>
@@ -220,7 +286,12 @@
           <div
             class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item p-2 p-lg-0 text-center">
+            <div
+              data-aos="fade-in"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="counter-item p-2 p-lg-0 text-center"
+            >
               <h1>20+</h1>
               <p class="white-paragraph counter-title">Winning award</p>
             </div>
@@ -228,7 +299,12 @@
           <div
             class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item p-2 p-lg-0 text-center">
+            <div
+              data-aos="fade-in"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="counter-item p-2 p-lg-0 text-center"
+            >
               <h1>10k+</h1>
               <p class="white-paragraph counter-title">Complete project</p>
             </div>
@@ -236,7 +312,12 @@
           <div
             class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="text-center p-2 p-lg-0 counter-item-last">
+            <div
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              class="text-center p-2 p-lg-0 counter-item-last"
+            >
               <h1>900+</h1>
               <p class="white-paragraph counter-title">Client review</p>
             </div>
@@ -253,11 +334,19 @@
         <!-- Left image -->
         <div class="col-12 col-lg-6 position-relative">
           <img
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
             class="w-100"
             src="./assets/images/home/aboutMe.png"
             alt="A men taking care of a dog"
           />
-          <div class="about-badge">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="about-badge"
+          >
             <div class="badge-inner">
               <img
                 src="./assets/images/home/person-icon.svg"
@@ -273,34 +362,69 @@
         <!-- Right about details -->
         <div class="col-12 col-lg-6 d-flex pt-4 pt-lg-0">
           <div class="d-flex flex-column justify-content-center">
-            <h1 class="sub-heading-text sub-heading-1">About Me</h1>
-            <h1 class="abt-title">Designing Success One Project at a Time</h1>
-            <p class="gray-paragraph my-30 about-description-main-home">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="sub-heading-text sub-heading-1"
+            >
+              About Me
+            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="abt-title"
+            >
+              Designing Success One Project at a Time
+            </h1>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="gray-paragraph my-30 about-description-main-home"
+            >
               Financial planners help people to gain knowledge aboutw toio
               invest and save their money in the most efficient way ever. Many
               people all of
             </p>
             <div>
               <ul class="horizontal-list-items">
-                <li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                >
                   <div class="element-list-item">
                     <i class="fa-solid fa-angles-right text-color"></i
                     ><span>Web Designer</span>
                   </div>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                >
                   <div class="element-list-item">
                     <i class="fa-solid fa-angles-right text-color"></i
                     ><span>Product Designer</span>
                   </div>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                  data-aos-duration="1000"
+                >
                   <div class="element-list-item">
                     <i class="fa-solid fa-angles-right text-color"></i
                     ><span>Product Designer</span>
                   </div>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="700"
+                  data-aos-duration="1000"
+                >
                   <div class="element-list-item">
                     <i class="fa-solid fa-angles-right text-color"></i
                     ><span>Product Designer</span>
@@ -312,7 +436,13 @@
             <div
               class="about-btn-wrapper align-items-md-center align-items-start d-flex flex-column flex-md-row"
             >
-              <a href="#" class="button outlineBtn">
+              <a
+                data-aos="fade-up"
+                data-aos-delay="800"
+                data-aos-duration="1000"
+                href="#"
+                class="button outlineBtn"
+              >
                 <div
                   class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
                 >
@@ -322,7 +452,12 @@
                   </p>
                 </div>
               </a>
-              <div class="d-flex align-items-center abt-need-help-wrapper">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+                class="d-flex align-items-center abt-need-help-wrapper"
+              >
                 <img
                   src="./assets/images/home/phone-call-icon.png"
                   alt="24 Hour Phone Call Icon"
@@ -345,12 +480,24 @@
       <!-- Education & Skills header -->
       <div class="row mx-3 mx-md-0 align-items-end education-and-skills-header">
         <div class="col-12 col-lg-6 p-0">
-          <h1 class="sub-heading-text sub-heading-1 education-section-subtitle">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="sub-heading-text sub-heading-1 education-section-subtitle"
+          >
             Education and skills
           </h1>
-          <h1>Transforming Concepts into Captivating Designs</h1>
+          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            Transforming Concepts into Captivating Designs
+          </h1>
         </div>
-        <div class="col-12 col-lg-6 education-skills-header-description">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          class="col-12 col-lg-6 education-skills-header-description"
+        >
           <p class="gray-paragraph">
             Financial planners help people to gain knowledge aboutw toio invest
             and save their monFinancial planners help people to gain knowledge
@@ -362,7 +509,11 @@
       <!-- Education and skills content -->
       <div class="skills-area mx-3">
         <!-- Wordpress developer -->
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <p class="job-duration">2014 - 2018</p>
           <h3 class="edu-and-skills-title">Wordpress and End Developer</h3>
           <p class="gray-paragraph">
@@ -385,7 +536,7 @@
         </div>
 
         <!-- Python developer -->
-        <div>
+        <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
           <p class="job-duration">2012 - 2014</p>
           <h3 class="edu-and-skills-title">Python Developer</h3>
           <p class="gray-paragraph">
@@ -408,7 +559,11 @@
         </div>
 
         <!-- Kent State University -->
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
           <p class="job-duration">2005 - 2009</p>
           <h3 class="edu-and-skills-title">Kent State University</h3>
           <p class="gray-paragraph">
@@ -431,7 +586,7 @@
         </div>
 
         <!-- User experience design -->
-        <div>
+        <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
           <p class="job-duration">2009 - 2012</p>
           <h3 class="edu-and-skills-title">User Experience Design</h3>
           <p class="gray-paragraph">
@@ -462,10 +617,15 @@
       <div class="container">
         <!-- Section header -->
         <div class="text-center">
-          <h1 class="sub-heading-text sub-heading-1 service-section-subtitle">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="sub-heading-text sub-heading-1 service-section-subtitle"
+          >
             My Services
           </h1>
-          <h1>
+          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             Showcasing Ambitions <br />
             Skills Achievements
           </h1>
@@ -474,7 +634,11 @@
         <!-- Services cards -->
         <div class="row service-cards-row gap-4 gap-md-0">
           <!-- Card-1 -->
-          <div class="col-12 col-md-6 col-lg-4 m-0">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            class="col-12 col-md-6 col-lg-4 m-0"
+          >
             <div class="service-card">
               <img
                 src="./assets/images/home/content-writing-icon.svg"
@@ -497,7 +661,12 @@
           </div>
 
           <!-- Card-2 -->
-          <div class="col-12 col-md-6 col-lg-4 m-0">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            class="col-12 col-md-6 col-lg-4 m-0"
+          >
             <div class="service-card">
               <img
                 src="./assets/images/home/history-icon.svg"
@@ -520,7 +689,12 @@
           </div>
 
           <!-- Card-3 -->
-          <div class="col-12 col-lg-4 col-md-6 m-0 mt-0 mt-lg-0 mt-md-4">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            class="col-12 col-lg-4 col-md-6 m-0 mt-0 mt-lg-0 mt-md-4"
+          >
             <div class="service-card">
               <img
                 src="./assets/images/home/home-icon.svg"
@@ -555,15 +729,36 @@
             class="position-relative single-feature-image w-100 w-lg-75 z-1 mt-5 mt-lg-0"
           >
             <img
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
               class="featured-image w-100 w-md-auto"
               src="./assets/images/home/featured-image.png"
               alt="Feature Card Image"
             />
           </div>
           <div>
-            <h1 class="sub-heading-text sub-heading-1">Features</h1>
-            <h1>Achieving milestones with determination</h1>
-            <p class="gray-paragraph mt-4">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="sub-heading-text sub-heading-1"
+            >
+              Features
+            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              Achieving milestones with determination
+            </h1>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="gray-paragraph mt-4"
+            >
               Financial planners help people to gain knowledge aboutw toio
               invest and save their money in the most effici save their money in
               the most efficient way ever. Many people all of
@@ -573,13 +768,21 @@
               <div class="col-12 col-lg-6">
                 <!-- First two features -->
                 <ul class="features-list">
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
                     <div class="element-list-item">
                       <i class="fa-solid fa-check text-color"></i
                       ><span>Mistakes To Avoid</span>
                     </div>
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                  >
                     <div class="element-list-item">
                       <i class="fa-solid fa-check text-color"></i
                       ><span>Knew About Fonts</span>
@@ -589,13 +792,21 @@
               </div>
               <div class="col-12 col-lg-6">
                 <ul class="features-list">
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                  >
                     <div class="element-list-item">
                       <i class="fa-solid fa-check text-color"></i
                       ><span>Your Startup</span>
                     </div>
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                  >
                     <div class="element-list-item">
                       <i class="fa-solid fa-check text-color"></i
                       ><span>Winning Startup</span>
@@ -615,13 +826,28 @@
       <div class="row align-items-center">
         <!-- Title section -->
         <div class="col-lg-6">
-          <h1 class="sub-heading-text sub-heading-1">My Portfolio</h1>
-          <h1>Resonating Professionalism and Accomplishments</h1>
+          <h1
+            class="sub-heading-text sub-heading-1"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            My Portfolio
+          </h1>
+          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            Resonating Professionalism and Accomplishments
+          </h1>
         </div>
         <div
           class="col-lg-6 d-flex justify-content-lg-end justify-content-start my-3 my-lg-0"
         >
-          <a href="#" class="button fillBtn">
+          <a
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            href="#"
+            class="button fillBtn"
+          >
             <div
               class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
             >
@@ -635,7 +861,12 @@
       <div class="portfolio-cards-wrappers">
         <!-- Card-1: Video Editing -->
         <div class="row align-items-center">
-          <div class="col-12 col-lg-8">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="col-12 col-lg-8"
+          >
             <div class="d-lg-flex">
               <div>
                 <img
@@ -665,6 +896,9 @@
           </div>
           <div class="col-12 col-lg-4 d-lg-block d-none ps-5">
             <img
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
               src="./assets/images/home/portfolio-watermark.svg"
               alt="Watermark"
             />
@@ -674,7 +908,12 @@
         <!-- Card-2: Web Development -->
         <div class="row align-items-center">
           <div class="col-12 col-lg-8 mx-auto">
-            <div class="d-lg-flex">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="d-lg-flex"
+            >
               <div>
                 <img
                   class="portfolio-image w-100"
@@ -706,14 +945,24 @@
 
         <!-- Card-3: Copywriting -->
         <div class="row align-items-center">
-          <div class="col-12 col-lg-4 d-lg-block d-none">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="col-12 col-lg-4 d-lg-block d-none"
+          >
             <img
               class="w-75"
               src="./assets/images/home/portfolio-watermark-2.svg"
               alt="Watermark"
             />
           </div>
-          <div class="col-12 col-lg-8">
+          <div
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="col-12 col-lg-8"
+          >
             <div class="d-lg-flex">
               <div>
                 <img
@@ -755,11 +1004,28 @@
           <div
             class="d-flex flex-column h-100 justify-content-center newsletter-content"
           >
-            <h1 class="sub-heading-text sub-heading-1">Call To Action</h1>
-            <h1 class="my-3 subscription-form-title position-relative">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="sub-heading-text sub-heading-1"
+            >
+              Call To Action
+            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="my-3 subscription-form-title position-relative"
+            >
               Subscribe to Our Newsletter
             </h1>
-            <p class="gray-paragraph">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="gray-paragraph"
+            >
               It is a long established fact that a reader will be distracted by
               the readable content of a page when
             </p>
@@ -767,6 +1033,9 @@
         </div>
         <div class="col-12 col-lg-6 newsletter-form-wrapper p-0">
           <form
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
             class="align-items-center d-flex flex-column flex-md-row gap-4 h-100 justify-content-between newsletter-form"
           >
             <input
@@ -786,7 +1055,12 @@
 
     <!-- Start: Logos section -->
     <section class="container pb-120">
-      <div class="logo_carousel owl-carousel owl-theme">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        class="logo_carousel owl-carousel owl-theme"
+      >
         <div class="item">
           <div class="align-items-center d-flex justify-content-center">
             <img src="/assets/images/home/company-5.png" alt="Travel" />
@@ -829,13 +1103,31 @@
         <div class="align-items-end row">
           <!-- Title section -->
           <div class="col-12 col-lg-6">
-            <h1 class="sub-heading-text sub-heading-1">Customer Feedbacks</h1>
-            <h1>Empowering Success go through outstanding</h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="sub-heading-text sub-heading-1"
+            >
+              Customer Feedbacks
+            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Empowering Success go through outstanding
+            </h1>
           </div>
           <div
             class="col-12 col-lg-6 d-flex justify-content-md-end justify-content-start mt-20 mt-lg-0"
           >
-            <div class="d-flex gap-3">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="d-flex gap-3"
+            >
               <button class="slider-nav prev-customer-feedback">
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
@@ -851,7 +1143,12 @@
       <div class="testimonial-wrapper pb-120">
         <div class="container">
           <div class="customers-feedback-carousel owl-carousel owl-theme">
-            <div class="testimonial-card item">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="testimonial-card item"
+            >
               <p class="gray-paragraph">
                 Financial planners help people to gain knowledge aboutw toio
                 invest and save their money in the most efficient way ever. Many
@@ -878,7 +1175,12 @@
                 </div>
               </div>
             </div>
-            <div class="testimonial-card item">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="testimonial-card item"
+            >
               <p class="gray-paragraph">
                 Financial planners help people to gain knowledge aboutw toio
                 invest and save their money in the most efficient way ever. Many
@@ -942,7 +1244,7 @@
     <!-- Start: Blog section -->
     <section class="container pt-120">
       <!-- Section Header -->
-      <div class="mx-auto text-center w-lg-75">
+      <div class="mx-auto text-center main-home-blog-header">
         <h1 class="sub-heading-text sub-heading-1">Recent Blogs</h1>
         <h1>Striving for Perfection in this Profession Presentation</h1>
       </div>
@@ -1173,6 +1475,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Popper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+
     <!-- Bootstrap Js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
@@ -1182,7 +1487,13 @@
 
     <!-- Counter JS -->
     <script src="./assets/js/plugins/counter.js"></script>
+
+    <!-- Owl Carousel -->
     <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+
+    <!-- AOS -->
+    <script src="./assets/js/plugins/aos.js"></script>
+
     <!-- Custom Js -->
     <script src="./assets/js/main.js"></script>
 

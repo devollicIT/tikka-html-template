@@ -60,4 +60,7 @@ $(document).ready(function () {
   $(".next-customer-feedback").click(function () {
     owl.trigger("next.owl.carousel");
   });
+
+  // Init AOS
+  AOS.init();
 });
