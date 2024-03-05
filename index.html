@@ -181,6 +181,7 @@
             <div class="banner-right-image-wrapper">
               <div class="banner-right-image-inner-wrapper">
                 <img
+                  class="w-100"
                   src="./assets/images/home/hero-man.png"
                   alt="Banner Right Image"
                 />
@@ -197,36 +198,36 @@
     <!-- Start: Counter section -->
     <section class="container">
       <div class="counter-section">
-        <div class="row">
+        <div class="row g-3 g-lg-0">
           <div
-            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+            class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item text-center">
+            <div class="counter-item p-2 p-lg-0 text-center">
               <h1><span id="counter-up">200</span>+</h1>
               <p class="white-paragraph counter-title">Team member</p>
             </div>
           </div>
 
           <div
-            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+            class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item text-center">
+            <div class="counter-item p-2 p-lg-0 text-center">
               <h1>20+</h1>
               <p class="white-paragraph counter-title">Winning award</p>
             </div>
           </div>
           <div
-            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+            class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="counter-item text-center">
+            <div class="counter-item p-2 p-lg-0 text-center">
               <h1>10k+</h1>
               <p class="white-paragraph counter-title">Complete project</p>
             </div>
           </div>
           <div
-            class="col-12 col-lg-3 col-md-6 d-flex flex-column justify-content-center m-0"
+            class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0"
           >
-            <div class="text-center counter-item-last">
+            <div class="text-center p-2 p-lg-0 counter-item-last">
               <h1>900+</h1>
               <p class="white-paragraph counter-title">Client review</p>
             </div>
@@ -261,7 +262,7 @@
           </div>
         </div>
         <!-- Right about details -->
-        <div class="col-12 col-lg-6 d-flex">
+        <div class="col-12 col-lg-6 d-flex pt-4 pt-lg-0">
           <div class="d-flex flex-column justify-content-center">
             <h1 class="sub-heading-text sub-heading-1">About Me</h1>
             <h1 class="abt-title">Designing Success One Project at a Time</h1>
@@ -299,7 +300,9 @@
               </ul>
             </div>
 
-            <div class="d-flex align-items-center about-btn-wrapper">
+            <div
+              class="about-btn-wrapper align-items-md-center align-items-start d-flex flex-column flex-md-row"
+            >
               <a href="#" class="button outlineBtn">
                 <div
                   class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper"
@@ -332,7 +335,7 @@
     <section class="container section-space">
       <!-- Education & Skills header -->
       <div class="row mx-3 mx-md-0 align-items-end education-and-skills-header">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 p-0">
           <h1 class="sub-heading-text sub-heading-1 education-section-subtitle">
             Education and skills
           </h1>
@@ -508,7 +511,7 @@
           </div>
 
           <!-- Card-3 -->
-          <div class="col-12 col-md-6 col-lg-4 m-0">
+          <div class="col-12 col-lg-4 col-md-6 m-0 mt-0 mt-lg-0 mt-md-4">
             <div class="service-card">
               <img
                 src="./assets/images/home/home-icon.svg"
@@ -537,9 +540,11 @@
 
     <!-- Features card -->
     <section class="container">
-      <div class="d-flex justify-content-end">
+      <div class="d-flex justify-content-center justify-content-lg-end">
         <div class="featured-section p-4">
-          <div class="w-75 position-relative single-feature-image z-1">
+          <div
+            class="position-relative single-feature-image w-100 w-lg-75 z-1 mt-5 mt-lg-0"
+          >
             <img
               class="featured-image w-100 w-md-auto"
               src="./assets/images/home/featured-image.png"
@@ -760,7 +765,9 @@
               type="text"
               placeholder="Enter Your Email"
             />
-            <button class="button fillBtn">Subscribe</button>
+            <button class="button d-flex fillBtn justify-content-center w-100">
+              Subscribe
+            </button>
           </form>
         </div>
       </div>
@@ -926,7 +933,7 @@
     <!-- Start: Blog section -->
     <section class="container pt-120">
       <!-- Section Header -->
-      <div class="mx-auto text-center w-75">
+      <div class="mx-auto text-center w-lg-75">
         <h1 class="sub-heading-text sub-heading-1">Recent Blogs</h1>
         <h1>Striving for Perfection in this Profession Presentation</h1>
       </div>
@@ -1123,12 +1130,16 @@
           </div>
         </div>
         <div class="footer-divider"></div>
-        <div class="d-flex justify-content-between align-items-center py-4">
+        <div
+          class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4"
+        >
           <div>
             <p class="gray-paragraph">© Copyright 2024 | All Rights Reserved</p>
           </div>
           <div>
-            <ul class="d-flex m-0 p-0 gap-3">
+            <ul
+              class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0"
+            >
               <li class="gray-paragraph list-unstyled gray-paragraph">
                 <a href="#">Trams & Condition</a>
               </li>

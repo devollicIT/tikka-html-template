@@ -1351,6 +1351,17 @@ button.tags-pill {
   * 25. Home 2 CSS
   *************************
 */
+.home2-navigation-bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.home2-nav-right {
+  gap: 40px;
+}
+.home2-banner-right-man {
+  width: auto;
+}
 .home2-banner-wrapper {
   background: url(../images/home2/banner-bg-right.svg);
   background-repeat: no-repeat;
@@ -1408,6 +1419,9 @@ button.tags-pill {
   font-weight: 400;
   line-height: 40px;
 }
+.service-left-image {
+  width: auto;
+}
 .all-services-wrapper {
   gap: 30px;
 }
@@ -1448,7 +1462,7 @@ button.tags-pill {
   background-position: bottom right;
 }
 .home2-skills-progress-title {
-  width: 10%;
+  width: 15%;
 }
 .home2-skills-progress {
   background-color: rgba(255, 255, 255, 0.2);
@@ -1470,6 +1484,42 @@ button.tags-pill {
   padding-top: 40px;
 }
 
+.home2-skills-photoshop::after {
+  width: 80%;
+}
+.home2-skills-uiux::after {
+  width: 90%;
+}
+.home2-skills-figma::after {
+  width: 50%;
+}
+.home2-skills-adobe::after {
+  width: 85%;
+}
+.home2-skills-illustration::after {
+  width: 50%;
+}
+.home2-skills-sketch::after {
+  width: 90%;
+}
+.home2-skills-photoshop-count {
+  width: 80%;
+}
+.home2-skills-uiux-count {
+  width: 90%;
+}
+.home2-skills-figma-count {
+  width: 50%;
+}
+.home2-skills-adobe-count {
+  width: 85%;
+}
+.home2-skills-illustration-count {
+  width: 50%;
+}
+.home2-skills-sketch-count {
+  width: 90%;
+}
 .home2-testimonial-left-wrapper {
   background: linear-gradient(
       90deg,

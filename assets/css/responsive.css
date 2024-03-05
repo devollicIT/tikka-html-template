@@ -6,8 +6,16 @@
   }
   .featured-section {
     flex-direction: column-reverse;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 25px;
   }
   .counter-item {
+    border-bottom: 1px solid var(--primary);
+    background-color: var(--sectionBg);
+    border-right: inherit;
+  }
+  .counter-item-last {
     border-bottom: 1px solid var(--primary);
     background-color: var(--sectionBg);
     border-right: inherit;
@@ -26,6 +34,14 @@
   }
   .portfolio-card-content {
     padding-top: 110px;
+    border-bottom: 1px solid var(--primary);
+    border-radius: 20px;
+
+    border-right: none;
+  }
+  .portfolio-image {
+    margin-bottom: -85px;
+    border-top-right-radius: 20px;
   }
   .newsletter-content {
     padding: 20px;
@@ -40,6 +56,81 @@
   }
   .bas-tags-wrapper {
     grid-template-columns: 1fr 1fr;
+  }
+  .education-skills-header-description {
+    padding-left: 0px;
+  }
+  .education-and-skills-header {
+    padding-bottom: 30px;
+  }
+  .single-feature-image::after {
+    top: -17px;
+    left: -1rem;
+  }
+  .subscription-form-title::after {
+    right: inherit;
+    top: 110%;
+  }
+  .subscription-form-title::before {
+    bottom: -17%;
+    right: 60%;
+  }
+  .portfolio-cards-wrappers {
+    gap: 30px;
+  }
+  .newsletter-section-wrapper {
+    margin: 50px auto;
+  }
+  .pt-120 {
+    padding-top: 36px;
+  }
+  .footer-main-wrapper {
+    margin-top: 60px;
+    padding-top: 10px;
+  }
+  .footer-content-wrapper {
+    padding-top: 50px;
+  }
+  .footer-email {
+    margin-left: 0;
+  }
+  .footer-email::before,
+  .footer-email::after {
+    display: none;
+  }
+  .section-space {
+    padding: 30px 0;
+    margin: 30px auto;
+  }
+
+  /* Home 2 */
+  .home2-bg-top-left {
+    background-size: 30%;
+  }
+  .home2-banner-wrapper {
+    background-size: 60%;
+  }
+  .home2-banner-right-man {
+    width: 100%;
+  }
+  .home2-gallery-section {
+    padding-top: 30px;
+  }
+  .service-left-image {
+    width: 100%;
+  }
+  .all-services-wrapper {
+    margin-top: 5rem;
+    padding: 16px 0;
+  }
+  .home2-pricing-section-header {
+    width: 100%;
+  }
+  .home2-achievement-main-wrapper {
+    padding: 0;
+  }
+  .achievement-count-main-wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -69,12 +160,18 @@
   }
   .banner-right-image-inner-wrapper {
     position: absolute;
-    right: -28px;
+    right: -42px;
     left: 22px;
   }
   .banner-right-image-wrapper {
     width: 100%;
     height: 472px;
     left: -22px;
+  }
+  .subscription-form-title::before {
+    bottom: 10px;
+  }
+  .horizontal-list-items {
+    grid-template-columns: 1fr;
   }
 }
