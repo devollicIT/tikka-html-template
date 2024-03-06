@@ -386,6 +386,9 @@ ul {
 .dropdown-toggle::after {
   display: none;
 }
+#mobile-expand-dropdown {
+  color: #fff;
+}
 /* 
   *************************
   * 08. Banner

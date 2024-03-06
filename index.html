@@ -32,7 +32,7 @@
   <body>
     <!-- Mobile navigation -->
     <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/index.html">
         <!-- Logo -->
         <div
           class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
@@ -56,8 +56,19 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="d-flex flex-column gap-2">
-          <li>
-            <a href="/index.html">Home</a>
+          <li class="dropdown">
+            <a
+              class="nav-link dropdown-toggle mobile-dropdown-toggler"
+              id="mobile-expand-dropdown"
+              data-toggle="dropdown"
+              href="#"
+            >
+              Home <i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
+              <a class="dropdown-item" href="/index.html">Home version 1</a>
+              <a class="dropdown-item" href="/index-2.html">Home version 2</a>
+            </div>
           </li>
           <li>
             <a href="/about.html">About Us</a>
@@ -102,12 +113,25 @@
             class="d-flex align-items-center justify-content-end menuWrapper"
           >
             <nav class="navbarLinksWrapper d-flex align-items-center">
-              <a href="/">Home <i class="fa-solid fa-angle-down"></i></a>
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  href="#"
+                  >Home <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/index.html">Home 1</a>
+                  <a class="dropdown-item" href="/index-2.html">Home 2</a>
+                </div>
+              </div>
               <a href="/about.html"
                 >About Us <i class="fa-solid fa-angle-down"></i
               ></a>
-              <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
-              <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a>
+              <!-- <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a> -->
               <a href="/blog.html"
                 >Blog <i class="fa-solid fa-angle-down"></i
               ></a>
@@ -122,7 +146,9 @@
                   >Pages <i class="fa-solid fa-angle-down"></i
                 ></a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="/home2.html">Home 2</a>
+                  <a class="dropdown-item" href="/single-blog.html"
+                    >Blog Details</a
+                  >
                 </div>
               </div>
 
@@ -279,7 +305,7 @@
               data-aos-duration="1000"
               class="counter-item p-2 p-lg-0 text-center"
             >
-              <h1><span id="counter-up">200</span>+</h1>
+              <h1><span>200</span>+</h1>
               <p class="white-paragraph counter-title">Team member</p>
             </div>
           </div>
