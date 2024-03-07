@@ -28,50 +28,45 @@
     </head>
     <body>
         <main>
-            <!-- Mobile navigation -->
-            <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-                <a class="navbar-brand" href="/index.html">
+            
+
+            <div>
+                <div>
+                   <a class="navbar-brand" href="/index.html">
                     <!-- Logo -->
                     <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
                         <img src="./assets/images/home/logo.svg" alt="Logo" >
                         <h3 class="">Tikka</h3>
                     </div>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <i class="fa-solid fa-bars navbar-toggler-icon"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="d-flex flex-column gap-2">
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle mobile-dropdown-toggler" id="mobile-expand-dropdown" data-toggle="dropdown" href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
-                                <a class="dropdown-item" href="/index.html">Home version 1</a>
-                                <a class="dropdown-item" href="/index-2.html">Home version 2</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="/about.html">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Projects</a>
-                        </li>
-                        <li>
-                            <a href="/blog.html">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Page</a>
-                        </li>
-                        <li>
-                            <a href="/contact.html">Contact</a>
-                        </li>
-                    </ul>
+                </a> 
                 </div>
-            </nav>
+                    <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+                    <label for="page-nav-toggle">
+                      <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+                        <g class="icon-group">
+                          <g class="icon--menu">
+                            <path d="M 6 0 L 54 0" />
+                            <path d="M 6 15 L 54 15" />
+                            <path d="M 6 30 L 54 30" />
+                          </g>
+                          <g class="icon--close">
+                            <path d="M 15 0 L 45 30" />
+                            <path d="M 15 30 L 45 0" />
+                          </g>
+                        </g>
+                      </svg>
+                    </label>
+                    
+                    <nav class="main-navigation">
+                      <ul>
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">About</a></li>
+                        <li><a href="#0">Contact</a></li>
+                        <li><a href="#0">Dance</a></li>
+                      </ul>
+                    </nav>
+            </div>
+            
             <!-- Start: Hero section -->
             <div class="hero-main-section">
                 <div class="container">
@@ -95,17 +90,18 @@
                                         <a class="dropdown-item" href="/index-2.html">Home 2</a>
                                     </div>
                                 </div>
-                                <a href="/about.html">About Us <i class="fa-solid fa-angle-down"></i></a>
-                                <!-- <a href="#">Projects <i class="fa-solid fa-angle-down"></i></a> -->
-                                <a href="/blog.html">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <a href="/about.html">About Us</i></a>
+                                <a href="/project.html">Projects</i></a>
+                                <a href="/blog.html">Blog</a>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
                                     <div class="dropdown-menu" aria-labelledby="pagesDropdownBtn">
                                         <a class="dropdown-item" href="/single-blog.html">Blog Details</a>
+                                        <a class="dropdown-item" href="/project-details.html">Project Details</a>
                                     </div>
                                 </div>
 
-                                <a href="/contact.html">Contact <i class="fa-solid fa-angle-down"></i></a>
+                                <a href="/contact.html">Contact</a>
                             </nav>
                         </div>
 
