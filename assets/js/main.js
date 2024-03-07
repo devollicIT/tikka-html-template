@@ -6,7 +6,6 @@ $(document).ready(function () {
   $(".logo_carousel").owlCarousel({
     autoplay: true,
     loop: true,
-    // items: 6,
     dots: false,
     slideSpeed: 300,
     margin: 10,
@@ -25,6 +24,29 @@ $(document).ready(function () {
       },
     },
   });
+
+  // Gallery carousel
+  $(".gallery-carousel").owlCarousel({
+    autoplay: true,
+    loop: true,
+    dots: false,
+    slideSpeed: 300,
+    margin: 20,
+    responsive: {
+      0: {
+        items: 1,
+        loop: true,
+      },
+      600: {
+        items: 2,
+        loop: true,
+      },
+      1000: {
+        items: 3,
+        loop: true,
+      },
+    },
+  })
 
   // Customer feedback carousel
   const owl = $(".customers-feedback-carousel");
@@ -63,4 +85,14 @@ $(document).ready(function () {
 
   // Init AOS
   AOS.init();
+
+  // More & less
+	$(".more-less").click(function () {
+		$(this).toggleClass("active");
+		if ($(this).hasClass("active")) {
+		  $(this).text("Show less");
+		} else {
+		  $(this).text("Show more");
+		}
+	});
 });
