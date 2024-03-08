@@ -1696,6 +1696,12 @@ button.tags-pill {
 .home2-skills-sketch-count {
   width: 90%;
 }
+.home2-logo-carousel{
+  margin-top: 60px;
+}
+.home2-blog-content{
+  padding: 30px 0;
+}
 .home2-testimonial-left-wrapper {
   background: linear-gradient(
       90deg,
