@@ -95,4 +95,20 @@ $(document).ready(function () {
 		  $(this).text("Show more");
 		}
 	});
+
+  // New show more & less
+  $('#show__more--content').hide();
+
+  $('#show__more').click(function(){
+    $('#show__more--content').show(150);
+    $('#show__less').show();
+    $('#show__more').hide();
+  });
+
+  $('#show__less').click(function(){
+    $('#show__more--content').hide(150);
+    $('#show__more').show();
+    $(this).hide();
+  });
+
 });
