@@ -1187,6 +1187,7 @@ ul {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 30px;
 }
 .about-feature-section {
   margin-top: 0;
