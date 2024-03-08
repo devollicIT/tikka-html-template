@@ -48,6 +48,30 @@ $(document).ready(function () {
     },
   })
 
+  // Gallery carousel
+  $(".home2-testimonial-quote-wrapper").owlCarousel({
+    autoplay: true,
+    loop: true,
+    dots: false,
+    slideSpeed: 300,
+    margin: 20,
+    responsive: {
+      0: {
+        items: 1,
+        loop: true,
+      },
+      600: {
+        items: 1,
+        loop: true,
+      },
+      1000: {
+        items: 1,
+        loop: true,
+      },
+    },
+  })
+
+
   // Customer feedback carousel
   const owl = $(".customers-feedback-carousel");
   owl.owlCarousel({
@@ -76,11 +100,13 @@ $(document).ready(function () {
   //   Owl prev slider
   $(".prev-customer-feedback").click(function () {
     owl.trigger("prev.owl.carousel");
+    $(".home2-testimonial-quote-wrapper").trigger('prev.owl.carousel');
   });
 
   //   Owl next slider
   $(".next-customer-feedback").click(function () {
     owl.trigger("next.owl.carousel");
+    $(".home2-testimonial-quote-wrapper").trigger("next.owl.carousel");
   });
 
   // Init AOS

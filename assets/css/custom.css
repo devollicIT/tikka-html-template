@@ -1634,6 +1634,9 @@ button.tags-pill {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+.home2-testimonial-quote-wrapper img {
+  width: auto !important;
+}
 .home2-skills-progress-title {
   width: 15%;
 }
