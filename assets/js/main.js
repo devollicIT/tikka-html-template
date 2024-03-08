@@ -49,9 +49,11 @@ $(document).ready(function () {
   })
 
   // Gallery carousel
-  $(".home2-testimonial-quote-wrapper").owlCarousel({
+  const home2Testimonial= $(".home2-testimonial-quote-wrapper");
+  home2Testimonial.owlCarousel({
     autoplay: true,
     loop: true,
+    items:1,
     dots: false,
     slideSpeed: 300,
     margin: 20,
@@ -97,16 +99,20 @@ $(document).ready(function () {
     },
   });
 
-  //   Owl prev slider
+  // Owl prev slider
   $(".prev-customer-feedback").click(function () {
     owl.trigger("prev.owl.carousel");
-    $(".home2-testimonial-quote-wrapper").trigger('prev.owl.carousel');
   });
+
+  // Home 2 testimonial prev slider
+  $(".home2-prev-customer-feedback").click(function () {
+    home2Testimonial.trigger("next.owl.carousel");
+  });
+
 
   //   Owl next slider
   $(".next-customer-feedback").click(function () {
     owl.trigger("next.owl.carousel");
-    $(".home2-testimonial-quote-wrapper").trigger("next.owl.carousel");
   });
 
   // Init AOS
