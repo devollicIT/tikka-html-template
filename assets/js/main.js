@@ -49,7 +49,7 @@ $(document).ready(function () {
   })
 
   // Gallery carousel
-  const home2Testimonial= $(".home2-testimonial-quote-wrapper");
+  const home2Testimonial = $(".home2-testimonial-quote-wrapper");
   home2Testimonial.owlCarousel({
     autoplay: true,
     loop: true,
@@ -106,7 +106,7 @@ $(document).ready(function () {
 
   // Home 2 testimonial prev slider
   $(".home2-prev-customer-feedback").click(function () {
-    home2Testimonial.trigger("next.owl.carousel");
+    home2Testimonial.trigger("prev.owl.carousel");
   });
 
 
@@ -114,19 +114,6 @@ $(document).ready(function () {
   $(".next-customer-feedback").click(function () {
     owl.trigger("next.owl.carousel");
   });
-
-  // Init AOS
-  AOS.init();
-
-  // More & less
-	$(".more-less").click(function () {
-		$(this).toggleClass("active");
-		if ($(this).hasClass("active")) {
-		  $(this).text("Show less");
-		} else {
-		  $(this).text("Show more");
-		}
-	});
 
   // New show more & less
   $('#show__more--content').hide();
@@ -142,5 +129,8 @@ $(document).ready(function () {
     $('#show__more').show();
     $(this).hide();
   });
+
+    // Init AOS
+    AOS.init();
 
 });

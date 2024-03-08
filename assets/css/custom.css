@@ -127,6 +127,9 @@ ul {
   * 04. Common classes
   *************************
 */
+.page-main-wrapper{
+  overflow-x: hidden;
+}
 .sub-heading-text {
   font-size: 14px;
   line-height: 32px;
@@ -1975,6 +1978,15 @@ button.tags-pill {
 }
 .project-details__project-inf__social-icon-wrapper--icon i{
   color: #ffffff;
+}
+.project-view-more-btn{
+  color: var(--secondary);
+}
+.project-view-more-btn:hover{
+color: var(--secondary);
+}
+.project-page__copywriting-card {
+  padding-top: 80px;
 }
 
 /* Support widget */
