@@ -1,456 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Page</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Project Page</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-    <!-- Google fonts - Montserrat & Alata -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" >
-    <!-- Owl basic stylesheet -->
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" >
+      <!-- Google fonts - Montserrat & Alata -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet" />
+      <!-- Owl basic stylesheet -->
+      <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
 
-     <!-- AOS -->
-     <link rel="stylesheet" href="./assets/css/aos.css" >
-     
-    <!-- Owl theme stylesheet -->
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" >
+      <!-- AOS -->
+      <link rel="stylesheet" href="./assets/css/aos.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/custom.css" >
+      <!-- Owl theme stylesheet -->
+      <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="./assets/css/responsive.css" >
-</head>
-<body>
-    <!-- Mobile navigation -->
-    <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-        <a class="navbar-brand" href="/index.html">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="./assets/css/custom.css" />
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="./assets/css/responsive.css" />
+   </head>
+   <body>
+      <!-- Mobile navigation -->
+      <nav
+         class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
+         <a class="navbar-brand" href="/index.html">
             <!-- Logo -->
-            <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                <img src="./assets/images/home/logo.svg" alt="Logo" >
-                <h3 class="">Tikka</h3>
+            <div
+               class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+               <img src="./assets/images/home/logo.svg" alt="Logo" />
+               <h3 class="">Tikka</h3>
             </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         </a>
+         <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
             <!-- <span class="navbar-toggler-icon"></span> -->
             <i class="fa-solid fa-bars navbar-toggler-icon"></i>
-        </button>
+         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="d-flex flex-column gap-2">
-                <li class="dropdown">
-                    <a class="nav-link dropdown-toggle mobile-dropdown-toggler" id="mobile-expand-dropdown" data-toggle="dropdown" href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
-                    <div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
-                        <a class="dropdown-item" href="/index.html">Home version 1</a>
-                        <a class="dropdown-item" href="/index-2.html">Home version 2</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="/about.html">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="/blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Page</a>
-                </li>
-                <li>
-                    <a href="/contact.html">Contact</a>
-                </li>
+               <li class="dropdown">
+                  <a
+                     class="nav-link dropdown-toggle mobile-dropdown-toggler"
+                     id="mobile-expand-dropdown"
+                     data-toggle="dropdown"
+                     href="#">
+                     Home <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                  <div
+                     class="dropdown-menu"
+                     aria-labelledby="mobile-expand-dropdown">
+                     <a class="dropdown-item" href="/index.html"
+                        >Home version 1</a
+                     >
+                     <a class="dropdown-item" href="/index-2.html"
+                        >Home version 2</a
+                     >
+                  </div>
+               </li>
+               <li>
+                  <a href="/about.html">About Us</a>
+               </li>
+               <li>
+                  <a href="#">Services</a>
+               </li>
+               <li>
+                  <a href="#">Projects</a>
+               </li>
+               <li>
+                  <a href="/blog.html">Blog</a>
+               </li>
+               <li>
+                  <a href="#">Page</a>
+               </li>
+               <li>
+                  <a href="/contact.html">Contact</a>
+               </li>
             </ul>
-        </div>
-    </nav>
+         </div>
+      </nav>
 
-    <div class="page-main-wrapper">
-        <!-- Start: Hero section -->
-    <div class="global-page-banner-wrapper">
-        <div class="container">
-            <!-- Navigation start -->
-            <div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
-                <!-- Logo -->
-                <a href="/index.html">
-                    <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                        <img src="./assets/images/home/logo.svg" alt="Logo" >
+      <div class="page-main-wrapper">
+         <!-- Start: Hero section -->
+         <div class="global-page-banner-wrapper">
+            <div class="container">
+               <!-- Navigation start -->
+               <div
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
+                  <!-- Logo -->
+                  <a href="/index.html">
+                     <div
+                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+                        <img src="./assets/images/home/logo.svg" alt="Logo" />
                         <h3>Tikka</h3>
-                    </div>
-                </a>
+                     </div>
+                  </a>
 
-                <!-- Menu links -->
-                <div class="d-flex align-items-center justify-content-end menuWrapper">
-                    <nav class="navbarLinksWrapper d-flex align-items-center">
+                  <!-- Menu links -->
+                  <div
+                     class="d-flex align-items-center justify-content-end menuWrapper">
+                     <nav class="navbarLinksWrapper d-flex align-items-center">
                         <div class="dropdown">
-                            <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="/index.html">Home 1</a>
-                                <a class="dropdown-item" href="/index-2.html">Home 2</a>
-                            </div>
+                           <a
+                              class="dropdown-toggle"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              href="#"
+                              >Home <i class="fa-solid fa-angle-down"></i
+                           ></a>
+                           <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="/index.html"
+                                 >Home 1</a
+                              >
+                              <a class="dropdown-item" href="/index-2.html"
+                                 >Home 2</a
+                              >
+                           </div>
                         </div>
-                        <a href="/about.html">About Us</i></a>
-                        <a href="/project.html">Projects</i></a>
+                        <a href="/about.html">About Us</a>
+                        <a href="/project.html">Projects</a>
                         <a href="/blog.html">Blog</a>
                         <div class="dropdown">
-                            <a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="pagesDropdownBtn">
-                                <a class="dropdown-item" href="/single-blog.html">Blog Details</a>
-                                <a class="dropdown-item" href="/project-details.html">Project Details</a>
-                            </div>
+                           <a
+                              class="dropdown-toggle"
+                              id="pagesDropdownBtn"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              href="#"
+                              >Pages <i class="fa-solid fa-angle-down"></i
+                           ></a>
+                           <div
+                              class="dropdown-menu"
+                              aria-labelledby="pagesDropdownBtn">
+                              <a class="dropdown-item" href="/single-blog.html"
+                                 >Blog Details</a
+                              >
+                              <a
+                                 class="dropdown-item"
+                                 href="/project-details.html"
+                                 >Project Details</a
+                              >
+                           </div>
                         </div>
 
                         <a href="/contact.html">Contact</a>
-                    </nav>
-                </div>
+                     </nav>
+                  </div>
 
-                <!-- Button -->
-                <div>
-                    <a href="#">
-                        <div class="button navBtn d-flex justify-content-center align-items-center">
-                            Hire Me
-                            <p class="btn-plus-icon d-flex">
-                                <i class="fa-solid fa-plus btnIcon"></i>
-                            </p>
+                  <!-- Button -->
+                  <div>
+                     <a href="#">
+                        <div
+                           class="button navBtn d-flex justify-content-center align-items-center">
+                           Hire Me
+                           <p class="btn-plus-icon d-flex">
+                              <i class="fa-solid fa-plus btnIcon"></i>
+                           </p>
                         </div>
-                    </a>
-                </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Navigation end -->
+
+               <!-- Banner section start -->
+               <div
+                  class="align-items-center d-flex d-md-block flex-column global-page-banner">
+                  <h1
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="pb-2">
+                     All Projects
+                  </h1>
+                  <h4
+                     class="global-banner__bredcamb-wrapper"
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000">
+                     <a href="/">Home</a>
+                     <span class="text-color">/</span>
+                     <span>All Projects</span>
+                  </h4>
+               </div>
+               <!-- Banner section end -->
             </div>
-            <!-- Navigation end -->
+         </div>
 
-            <!-- Banner section start -->
-            <div class="align-items-center d-flex d-md-block flex-column global-page-banner">
-                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="pb-2">All Projects</h1>
-                <h4 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"><a href="/">Home</a> / All Projects</h4>
-            </div>
-            <!-- Banner section end -->
-        </div>
-    </div>
+         <div class="container project-page-main-wrapper">
+            <h1 class="sub-heading-text sub-heading-1">About Me</h1>
+            <h1>My Recent Works</h1>
 
-    <div class="container project-page-main-wrapper">
-        <h1 class="sub-heading-text sub-heading-1">About Me</h1>
-        <h1>My Recent Works</h1>
-
-        <!-- Test Show more & Show less -->
-        <div class="container">
-            <div class="col-lg-12">
-                <!-- Card-1: Video Editing -->
-                <div class="d-flex align-items-center">
-                    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="col-12 col-lg-8">
+            <!-- Test Show more & Show less -->
+            <div class="container">
+               <div class="col-lg-12">
+                  <!-- Card-1: Video Editing -->
+                  <div class="d-flex align-items-center">
+                     <div
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        class="col-12 col-lg-8">
                         <div class="d-lg-flex">
-                            <div>
-                                <img class="portfolio-image w-100" src="./assets/images/home/video-editing-portfolio.png" alt="Portfolio Image" >
-                            </div>
-                            <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                <p class="text-color">Video Editing</p>
-                                <div class="my-10">
-                                    <h3>Promoting Excellence in Professional</h3>
-                                    <p class="gray-paragraph">
-                                        Financial planners help people to gain knowledge aboutw toio invest
-                                    </p>
-                                </div>
+                           <div>
+                              <img
+                                 class="portfolio-image w-100"
+                                 src="./assets/images/home/video-editing-portfolio.png"
+                                 alt="Portfolio Image" />
+                           </div>
+                           <div
+                              class="portfolio-card-content d-flex flex-column justify-content-center">
+                              <p class="text-color">Video Editing</p>
+                              <div class="my-10">
+                                 <h3>Promoting Excellence in Professional</h3>
+                                 <p class="gray-paragraph">
+                                    Financial planners help people to gain
+                                    knowledge aboutw toio invest
+                                 </p>
+                              </div>
 
-                                <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                            </div>
+                              <a class="link-btn" href="#"
+                                 >Learn More
+                                 <i
+                                    class="fa-solid fa-arrow-right btn-right-icon"></i
+                              ></a>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-lg-4 d-lg-flex d-none justify-content-end">
-                        <img data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" src="./assets/images/project/project-card-right-vector.svg" alt="Watermark" >
-                    </div>
-                </div>
-            </div>
-            <div  class="col-lg-12">
-                <!-- Card-2: Web Development -->
-                <div class="d-flex align-items-center">
-                    <div class="col-12 col-lg-8 mx-auto">
-                        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="d-lg-flex">
-                            <div>
-                                <img class="portfolio-image w-100" src="./assets/images/home/web-development-portfolio.png" alt="Portfolio Image" >
-                            </div>
-                            <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                <p class="text-color">Web Development</p>
-                                <div class="my-10">
-                                    <h3>looking to create a personal portfolio</h3>
-                                    <p class="gray-paragraph">
-                                        Financial planners help people to gain knowledge aboutw toio invest
-                                    </p>
-                                </div>
+                     </div>
+                     <div
+                        class="col-12 col-lg-4 d-lg-flex d-none justify-content-end">
+                        <img
+                           data-aos="fade-left"
+                           data-aos-delay="100"
+                           data-aos-duration="1000"
+                           src="./assets/images/project/project-card-right-vector.svg"
+                           alt="Watermark" />
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <!-- Card-2: Web Development -->
+                  <div class="d-flex align-items-center">
+                     <div class="col-12 col-lg-8 mx-auto">
+                        <div
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="d-lg-flex">
+                           <div>
+                              <img
+                                 class="portfolio-image w-100"
+                                 src="./assets/images/home/web-development-portfolio.png"
+                                 alt="Portfolio Image" />
+                           </div>
+                           <div
+                              class="portfolio-card-content d-flex flex-column justify-content-center">
+                              <p class="text-color">Web Development</p>
+                              <div class="my-10">
+                                 <h3>looking to create a personal portfolio</h3>
+                                 <p class="gray-paragraph">
+                                    Financial planners help people to gain
+                                    knowledge aboutw toio invest
+                                 </p>
+                              </div>
 
-                                <!-- Link button -->
-                                <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                            </div>
+                              <!-- Link button -->
+                              <a class="link-btn" href="#"
+                                 >Learn More
+                                 <i
+                                    class="fa-solid fa-arrow-right btn-right-icon"></i
+                              ></a>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12 project-page__copywriting-card">
-                <!-- Card-3: Copywriting -->
-                <div class="d-flex align-items-center">
-                    <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="col-12 col-lg-4 d-lg-block d-none">
-                        <img class="w-75" src="./assets/images/home/portfolio-watermark-2.svg" alt="Watermark" >
-                    </div>
-                    <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" class="col-12 col-lg-8">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12 project-page__copywriting-card">
+                  <!-- Card-3: Copywriting -->
+                  <div class="d-flex align-items-center">
+                     <div
+                        data-aos="fade-right"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        class="col-12 col-lg-4 d-lg-block d-none">
+                        <img
+                           class="w-75"
+                           src="./assets/images/home/portfolio-watermark-2.svg"
+                           alt="Watermark" />
+                     </div>
+                     <div
+                        data-aos="fade-left"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        class="col-12 col-lg-8">
                         <div class="d-lg-flex">
-                            <div>
-                                <img class="portfolio-image w-100" src="./assets/images/home/copywriting-portfolio.png" alt="Portfolio Image" >
-                            </div>
-                            <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                <p class="text-color">Copywriting</p>
-                                <div class="my-10">
-                                    <h3>You'll want to include information that</h3>
-                                    <p class="gray-paragraph">
-                                        Financial planners help people to gain knowledge aboutw toio invest
-                                    </p>
-                                </div>
+                           <div>
+                              <img
+                                 class="portfolio-image w-100"
+                                 src="./assets/images/home/copywriting-portfolio.png"
+                                 alt="Portfolio Image" />
+                           </div>
+                           <div
+                              class="portfolio-card-content d-flex flex-column justify-content-center">
+                              <p class="text-color">Copywriting</p>
+                              <div class="my-10">
+                                 <h3>
+                                    You'll want to include information that
+                                 </h3>
+                                 <p class="gray-paragraph">
+                                    Financial planners help people to gain
+                                    knowledge aboutw toio invest
+                                 </p>
+                              </div>
 
-                                <!-- Link button -->
-                                <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                            </div>
+                              <!-- Link button -->
+                              <a class="link-btn" href="#"
+                                 >Learn More
+                                 <i
+                                    class="fa-solid fa-arrow-right btn-right-icon"></i
+                              ></a>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-page-view-more-btn--wrapper" id="show__more">
-                <a class="button fillBtn project-page-view-more-btn" href="javascript:void(0)">Show more</a>
-            </div>
-            <div id="show__more--content">
-                <div class="col-lg-12 project-page__web-card">
-                    <!-- Card-4: Video editing -->
-                    <div class="d-flex align-items-center">
+                     </div>
+                  </div>
+               </div>
+               <div class="project-page-view-more-btn--wrapper" id="show__more">
+                  <a
+                     class="button fillBtn project-page-view-more-btn"
+                     href="javascript:void(0)"
+                     >View more</a
+                  >
+               </div>
+               <div id="show__more--content">
+                  <div class="col-lg-12 project-page__web-card">
+                     <!-- Card-4: Video editing -->
+                     <div class="d-flex align-items-center">
                         <div class="col-12 col-lg-8 mx-auto">
-                            <div class="d-lg-flex">
-                                <div>
-                                    <img class="portfolio-image w-100" src="./assets/images/home/web-development-portfolio.png" alt="Portfolio Image" >
-                                </div>
-                                <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                    <p class="text-color">Web Development</p>
-                                    <div class="my-10">
-                                        <h3>looking to create a personal portfolio</h3>
-                                        <p class="gray-paragraph">
-                                            Financial planners help people to gain knowledge aboutw toio invest
-                                        </p>
-                                    </div>
+                           <div class="d-lg-flex">
+                              <div>
+                                 <img
+                                    class="portfolio-image w-100"
+                                    src="./assets/images/home/web-development-portfolio.png"
+                                    alt="Portfolio Image" />
+                              </div>
+                              <div
+                                 class="portfolio-card-content d-flex flex-column justify-content-center">
+                                 <p class="text-color">Web Development</p>
+                                 <div class="my-10">
+                                    <h3>
+                                       looking to create a personal portfolio
+                                    </h3>
+                                    <p class="gray-paragraph">
+                                       Financial planners help people to gain
+                                       knowledge aboutw toio invest
+                                    </p>
+                                 </div>
 
-                                    <!-- Link button -->
-                                    <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                                </div>
-                            </div>
+                                 <!-- Link button -->
+                                 <a class="link-btn" href="#"
+                                    >Learn More
+                                    <i
+                                       class="fa-solid fa-arrow-right btn-right-icon"></i
+                                 ></a>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <!-- Card-5: Web Development -->
-                    <div class="d-flex align-items-center project-show-more collapse">
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                     <!-- Card-5: Web Development -->
+                     <div
+                        class="d-flex align-items-center project-show-more collapse">
                         <div class="col-12 col-lg-8">
-                            <div class="d-lg-flex">
-                                <div>
-                                    <img class="portfolio-image w-100" src="./assets/images/home/video-editing-portfolio.png" alt="Portfolio Image" >
-                                </div>
-                                <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                    <p class="text-color">web development</p>
-                                    <div class="my-10">
-                                        <h3>looking to create a personal portfolio</h3>
-                                        <p class="gray-paragraph">
-                                            Financial planners help people to gain knowledge aboutw toio invest
-                                        </p>
-                                    </div>
+                           <div class="d-lg-flex">
+                              <div>
+                                 <img
+                                    class="portfolio-image w-100"
+                                    src="./assets/images/home/video-editing-portfolio.png"
+                                    alt="Portfolio Image" />
+                              </div>
+                              <div
+                                 class="portfolio-card-content d-flex flex-column justify-content-center">
+                                 <p class="text-color">web development</p>
+                                 <div class="my-10">
+                                    <h3>
+                                       looking to create a personal portfolio
+                                    </h3>
+                                    <p class="gray-paragraph">
+                                       Financial planners help people to gain
+                                       knowledge aboutw toio invest
+                                    </p>
+                                 </div>
 
-                                    <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                                </div>
-                            </div>
+                                 <a class="link-btn" href="#"
+                                    >Learn More
+                                    <i
+                                       class="fa-solid fa-arrow-right btn-right-icon"></i
+                                 ></a>
+                              </div>
+                           </div>
                         </div>
-                        <div class="col-12 col-lg-4 d-lg-flex d-none justify-content-end">
-                            <img src="./assets/images/project/project-card-right-vector.svg" alt="Watermark" >
+                        <div
+                           class="col-12 col-lg-4 d-lg-flex d-none justify-content-end">
+                           <img
+                              src="./assets/images/project/project-card-right-vector.svg"
+                              alt="Watermark" />
                         </div>
-                    </div>
-                </div>
-                <div class="col-lgl-12">
-                    <!-- Card-6: Copywriting -->
-                    <div class="d-flex align-items-center project-show-more collapse">
+                     </div>
+                  </div>
+                  <div class="col-lgl-12">
+                     <!-- Card-6: Copywriting -->
+                     <div
+                        class="d-flex align-items-center project-show-more collapse">
                         <div class="col-12 col-lg-8 mx-auto">
-                            <div class="d-lg-flex">
-                                <div>
-                                    <img class="portfolio-image w-100" src="./assets/images/home/web-development-portfolio.png" alt="Portfolio Image" >
-                                </div>
-                                <div class="portfolio-card-content d-flex flex-column justify-content-center">
-                                    <p class="text-color">copywriting</p>
-                                    <div class="my-10">
-                                        <h3>You'll want to include information that </h3>
-                                        <p class="gray-paragraph">
-                                            Financial planners help people to gain knowledge aboutw toio invest
-                                        </p>
-                                    </div>
+                           <div class="d-lg-flex">
+                              <div>
+                                 <img
+                                    class="portfolio-image w-100"
+                                    src="./assets/images/home/web-development-portfolio.png"
+                                    alt="Portfolio Image" />
+                              </div>
+                              <div
+                                 class="portfolio-card-content d-flex flex-column justify-content-center">
+                                 <p class="text-color">copywriting</p>
+                                 <div class="my-10">
+                                    <h3>
+                                       You'll want to include information that
+                                    </h3>
+                                    <p class="gray-paragraph">
+                                       Financial planners help people to gain
+                                       knowledge aboutw toio invest
+                                    </p>
+                                 </div>
 
-                                    <!-- Link button -->
-                                    <a class="link-btn" href="#">Learn More <i class="fa-solid fa-arrow-right btn-right-icon"></i></a>
-                                </div>
-                            </div>
+                                 <!-- Link button -->
+                                 <a class="link-btn" href="#"
+                                    >Learn More
+                                    <i
+                                       class="fa-solid fa-arrow-right btn-right-icon"></i
+                                 ></a>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
-                <div class="project-page-view-more-btn--wrapper" id="show__less">
-                    <a  class="button fillBtn project-page-view-more-btn" href="javascript:void(0)">Show less</a>
-                </div> 
+                     </div>
+                  </div>
+                  <div
+                     class="project-page-view-more-btn--wrapper"
+                     id="show__less">
+                     <a
+                        class="button fillBtn project-page-view-more-btn"
+                        href="javascript:void(0)"
+                        >View less</a
+                     >
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
 
-    <footer class="footer-main-wrapper">
-        <div class="container">
-            <!-- Footer heading -->
-            <div>
-                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="my-30">Got A <span class="text-color">Project</span> To Do ?</h1>
-                <h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="footer-email position-relative">madbuz@yahoo.com</h3>
-            </div>
+         <footer class="footer-main-wrapper mt-0">
+            <div class="container">
+               <!-- Footer heading -->
+               <div>
+                  <h1
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="my-30">
+                     Got A <span class="text-color">Project</span> To Do ?
+                  </h1>
+                  <a
+                     href="mailto:madbuz@yahoo.com"
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000"
+                     class="footer-email position-relative">
+                     madbuz@yahoo.com
+                  </a>
+               </div>
 
-            <!-- Footer details -->
-            <div class="row footer-content-wrapper">
-                <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                    <!-- Logo -->
-                    <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                        <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src="./assets/images/home/footer-logo.png" alt="Logo" >
-                        <h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="">Tikka</h3>
-                    </div>
-                    <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="gray-paragraph my-3">
-                        Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh ellentes
-                    </p>
-                    <ul data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="d-flex footer-social-icons-wrapper gap-4 p-0">
+               <!-- Footer details -->
+               <div class="row footer-content-wrapper">
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <!-- Logo -->
+                     <div
+                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+                        <img
+                           data-aos="fade-up"
+                           data-aos-delay="100"
+                           data-aos-duration="1000"
+                           src="./assets/images/home/footer-logo.png"
+                           alt="Logo" />
+                        <h3
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="">
+                           Tikka
+                        </h3>
+                     </div>
+                     <p
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                        class="gray-paragraph my-3">
+                        Lorem ipsum dolor amet, consectetur sell adipis elit
+                        phase nibh ellentes
+                     </p>
+                     <ul
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                        data-aos-duration="1000"
+                        class="d-flex footer-social-icons-wrapper gap-4 p-0">
                         <li>
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                           <a href="#"
+                              ><i class="fa-brands fa-facebook-f"></i
+                           ></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                           <a href="#"
+                              ><i class="fa-brands fa-x-twitter"></i
+                           ></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                           <a href="#"
+                              ><i class="fa-brands fa-pinterest-p"></i
+                           ></a>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Useful Links</h3>
-                    <ul class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
-                        <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                            <a href="/index.html">Home</a>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Useful Links
+                     </h3>
+                     <ul
+                        class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/index.html">Home</a>
                         </li>
-                        <li  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                            <a href="/about.html">About Us</a>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/about.html">About Us</a>
                         </li>
-                        <li  data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                            <a href="/project.html">Projects</a>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="400"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/project.html">Projects</a>
                         </li>
-                        <li  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                            <a href="/blog.html">Blog</a>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="500"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/blog.html">Blog</a>
                         </li>
-                        <li  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                            <a href="/contact.html">Contact</a>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="600"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/contact.html">Contact</a>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                    <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Latest News</h3>
-                    <ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
-                        <li  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                            <div>
-                                <img src="./assets/images/home/latest-news-1.png" alt="Blogs" >
-                            </div>
-                            <div>
-                                <div class="d-flex gap-2 align-items-center">
-                                    <i class="fa-solid fa-calendar-days text-color"></i>
-                                    <p class="gray-paragraph">October 19, 2022</p>
-                                </div>
-                                <p class="gray-paragraph">
-                                    Market research helps businesses understand
-                                </p>
-                            </div>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Latest News
+                     </h3>
+                     <ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="d-flex footer-lst-news-list">
+                           <div>
+                              <img
+                                 src="./assets/images/home/latest-news-1.png"
+                                 alt="Blogs" />
+                           </div>
+                           <div>
+                              <div class="d-flex gap-2 align-items-center">
+                                 <i
+                                    class="fa-solid fa-calendar-days text-color"></i>
+                                 <p class="gray-paragraph">October 19, 2022</p>
+                              </div>
+                              <a
+                                 href="/single-blog.html"
+                                 class="gray-paragraph">
+                                 Market research helps businesses understand
+                              </a>
+                           </div>
                         </li>
-                        <li  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                            <div>
-                                <img src="./assets/images/home/latest-news-2.png" alt="Blogs" >
-                            </div>
-                            <div>
-                                <div class="d-flex gap-2 align-items-center">
-                                    <i class="fa-solid fa-calendar-days text-color"></i>
-                                    <p class="gray-paragraph">October 19, 2022</p>
-                                </div>
-                                <p class="gray-paragraph">
-                                    Market research helps businesses understand
-                                </p>
-                            </div>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000"
+                           class="d-flex footer-lst-news-list">
+                           <div>
+                              <img
+                                 src="./assets/images/home/latest-news-2.png"
+                                 alt="Blogs" />
+                           </div>
+                           <div>
+                              <div class="d-flex gap-2 align-items-center">
+                                 <i
+                                    class="fa-solid fa-calendar-days text-color"></i>
+                                 <p class="gray-paragraph">October 19, 2022</p>
+                              </div>
+                              <a
+                                 href="/single-blog.html"
+                                 class="gray-paragraph">
+                                 Market research helps businesses understand
+                              </a>
+                           </div>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                    <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Contact</h3>
-                    <ul class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
-                        <li  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                            <div class="align-items-center d-flex main-foo-ci">
-                                <i class="fa-solid fa-envelope text-color"></i>
-                                <p class="gray-paragraph">debra.holt@example.com</p>
-                            </div>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Contact
+                     </h3>
+                     <ul
+                        class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000">
+                           <div class="align-items-center d-flex main-foo-ci">
+                              <i class="fa-solid fa-envelope text-color"></i>
+                              <a
+                                 href="mailto:debra.holt@example.com"
+                                 class="gray-paragraph"
+                                 >debra.holt@example.com</a
+                              >
+                           </div>
                         </li>
-                        <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                            <div class="align-items-baseline d-flex main-foo-ci">
-                                <i class="fa-solid fa-location-dot text-color"></i>
-                                <p class="gray-paragraph">
-                                    3891 Ranchview Dr. Richardson, California 62639
-                                </p>
-                            </div>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000">
+                           <div class="align-items-baseline d-flex main-foo-ci">
+                              <i
+                                 class="fa-solid fa-location-dot text-color"></i>
+                              <p class="gray-paragraph">
+                                 3891 Ranchview Dr. Richardson, California 62639
+                              </p>
+                           </div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-divider"></div>
-            <div class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
-                <div>
-                    <p class="gray-paragraph">
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer-divider"></div>
+               <div
+                  class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
+                  <div>
+                     <p class="gray-paragraph">
                         &copy; Copyright 2024 | All Rights Reserved.
-                    </p>
-                </div>
-                <div>
-                    <ul class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
+                     </p>
+                  </div>
+                  <div>
+                     <ul
+                        class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
                         <li class="gray-paragraph list-unstyled gray-paragraph">
-                            <a href="/contact.html">Contact Us</a>
+                           <a href="/contact.html">Contact Us</a>
                         </li>
-                    </ul>
-                </div>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </footer>
-    </div>
-    
+         </footer>
+      </div>
 
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <!-- Jquery -->
+      <script
+         src="https://code.jquery.com/jquery-3.7.1.min.js"
+         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+         crossorigin="anonymous"></script>
 
-    <!-- Popper Js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+      <!-- Popper Js -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 
-    <!-- Bootstrap Js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- Bootstrap Js -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
 
-    <!-- Counter JS -->
-    <script src="./assets/js/plugins/counter.js"></script>
+      <!-- Counter JS -->
+      <script src="./assets/js/plugins/counter.js"></script>
 
-    <!-- Owl Carousel -->
-    <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+      <!-- Owl Carousel -->
+      <script src="./assets/js/plugins/owl.carousel.min.js"></script>
 
-    <!-- AOS -->
-    <script src="./assets/js/plugins/aos.js"></script>
+      <!-- AOS -->
+      <script src="./assets/js/plugins/aos.js"></script>
 
-    <!-- Custom Js -->
-    <script src="./assets/js/main.js"></script>
+      <!-- Custom Js -->
+      <script src="./assets/js/main.js"></script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/6908033352.js" crossorigin="anonymous"></script>
-</body>
+      <!-- Font Awesome -->
+      <script
+         src="https://kit.fontawesome.com/6908033352.js"
+         crossorigin="anonymous"></script>
+   </body>
 </html>

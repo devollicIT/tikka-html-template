@@ -1,363 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>Contact</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-        <!-- Google fonts - Montserrat & Alata -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" >
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" >
+      <!-- Google fonts - Montserrat & Alata -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet" />
 
-        <!-- AOS -->
-        <link rel="stylesheet" href="./assets/css/aos.css" >
+      <!-- AOS -->
+      <link rel="stylesheet" href="./assets/css/aos.css" />
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="./assets/css/custom.css" >
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="./assets/css/custom.css" />
 
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="./assets/css/responsive.css" >
-    </head>
-    <body>
-        <!-- Mobile navigation -->
-        <nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-            <a class="navbar-brand" href="/index.html">
-                <!-- Logo -->
-                <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                    <img src="./assets/images/home/logo.svg" alt="Logo" >
-                    <h3 class="">Tikka</h3>
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <i class="fa-solid fa-bars navbar-toggler-icon"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="d-flex flex-column gap-2">
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle mobile-dropdown-toggler" id="mobile-expand-dropdown" data-toggle="dropdown" href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
-                        <div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
-                            <a class="dropdown-item" href="/index.html">Home version 1</a>
-                            <a class="dropdown-item" href="/index-2.html">Home version 2</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="/about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a href="/blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Page</a>
-                    </li>
-                    <li>
-                        <a href="/contact.html">Contact</a>
-                    </li>
-                </ul>
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="./assets/css/responsive.css" />
+   </head>
+   <body>
+      <!-- Mobile navigation -->
+      <nav
+         class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
+         <a class="navbar-brand" href="/index.html">
+            <!-- Logo -->
+            <div
+               class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+               <img src="./assets/images/home/logo.svg" alt="Logo" />
+               <h3 class="">Tikka</h3>
             </div>
-        </nav>
-        <!-- Start: Hero section -->
-        <div class="global-page-banner-wrapper">
-          <div class="container">
-              <!-- Navigation start -->
-              <div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
-                <!-- Logo -->
-                <a href="/index.html">
-                    <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                        <img src="./assets/images/home/logo.svg" alt="Logo" >
-                        <h3>Tikka</h3>
-                    </div>
-                </a>
+         </a>
+         <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+         </button>
 
-                <!-- Menu links -->
-                <div class="d-flex align-items-center justify-content-end menuWrapper">
-                    <nav class="navbarLinksWrapper d-flex align-items-center">
-                        <div class="dropdown">
-                            <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="/index.html">Home 1</a>
-                                <a class="dropdown-item" href="/index-2.html">Home 2</a>
-                            </div>
-                        </div>
-                        <a href="/about.html">About Us</i></a>
-                        <a href="/project.html">Projects</i></a>
-                        <a href="/blog.html">Blog</a>
-                        <div class="dropdown">
-                            <a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="pagesDropdownBtn">
-                                <a class="dropdown-item" href="/single-blog.html">Blog Details</a>
-                                <a class="dropdown-item" href="/project-details.html">Project Details</a>
-                            </div>
-                        </div>
-
-                        <a href="/contact.html">Contact</a>
-                    </nav>
-                </div>
-
-                <!-- Button -->
-                <div>
-                    <a href="#">
-                        <div class="button navBtn d-flex justify-content-center align-items-center">
-                            Hire Me
-                            <p class="btn-plus-icon d-flex">
-                                <i class="fa-solid fa-plus btnIcon"></i>
-                            </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-              <!-- Navigation end -->
-
-              <!-- Banner section start -->
-              
-              <div class="global-page-banner">
-                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="pb-2">Contact Us</h1>
-                <h4 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"><a href="/">Home</a> / Contact Us</h4>
-            </div>
-
-              <!-- Banner section end -->
-          </div>
-      </div>
-        <!-- End: Hero section -->
-
-        <!-- Contact section start -->
-        <div class="container px-3 px-md-0 section-space">
-            <div class="row two-col-gap">
-                <div class="col-12 col-lg-8">
-                    <h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="cf-title d-inline-block position-relative title-divider">
-                        Feel free to message
-                    </h4>
-                    <form data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="comment-write-form">
-                        <div class="gap-4 gap-lg-0 row">
-                            <div class="col-12 col-lg-6">
-                                <input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Name" >
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Email" >
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <textarea class="v2-input-field cf-input-field w-100 comment-writing-input-box" placeholder="Write your message" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <input class="button fillBtn" type="submit" value="Submit Now" >
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-12 col-lg-4 mt-4 mt-lg-0">
-                    <h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="cf-title d-inline-block position-relative title-divider">
-                        Get in touch
-                    </h4>
-                    <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="cf-description white-paragraph">
-                        It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt
-                    </p>
-                    <div class="contact-info-wrapper">
-                        <!-- Address box -->
-                        <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="contact-info d-flex">
-                            <div class="cf-icon">
-                                <i class="fa-solid fa-location-dot text-color"></i>
-                            </div>
-                            <div class="cf-info-box">
-                                <h4>Address</h4>
-                                <p class="white-paragraph">
-                                    2972 Westheimer Rd. Santa Ana, Illinois 85486
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Email box -->
-                        <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="contact-info d-flex">
-                            <div class="cf-icon">
-                                <i class="fa-solid fa-envelope text-color"></i>
-                            </div>
-                            <div class="cf-info-box">
-                                <h4>Email Address</h4>
-                                <p class="white-paragraph">nevaeh.simmons@example.com</p>
-                            </div>
-                        </div>
-                        <!-- Phone number box -->
-                        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="contact-info d-flex">
-                            <div class="cf-icon">
-                                <i class="fa-solid fa-phone text-color"></i>
-                            </div>
-                            <div class="cf-info-box">
-                                <h4>Phone number</h4>
-                                <p class="white-paragraph">(704) 555-0127</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End: Hero section -->
-
-        <!-- Map section -->
-        <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.167438386936!2d90.36211487592816!3d23.777051187751532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1c6359ad983%3A0x314174d61dc0ec0e!2sReformedTech!5e0!3m2!1sen!2sbd!4v1709794753004!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <!-- Start: Footer section -->
-        <footer class="footer-main-wrapper">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="d-flex flex-column gap-2">
+               <li class="dropdown">
+                  <a
+                     class="nav-link dropdown-toggle mobile-dropdown-toggler"
+                     id="mobile-expand-dropdown"
+                     data-toggle="dropdown"
+                     href="#">
+                     Home <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                  <div
+                     class="dropdown-menu"
+                     aria-labelledby="mobile-expand-dropdown">
+                     <a class="dropdown-item" href="/index.html"
+                        >Home version 1</a
+                     >
+                     <a class="dropdown-item" href="/index-2.html"
+                        >Home version 2</a
+                     >
+                  </div>
+               </li>
+               <li>
+                  <a href="/about.html">About Us</a>
+               </li>
+               <li>
+                  <a href="#">Services</a>
+               </li>
+               <li>
+                  <a href="#">Projects</a>
+               </li>
+               <li>
+                  <a href="/blog.html">Blog</a>
+               </li>
+               <li>
+                  <a href="#">Page</a>
+               </li>
+               <li>
+                  <a href="/contact.html">Contact</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="page-main-wrapper">
+         <!-- Start: Hero section -->
+         <div class="global-page-banner-wrapper">
             <div class="container">
-                <!-- Footer heading -->
-                <div>
-                    <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="my-30">Got A <span class="text-color">Project</span> To Do ?</h1>
-                    <h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="footer-email position-relative">madbuz@yahoo.com</h3>
-                </div>
+               <!-- Navigation start -->
+               <div
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
+                  <!-- Logo -->
+                  <a href="/index.html">
+                     <div
+                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+                        <img src="./assets/images/home/logo.svg" alt="Logo" />
+                        <h3>Tikka</h3>
+                     </div>
+                  </a>
 
-                <!-- Footer details -->
-                <div class="row footer-content-wrapper">
-                    <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                        <!-- Logo -->
-                        <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                            <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src="./assets/images/home/footer-logo.png" alt="Logo" >
-                            <h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="">Tikka</h3>
+                  <!-- Menu links -->
+                  <div
+                     class="d-flex align-items-center justify-content-end menuWrapper">
+                     <nav class="navbarLinksWrapper d-flex align-items-center">
+                        <div class="dropdown">
+                           <a
+                              class="dropdown-toggle"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              href="#"
+                              >Home <i class="fa-solid fa-angle-down"></i
+                           ></a>
+                           <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="/index.html"
+                                 >Home 1</a
+                              >
+                              <a class="dropdown-item" href="/index-2.html"
+                                 >Home 2</a
+                              >
+                           </div>
                         </div>
-                        <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="gray-paragraph my-3">
-                            Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh ellentes
-                        </p>
-                        <ul data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="d-flex footer-social-icons-wrapper gap-4 p-0">
-                            <li>
-                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-3">
-                        <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Useful Links</h3>
-                        <ul class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
-                            <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                <a href="/index.html">Home</a>
-                            </li>
-                            <li  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                <a href="/about.html">About Us</a>
-                            </li>
-                            <li  data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                <a href="/project.html">Projects</a>
-                            </li>
-                            <li  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                <a href="/blog.html">Blog</a>
-                            </li>
-                            <li  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                <a href="/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                        <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Latest News</h3>
-                        <ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
-                            <li  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                                <div>
-                                    <img src="./assets/images/home/latest-news-1.png" alt="Blogs" >
-                                </div>
-                                <div>
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <i class="fa-solid fa-calendar-days text-color"></i>
-                                        <p class="gray-paragraph">October 19, 2022</p>
-                                    </div>
-                                    <p class="gray-paragraph">
-                                        Market research helps businesses understand
-                                    </p>
-                                </div>
-                            </li>
-                            <li  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                                <div>
-                                    <img src="./assets/images/home/latest-news-2.png" alt="Blogs" >
-                                </div>
-                                <div>
-                                    <div class="d-flex gap-2 align-items-center">
-                                        <i class="fa-solid fa-calendar-days text-color"></i>
-                                        <p class="gray-paragraph">October 19, 2022</p>
-                                    </div>
-                                    <p class="gray-paragraph">
-                                        Market research helps businesses understand
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                        <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Contact</h3>
-                        <ul class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
-                            <li  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                                <div class="align-items-center d-flex main-foo-ci">
-                                    <i class="fa-solid fa-envelope text-color"></i>
-                                    <p class="gray-paragraph">debra.holt@example.com</p>
-                                </div>
-                            </li>
-                            <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                                <div class="align-items-baseline d-flex main-foo-ci">
-                                    <i class="fa-solid fa-location-dot text-color"></i>
-                                    <p class="gray-paragraph">
-                                        3891 Ranchview Dr. Richardson, California 62639
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-divider"></div>
-                <div class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
-                    <div>
-                        <p class="gray-paragraph">
-                            &copy; Copyright 2024 | All Rights Reserved.
-                        </p>
-                    </div>
-                    <div>
-                        <ul class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
-                            <li class="gray-paragraph list-unstyled gray-paragraph">
-                                <a href="/contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                        <a href="/about.html">About Us</a>
+                        <a href="/project.html">Projects</a>
+                        <a href="/blog.html">Blog</a>
+                        <div class="dropdown">
+                           <a
+                              class="dropdown-toggle"
+                              id="pagesDropdownBtn"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                              href="#"
+                              >Pages <i class="fa-solid fa-angle-down"></i
+                           ></a>
+                           <div
+                              class="dropdown-menu"
+                              aria-labelledby="pagesDropdownBtn">
+                              <a class="dropdown-item" href="/single-blog.html"
+                                 >Blog Details</a
+                              >
+                              <a
+                                 class="dropdown-item"
+                                 href="/project-details.html"
+                                 >Project Details</a
+                              >
+                           </div>
+                        </div>
+
+                        <a href="/contact.html">Contact</a>
+                     </nav>
+                  </div>
+
+                  <!-- Button -->
+                  <div>
+                     <a href="#">
+                        <div
+                           class="button navBtn d-flex justify-content-center align-items-center">
+                           Hire Me
+                           <p class="btn-plus-icon d-flex">
+                              <i class="fa-solid fa-plus btnIcon"></i>
+                           </p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <!-- Navigation end -->
+
+               <!-- Banner section start -->
+
+               <div class="global-page-banner">
+                  <h1
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="pb-2">
+                     Contact Us
+                  </h1>
+                  <h4
+                     class="global-banner__bredcamb-wrapper"
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000">
+                     <a href="/">Home</a>
+                     <span class="text-color">/</span>
+                     <span> Contact Us </span>
+                  </h4>
+               </div>
+
+               <!-- Banner section end -->
             </div>
-        </footer>
-        <!-- End: Footer section -->
-        <!-- ============================================ -->
-        <!-- Jquery -->
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+         </div>
+         <!-- End: Hero section -->
 
-        <!-- Popper Js -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+         <!-- Contact section start -->
+         <div class="container px-3 px-md-0 section-space">
+            <div class="row two-col-gap">
+               <div class="col-12 col-lg-8">
+                  <h4
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="cf-title d-inline-block position-relative title-divider">
+                     Feel free to message
+                  </h4>
+                  <form
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000"
+                     class="comment-write-form">
+                     <div class="contact-page__form--field-wrapper">
+                        <input
+                           class="v2-input-field cf-input-field w-100"
+                           type="text"
+                           placeholder="Your Name" />
+                        <input
+                           class="v2-input-field cf-input-field w-100"
+                           type="text"
+                           placeholder="Your Email" />
+                        <input
+                           class="v2-input-field cf-input-field w-100"
+                           type="text"
+                           placeholder="Your Email" />
+                        <input
+                           class="v2-input-field cf-input-field w-100"
+                           type="text"
+                           placeholder="Your Email" />
+                     </div>
+                     <div>
+                        <textarea
+                           class="v2-input-field cf-input-field w-100 comment-writing-input-box"
+                           placeholder="Write your message"
+                           cols="30"
+                           rows="10"></textarea>
+                     </div>
 
-        <!-- Bootstrap Js -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                     <div class="row">
+                        <div class="col-12">
+                           <input
+                              class="button fillBtn contact-page__form-submit-btn"
+                              type="submit"
+                              value="Send a messege" />
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                  <h4
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="cf-title d-inline-block position-relative title-divider">
+                     Get in touch
+                  </h4>
+                  <p
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000"
+                     class="cf-description white-paragraph">
+                     It is a long established fact that a reader will be distrol
+                     acted bioiiy desig the rea dablea contentIt
+                  </p>
+                  <div class="contact-info-wrapper">
+                     <!-- Address box -->
+                     <div
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                        class="contact-info d-flex">
+                        <div class="cf-icon">
+                           <img
+                              src="./assets/images/contact/map-icon.svg"
+                              alt="Location Icon" />
+                        </div>
+                        <div class="cf-info-box">
+                           <h4>Address</h4>
+                           <p class="white-paragraph">
+                              2972 Westheimer Rd. Santa Ana, Illinois 85486
+                           </p>
+                        </div>
+                     </div>
+                     <!-- Email box -->
+                     <div
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                        data-aos-duration="1000"
+                        class="contact-info d-flex">
+                        <div class="cf-icon">
+                           <img
+                              src="./assets/images/contact/envelop-icon.svg"
+                              alt="Email Icon" />
+                        </div>
+                        <div class="cf-info-box">
+                           <h4>Email Address</h4>
+                           <a
+                              href="mailto:nevaeh.simmons@example.com"
+                              class="white-paragraph">
+                              nevaeh.simmons@example.com
+                           </a>
+                        </div>
+                     </div>
+                     <!-- Phone number box -->
+                     <div
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        class="contact-info d-flex">
+                        <div class="cf-icon">
+                           <img
+                              src="./assets/images/contact/phone-icon.svg"
+                              alt="Phone Icon" />
+                        </div>
+                        <div class="cf-info-box">
+                           <h4>Phone number</h4>
+                           <a href="tel:+7045550127" class="white-paragraph"
+                              >(704) 555-0127</a
+                           >
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End: Hero section -->
 
-        <!-- Counter JS -->
-        <script src="./assets/js/plugins/counter.js"></script>
+         <!-- Map section -->
+         <div>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.167438386936!2d90.36211487592816!3d23.777051187751532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1c6359ad983%3A0x314174d61dc0ec0e!2sReformedTech!5e0!3m2!1sen!2sbd!4v1709794753004!5m2!1sen!2sbd"
+               width="100%"
+               height="450"
+               style="border: 0"
+               allowfullscreen=""
+               loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
 
-        <!-- Owl Carousel -->
-        <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+         <!-- Start: Footer section -->
+         <footer class="footer-main-wrapper mt-0">
+            <div class="container">
+               <!-- Footer heading -->
+               <div>
+                  <h1
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                     data-aos-duration="1000"
+                     class="my-30">
+                     Got A <span class="text-color">Project</span> To Do ?
+                  </h1>
+                  <a
+                     href="mailto:madbuz@yahoo.com"
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     data-aos-duration="1000"
+                     class="footer-email position-relative">
+                     madbuz@yahoo.com
+                  </a>
+               </div>
 
-        <!-- AOS -->
-        <script src="./assets/js/plugins/aos.js"></script>
+               <!-- Footer details -->
+               <div class="row footer-content-wrapper">
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <!-- Logo -->
+                     <div
+                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+                        <img
+                           data-aos="fade-up"
+                           data-aos-delay="100"
+                           data-aos-duration="1000"
+                           src="./assets/images/home/footer-logo.png"
+                           alt="Logo" />
+                        <h3
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="">
+                           Tikka
+                        </h3>
+                     </div>
+                     <p
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                        class="gray-paragraph my-3">
+                        Lorem ipsum dolor amet, consectetur sell adipis elit
+                        phase nibh ellentes
+                     </p>
+                     <ul
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                        data-aos-duration="1000"
+                        class="d-flex footer-social-icons-wrapper gap-4 p-0">
+                        <li>
+                           <a href="#"
+                              ><i class="fa-brands fa-facebook-f"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              ><i class="fa-brands fa-x-twitter"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              ><i class="fa-brands fa-pinterest-p"></i
+                           ></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Useful Links
+                     </h3>
+                     <ul
+                        class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/index.html">Home</a>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/about.html">About Us</a>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="400"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/project.html">Projects</a>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="500"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/blog.html">Blog</a>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="600"
+                           data-aos-duration="1000"
+                           class="list-unstyled gray-paragraph">
+                           <a href="/contact.html">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Latest News
+                     </h3>
+                     <ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000"
+                           class="d-flex footer-lst-news-list">
+                           <div>
+                              <img
+                                 src="./assets/images/home/latest-news-1.png"
+                                 alt="Blogs" />
+                           </div>
+                           <div>
+                              <div class="d-flex gap-2 align-items-center">
+                                 <i
+                                    class="fa-solid fa-calendar-days text-color"></i>
+                                 <p class="gray-paragraph">October 19, 2022</p>
+                              </div>
+                              <a
+                                 href="/single-blog.html"
+                                 class="gray-paragraph">
+                                 Market research helps businesses understand
+                              </a>
+                           </div>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000"
+                           class="d-flex footer-lst-news-list">
+                           <div>
+                              <img
+                                 src="./assets/images/home/latest-news-2.png"
+                                 alt="Blogs" />
+                           </div>
+                           <div>
+                              <div class="d-flex gap-2 align-items-center">
+                                 <i
+                                    class="fa-solid fa-calendar-days text-color"></i>
+                                 <p class="gray-paragraph">October 19, 2022</p>
+                              </div>
+                              <a
+                                 href="/single-blog.html"
+                                 class="gray-paragraph">
+                                 Market research helps businesses understand
+                              </a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+                     <h3
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000">
+                        Contact
+                     </h3>
+                     <ul
+                        class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="200"
+                           data-aos-duration="1000">
+                           <div class="align-items-center d-flex main-foo-ci">
+                              <i class="fa-solid fa-envelope text-color"></i>
+                              <a
+                                 href="mailto:debra.holt@example.com"
+                                 class="gray-paragraph"
+                                 >debra.holt@example.com</a
+                              >
+                           </div>
+                        </li>
+                        <li
+                           data-aos="fade-up"
+                           data-aos-delay="300"
+                           data-aos-duration="1000">
+                           <div class="align-items-baseline d-flex main-foo-ci">
+                              <i
+                                 class="fa-solid fa-location-dot text-color"></i>
+                              <p class="gray-paragraph">
+                                 3891 Ranchview Dr. Richardson, California 62639
+                              </p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer-divider"></div>
+               <div
+                  class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
+                  <div>
+                     <p class="gray-paragraph">
+                        &copy; Copyright 2024 | All Rights Reserved.
+                     </p>
+                  </div>
+                  <div>
+                     <ul
+                        class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
+                        <li class="gray-paragraph list-unstyled gray-paragraph">
+                           <a href="/contact.html">Contact Us</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- End: Footer section -->
+         <!-- ============================================ -->
+      </div>
+      <!-- Jquery -->
+      <script
+         src="https://code.jquery.com/jquery-3.7.1.min.js"
+         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+         crossorigin="anonymous"></script>
 
-        <!-- Custom Js -->
-        <script src="./assets/js/main.js"></script>
+      <!-- Popper Js -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/6908033352.js" crossorigin="anonymous"></script>
-    </body>
+      <!-- Bootstrap Js -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
+
+      <!-- Counter JS -->
+      <script src="./assets/js/plugins/counter.js"></script>
+
+      <!-- Owl Carousel -->
+      <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+
+      <!-- AOS -->
+      <script src="./assets/js/plugins/aos.js"></script>
+
+      <!-- Custom Js -->
+      <script src="./assets/js/main.js"></script>
+
+      <!-- Font Awesome -->
+      <script
+         src="https://kit.fontawesome.com/6908033352.js"
+         crossorigin="anonymous"></script>
+   </body>
 </html>
