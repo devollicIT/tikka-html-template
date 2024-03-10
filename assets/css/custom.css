@@ -2196,7 +2196,3 @@ button.tags-pill {
    position: relative;
    overflow: visible;
 }
-.dropdown-mobile-wrapper:hover,
-.mobile-menu__dropdown-list {
-   display: block;
-}
