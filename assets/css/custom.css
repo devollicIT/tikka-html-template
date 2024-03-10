@@ -1566,7 +1566,11 @@ button.tags-pill {
    flex-direction: column;
    gap: 38px;
 }
-
+.contact-page__map{
+   width: 100%;
+   height: 450px;
+   border: none;
+}
 /* 
   *************************
   * 25. Home 2 CSS

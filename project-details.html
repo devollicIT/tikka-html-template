@@ -1,731 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Project Details - Tikka Portfolio</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project Details - Tikka Portfolio</title>
 
-      <!-- Favicon -->
-      <link
-         rel="shortcut icon"
-         href="./assets/images/favicon.ico"
-         type="image/x-icon" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
 
-      <!-- Bootstrap 5 CSS -->
-      <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<!-- Bootstrap 5 CSS -->
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-      <!-- Fonts: Montserrat & Alata -->
-      <link rel="stylesheet" href="./assets/fonts/fonts.css" />
+		<!-- Fonts: Montserrat & Alata -->
+		<link rel="stylesheet" href="./assets/fonts/fonts.css" />
 
-      <!-- Font Awesome v-6.5.1 -->
-      <link rel="stylesheet" href="./assets/fontawesome-6.5.1/all.min.css">
-      <link rel="stylesheet" href="./assets/fontawesome-6.5.1/fontawesome.min.css">
+		<!-- Font Awesome v-6.5.1 -->
+		<link rel="stylesheet" href="./assets/fontawesome-6.5.1/all.min.css" />
+		<link rel="stylesheet" href="./assets/fontawesome-6.5.1/fontawesome.min.css" />
 
-      <!-- Owl carousel v-2.3.4 basic stylesheet -->
-      <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+		<!-- Owl carousel v-2.3.4 basic stylesheet -->
+		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
 
-      <!-- Owl carousel v-2.3.4 theme stylesheet -->
-      <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+		<!-- Owl carousel v-2.3.4 theme stylesheet -->
+		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 
-      <!-- AOS Animation -->
-      <link rel="stylesheet" href="./assets/css/aos.css" />
+		<!-- AOS Animation -->
+		<link rel="stylesheet" href="./assets/css/aos.css" />
 
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="./assets/css/custom.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./assets/css/custom.css" />
 
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="./assets/css/responsive.css" />
-   </head>
-   <body>
-      <!-- Mobile navigation -->
-      <nav
-         class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-         <a class="navbar-brand" href="/index.html">
-            <!-- Logo -->
-            <div
-               class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-               <img src="./assets/images/home/logo.svg" alt="Logo" />
-               <h3 class="">Tikka</h3>
-            </div>
-         </a>
-         <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars navbar-toggler-icon"></i>
-         </button>
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+	</head>
+	<body>
+		<!-- Mobile navigation -->
+		<nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
+			<a class="navbar-brand" href="/index.html">
+				<!-- Logo -->
+				<div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+					<img src="./assets/images/home/logo.svg" alt="Logo" />
+					<h3 class="">Tikka</h3>
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa-solid fa-bars navbar-toggler-icon"></i>
+			</button>
 
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="d-flex flex-column gap-2">
-               <li class="dropdown">
-                  <a
-                     class="nav-link dropdown-toggle mobile-dropdown-toggler"
-                     id="mobile-expand-dropdown"
-                     data-toggle="dropdown"
-                     href="#">
-                     Home <i class="fa-solid fa-angle-down"></i
-                  ></a>
-                  <div
-                     class="dropdown-menu"
-                     aria-labelledby="mobile-expand-dropdown">
-                     <a class="dropdown-item" href="/index.html"
-                        >Home version 1</a
-                     >
-                     <a class="dropdown-item" href="/index-2.html"
-                        >Home version 2</a
-                     >
-                  </div>
-               </li>
-               <li>
-                  <a href="/about.html">About Us</a>
-               </li>
-               <li>
-                  <a href="#">Services</a>
-               </li>
-               <li>
-                  <a href="#">Projects</a>
-               </li>
-               <li>
-                  <a href="/blog.html">Blog</a>
-               </li>
-               <li>
-                  <a href="#">Page</a>
-               </li>
-               <li>
-                  <a href="/contact.html">Contact</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <div class="page-main-wrapper">
-         <!-- Start: Hero section -->
-         <div class="global-page-banner-wrapper">
-            <div class="container">
-               <!-- Navigation start -->
-               <div
-                  data-aos="fade-down"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                  class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
-                  <!-- Logo -->
-                  <a href="/index.html">
-                     <div
-                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                        <img src="./assets/images/home/logo.svg" alt="Logo" />
-                        <h3>Tikka</h3>
-                     </div>
-                  </a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="d-flex flex-column gap-2">
+					<li class="dropdown">
+						<a class="nav-link dropdown-toggle mobile-dropdown-toggler" id="mobile-expand-dropdown" data-toggle="dropdown" href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
+						<div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
+							<a class="dropdown-item" href="/index.html">Home version 1</a>
+							<a class="dropdown-item" href="/index-2.html">Home version 2</a>
+						</div>
+					</li>
+					<li>
+						<a href="/about.html">About Us</a>
+					</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>
+						<a href="#">Projects</a>
+					</li>
+					<li>
+						<a href="/blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="#">Page</a>
+					</li>
+					<li>
+						<a href="/contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="page-main-wrapper">
+			<!-- Start: Hero section -->
+			<div class="global-page-banner-wrapper">
+				<div class="container">
+					<!-- Navigation start -->
+					<div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
+						<!-- Logo -->
+						<a href="/index.html">
+							<div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+								<img src="./assets/images/home/logo.svg" alt="Logo" />
+								<h3>Tikka</h3>
+							</div>
+						</a>
 
-                  <!-- Menu links -->
-                  <div
-                     class="d-flex align-items-center justify-content-end menuWrapper">
-                     <nav class="navbarLinksWrapper d-flex align-items-center">
-                        <div class="dropdown">
-                           <a
-                              class="dropdown-toggle"
-                              id="dropdownMenuButton"
-                              data-toggle="dropdown"
-                              aria-haspopup="true"
-                              aria-expanded="false"
-                              href="#"
-                              >Home <i class="fa-solid fa-angle-down"></i
-                           ></a>
-                           <div
-                              class="dropdown-menu"
-                              aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="/index.html"
-                                 >Home 1</a
-                              >
-                              <a class="dropdown-item" href="/index-2.html"
-                                 >Home 2</a
-                              >
-                           </div>
-                        </div>
-                        <a href="/about.html">About Us</a>
-                        <a href="/project.html">Projects</a>
-                        <a href="/blog.html">Blog</a>
-                        <div class="dropdown">
-                           <a
-                              class="dropdown-toggle"
-                              id="pagesDropdownBtn"
-                              data-toggle="dropdown"
-                              aria-haspopup="true"
-                              aria-expanded="false"
-                              href="#"
-                              >Pages <i class="fa-solid fa-angle-down"></i
-                           ></a>
-                           <div
-                              class="dropdown-menu"
-                              aria-labelledby="pagesDropdownBtn">
-                              <a class="dropdown-item" href="/single-blog.html"
-                                 >Blog Details</a
-                              >
-                              <a
-                                 class="dropdown-item"
-                                 href="/project-details.html"
-                                 >Project Details</a
-                              >
-                           </div>
-                        </div>
+						<!-- Menu links -->
+						<div class="d-flex align-items-center justify-content-end menuWrapper">
+							<nav class="navbarLinksWrapper d-flex align-items-center">
+								<div class="dropdown">
+									<a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="/index.html">Home 1</a>
+										<a class="dropdown-item" href="/index-2.html">Home 2</a>
+									</div>
+								</div>
+								<a href="/about.html">About Us</a>
+								<a href="/project.html">Projects</a>
+								<a href="/blog.html">Blog</a>
+								<div class="dropdown">
+									<a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+									<div class="dropdown-menu" aria-labelledby="pagesDropdownBtn">
+										<a class="dropdown-item" href="/single-blog.html">Blog Details</a>
+										<a class="dropdown-item" href="/project-details.html">Project Details</a>
+									</div>
+								</div>
 
-                        <a href="/contact.html">Contact</a>
-                     </nav>
-                  </div>
+								<a href="/contact.html">Contact</a>
+							</nav>
+						</div>
 
-                  <!-- Button -->
-                  <div>
-                     <a href="#">
-                        <div
-                           class="button navBtn d-flex justify-content-center align-items-center">
-                           Hire Me
-                           <p class="btn-plus-icon d-flex">
-                              <i class="fa-solid fa-plus btnIcon"></i>
-                           </p>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <!-- Navigation end -->
+						<!-- Button -->
+						<div>
+							<a href="#">
+								<div class="button navBtn d-flex justify-content-center align-items-center">
+									Hire Me
+									<p class="btn-plus-icon d-flex">
+										<i class="fa-solid fa-plus btnIcon"></i>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Navigation end -->
 
-               <!-- Banner section start -->
-               <div
-                  class="align-items-center d-flex d-md-block flex-column global-page-banner">
-                  <h1
-                     data-aos="fade-up"
-                     data-aos-delay="100"
-                     data-aos-duration="1000"
-                     class="pb-2">
-                     Projects Details
-                  </h1>
-                  <h4
-                     class="global-banner__bredcamb-wrapper"
-                     data-aos="fade-up"
-                     data-aos-delay="200"
-                     data-aos-duration="1000">
-                     <a href="/">Home</a>
-                     <span class="text-color">/</span>
-                     <span> Project Details </span>
-                  </h4>
-               </div>
-               <!-- Banner section end -->
-            </div>
-         </div>
+					<!-- Banner section start -->
+					<div class="align-items-center d-flex d-md-block flex-column global-page-banner">
+						<h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="pb-2">
+							Projects Details
+						</h1>
+						<h4 class="global-banner__bredcamb-wrapper" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+							<a href="/">Home</a>
+							<span class="text-color">/</span>
+							<span> Project Details </span>
+						</h4>
+					</div>
+					<!-- Banner section end -->
+				</div>
+			</div>
 
-         <!-- Start: Project details section -->
-         <div class="container px-3 px-md-0 section-space">
-            <div class="row">
-               <div class="col-12 col-md-12 col-lg-8">
-                  <div>
-                     <div class="position-relative">
-                        <img
-                           data-aos="fade-up"
-                           data-aos-delay="100"
-                           data-aos-duration="1000"
-                           class="w-100"
-                           src="./assets/images/project-details/ziraf.png"
-                           alt="Blog Thumbnail" />
-                     </div>
-                     <div
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        class="project-details-images-wrapper owl-carousel owl-theme d-flex justify-content-between mt-5">
-                        <img
-                           class="item"
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000"
-                           src="./assets/images/project-details/project-image-1.png"
-                           alt="Project Image" />
-                        <img
-                           class="item"
-                           data-aos="fade-up"
-                           data-aos-delay="300"
-                           data-aos-duration="1000"
-                           src="./assets/images/project-details/project-image-1.png"
-                           alt="Project Image" />
-                        <img
-                           class="item"
-                           data-aos="fade-up"
-                           data-aos-delay="400"
-                           data-aos-duration="1000"
-                           src="./assets/images/project-details/project-image-1.png"
-                           alt="Project Image" />
-                        <img
-                           class="item"
-                           data-aos="fade-up"
-                           data-aos-delay="500"
-                           data-aos-duration="1000"
-                           src="./assets/images/project-details/project-image-1.png"
-                           alt="Project Image" />
-                     </div>
-                     <div class="pt-5">
-                        <h2
-                           data-aos="fade-up"
-                           data-aos-delay="100"
-                           data-aos-duration="1000">
-                           Designing a Legacy One Project at a Time
-                        </h2>
-                        <p
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000"
-                           class="white-paragraphj gray-paragraph pt-4">
-                           It is a long established fact that a reader will be
-                           distracted by the readable content of a page when
-                           looking at its a layout. The point of using Lorem
-                           Ipsum is that it has a more-or-less normal
-                           distribution of letters, as opposed to a using
-                           'Content here, content here.It is a long established
-                           fact that a reader It is a long established fact that
-                           a reader will be distracted by the readable content
-                           of a page when looking at its a layou
-                        </p>
-                        <p
-                           data-aos="fade-up"
-                           data-aos-delay="300"
-                           data-aos-duration="1000"
-                           class="white-paragraphj gray-paragraph pt-4">
-                           It is a long established fact that a reader will be
-                           distracted by the readable content of a page when
-                           looking at its a layout. The point of using Lorem
-                           Ipsum is that it has a more-or-less normal
-                           distribution of letters, as opposed to a using
-                           'Content here, content here.It is a long established
-                           fact that a reader It is a long
-                        </p>
-                        <div
-                           class="gallery-carousel owl-carousel owl-theme mt-5">
-                           <div class="item">
-                              <img
-                                 src="./assets/images/project-details/gallery-1.png"
-                                 alt="Gallery Image" />
-                           </div>
-                           <div class="item">
-                              <img
-                                 src="./assets/images/project-details/gallery-2.png"
-                                 alt="Gallery Image" />
-                           </div>
-                           <div class="item">
-                              <img
-                                 src="./assets/images/project-details/gallery-3.png"
-                                 alt="Gallery Image" />
-                           </div>
-                           <div class="item">
-                              <img
-                                 src="./assets/images/project-details/gallery-1.png"
-                                 alt="Gallery Image" />
-                           </div>
-                        </div>
-                        <p
-                           data-aos="fade-up"
-                           data-aos-delay="100"
-                           data-aos-duration="1000"
-                           class="white-paragraphj gray-paragraph pt-4">
-                           It is a long established fact that a reader will be
-                           distracted by the readable content of a page when
-                           looking at its a layout. The point of using Lorem
-                           Ipsum is that it has a more-or-less normal
-                           distribution of letters, as opposed to a using
-                           'Content here, content here.It is a long established
-                           fact that a reader It is a long
-                        </p>
-                     </div>
-                  </div>
-               </div>
+			<!-- Start: Project details section -->
+			<div class="container px-3 px-md-0 section-space">
+				<div class="row">
+					<div class="col-12 col-md-12 col-lg-8">
+						<div>
+							<div class="position-relative">
+								<img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="w-100" src="./assets/images/project-details/ziraf.png" alt="Blog Thumbnail" />
+							</div>
+							<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="project-details-images-wrapper owl-carousel owl-theme d-flex justify-content-between mt-5">
+								<img class="item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" src="./assets/images/project-details/project-image-1.png" alt="Project Image" />
+								<img class="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" src="./assets/images/project-details/project-image-1.png" alt="Project Image" />
+								<img class="item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" src="./assets/images/project-details/project-image-1.png" alt="Project Image" />
+								<img class="item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" src="./assets/images/project-details/project-image-1.png" alt="Project Image" />
+							</div>
+							<div class="pt-5">
+								<h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+									Designing a Legacy One Project at a Time
+								</h2>
+								<p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="white-paragraphj gray-paragraph pt-4">
+									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its a layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+									distribution of letters, as opposed to a using 'Content here, content here.It is a long established fact that a reader It is a long established fact that a reader will be distracted by the readable
+									content of a page when looking at its a layou
+								</p>
+								<p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="white-paragraphj gray-paragraph pt-4">
+									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its a layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+									distribution of letters, as opposed to a using 'Content here, content here.It is a long established fact that a reader It is a long
+								</p>
+								<div class="gallery-carousel owl-carousel owl-theme mt-5">
+									<div class="item">
+										<img src="./assets/images/project-details/gallery-1.png" alt="Gallery Image" />
+									</div>
+									<div class="item">
+										<img src="./assets/images/project-details/gallery-2.png" alt="Gallery Image" />
+									</div>
+									<div class="item">
+										<img src="./assets/images/project-details/gallery-3.png" alt="Gallery Image" />
+									</div>
+									<div class="item">
+										<img src="./assets/images/project-details/gallery-1.png" alt="Gallery Image" />
+									</div>
+								</div>
+								<p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="white-paragraphj gray-paragraph pt-4">
+									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its a layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+									distribution of letters, as opposed to a using 'Content here, content here.It is a long established fact that a reader It is a long
+								</p>
+							</div>
+						</div>
+					</div>
 
-               <!-- Project details sidebar -->
-               <div class="col-12 col-md-12 col-lg-4">
-                  <div class="pt-5 pt-md-0 sidebar-widgets-wrapper">
-                     <!-- Project information widget -->
-                     <div
-                        data-aos="fade-left"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        class="single-project__project-info--main-wrapper">
-                        <h3>Project Information</h3>
-                        <div
-                           class="single-project__project-info--inner-wrapper">
-                           <ul class="single-project__project-info--list">
-                              <li>
-                                 <span
-                                    class="single-project__project-info--title"
-                                    >Category:
-                                 </span>
-                                 <span class="gray-paragraph">
-                                    IT Technology</span
-                                 >
-                              </li>
-                              <li>
-                                 <span
-                                    class="single-project__project-info--title"
-                                    >Customer:</span
-                                 >
-                                 <span class="gray-paragraph"
-                                    >Starline shimlasi</span
-                                 >
-                              </li>
-                              <li>
-                                 <span
-                                    class="single-project__project-info--title"
-                                    >Start date:</span
-                                 >
-                                 <span class="gray-paragraph"
-                                    >8 March 2024</span
-                                 >
-                              </li>
-                              <li>
-                                 <span
-                                    class="single-project__project-info--title"
-                                    >End date:</span
-                                 >
-                                 <span class="gray-paragraph"
-                                    >28 September 2025</span
-                                 >
-                              </li>
-                              <li>
-                                 <span
-                                    class="single-project__project-info--title"
-                                    >Rating:</span
-                                 >
-                                 <span class="gray-paragraph"
-                                    ><img
-                                       src="./assets/images/project-details/rating.svg"
-                                       alt="Rating"
-                                 /></span>
-                              </li>
-                           </ul>
-                        </div>
-                        <div
-                           class="project-details__project-inf__social-icon-wrapper">
-                           <a
-                              href="#"
-                              class="project-details__project-inf__social-icon-wrapper--icon">
-                              <i class="fa-brands fa-instagram"></i>
-                           </a>
-                           <a
-                              href="#"
-                              class="project-details__project-inf__social-icon-wrapper--icon">
-                              <i class="fa-brands fa-facebook-f"></i>
-                           </a>
-                           <a
-                              href="#"
-                              class="project-details__project-inf__social-icon-wrapper--icon">
-                              <i class="fa-brands fa-x-twitter"></i>
-                           </a>
-                           <a
-                              href="#"
-                              class="project-details__project-inf__social-icon-wrapper--icon">
-                              <i class="fa-brands fa-linkedin-in"></i>
-                           </a>
-                        </div>
-                     </div>
+					<!-- Project details sidebar -->
+					<div class="col-12 col-md-12 col-lg-4">
+						<div class="pt-5 pt-md-0 sidebar-widgets-wrapper">
+							<!-- Project information widget -->
+							<div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" class="single-project__project-info--main-wrapper">
+								<h3>Project Information</h3>
+								<div class="single-project__project-info--inner-wrapper">
+									<ul class="single-project__project-info--list">
+										<li>
+											<span class="single-project__project-info--title">Category: </span>
+											<span class="gray-paragraph"> IT Technology</span>
+										</li>
+										<li>
+											<span class="single-project__project-info--title">Customer:</span>
+											<span class="gray-paragraph">Starline shimlasi</span>
+										</li>
+										<li>
+											<span class="single-project__project-info--title">Start date:</span>
+											<span class="gray-paragraph">8 March 2024</span>
+										</li>
+										<li>
+											<span class="single-project__project-info--title">End date:</span>
+											<span class="gray-paragraph">28 September 2025</span>
+										</li>
+										<li>
+											<span class="single-project__project-info--title">Rating:</span>
+											<span class="gray-paragraph"><img src="./assets/images/project-details/rating.svg" alt="Rating" /></span>
+										</li>
+									</ul>
+								</div>
+								<div class="project-details__project-inf__social-icon-wrapper">
+									<a href="#" class="project-details__project-inf__social-icon-wrapper--icon">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a href="#" class="project-details__project-inf__social-icon-wrapper--icon">
+										<i class="fa-brands fa-facebook-f"></i>
+									</a>
+									<a href="#" class="project-details__project-inf__social-icon-wrapper--icon">
+										<i class="fa-brands fa-x-twitter"></i>
+									</a>
+									<a href="#" class="project-details__project-inf__social-icon-wrapper--icon">
+										<i class="fa-brands fa-linkedin-in"></i>
+									</a>
+								</div>
+							</div>
 
-                     <!-- Support widget -->
-                     <div
-                        data-aos="fade-left"
-                        data-aos-delay="200"
-                        data-aos-duration="1000"
-                        class="single-project__support-widget-wrapper">
-                        <div>
-                           <h2>How can we help you</h2>
-                           <p
-                              class="single-project__support-widget-wrapper--description">
-                              Aliquam eros justo, posuere lviverrasi laoreematti
-                              ullamcorpposuere de Aliquam ther eros just
-                           </p>
-                           <div
-                              class="single-project__support-widget-wrapper--phone-icon">
-                              <i class="fa-solid fa-phone"></i>
-                           </div>
-                           <a
-                              class="single-project__support-widget-wrapper--phone"
-                              href="tel:+(44)4-00-5410-555"
-                              >+(44)4-00-5410-555</a
-                           >
-                        </div>
-                     </div>
+							<!-- Support widget -->
+							<div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" class="single-project__support-widget-wrapper">
+								<div>
+									<h2>How can we help you</h2>
+									<p class="single-project__support-widget-wrapper--description">
+										Aliquam eros justo, posuere lviverrasi laoreematti ullamcorpposuere de Aliquam ther eros just
+									</p>
+									<div class="single-project__support-widget-wrapper--phone-icon">
+										<i class="fa-solid fa-phone"></i>
+									</div>
+									<a class="single-project__support-widget-wrapper--phone" href="tel:+(44)4-00-5410-555">+(44)4-00-5410-555</a>
+								</div>
+							</div>
 
-                     <!-- Files section -->
-                     <div
-                        data-aos="fade-left"
-                        data-aos-delay="300"
-                        data-aos-duration="1000"
-                        class="single-project__files-widget-wrapper">
-                        <div
-                           class="single-project__files-widget-wrapper--file-item">
-                           <h4>Information</h4>
-                           <i
-                              class="fa-solid fa-download single-project__files-widget-wrapper--file-item--download-icon"></i>
-                        </div>
-                        <div
-                           class="single-project__files-widget-wrapper--file-item">
-                           <h4>Terms & Conditions</h4>
-                           <i
-                              class="fa-solid fa-download single-project__files-widget-wrapper--file-item--download-icon"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <footer class="footer-main-wrapper mt-0">
-            <div class="container">
-               <!-- Footer heading -->
-               <div>
-                  <h1
-                     data-aos="fade-up"
-                     data-aos-delay="100"
-                     data-aos-duration="1000"
-                     class="my-30">
-                     Got A <span class="text-color">Project</span> To Do ?
-                  </h1>
-                  <a
-                     href="mailto:madbuz@yahoo.com"
-                     data-aos="fade-up"
-                     data-aos-delay="200"
-                     data-aos-duration="1000"
-                     class="footer-email position-relative">
-                     madbuz@yahoo.com
-                  </a>
-               </div>
+							<!-- Files section -->
+							<div data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" class="single-project__files-widget-wrapper">
+								<div class="single-project__files-widget-wrapper--file-item">
+									<h4>Information</h4>
+									<i class="fa-solid fa-download single-project__files-widget-wrapper--file-item--download-icon"></i>
+								</div>
+								<div class="single-project__files-widget-wrapper--file-item">
+									<h4>Terms & Conditions</h4>
+									<i class="fa-solid fa-download single-project__files-widget-wrapper--file-item--download-icon"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer-main-wrapper mt-0">
+				<div class="container">
+					<!-- Footer heading -->
+					<div>
+						<h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="my-30">Got A <span class="text-color">Project</span> To Do ?</h1>
+						<a href="mailto:madbuz@yahoo.com" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="footer-email position-relative">
+							madbuz@yahoo.com
+						</a>
+					</div>
 
-               <!-- Footer details -->
-               <div class="row footer-content-wrapper">
-                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                     <!-- Logo -->
-                     <div
-                        class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                        <img
-                           data-aos="fade-up"
-                           data-aos-delay="100"
-                           data-aos-duration="1000"
-                           src="./assets/images/home/footer-logo.png"
-                           alt="Logo" />
-                        <h3
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000"
-                           class="">
-                           Tikka
-                        </h3>
-                     </div>
-                     <p
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                        data-aos-duration="1000"
-                        class="gray-paragraph my-3">
-                        Lorem ipsum dolor amet, consectetur sell adipis elit
-                        phase nibh ellentes
-                     </p>
-                     <ul
-                        data-aos="fade-up"
-                        data-aos-delay="400"
-                        data-aos-duration="1000"
-                        class="d-flex footer-social-icons-wrapper gap-4 p-0">
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-facebook-f"></i
-                           ></a>
-                        </li>
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-x-twitter"></i
-                           ></a>
-                        </li>
-                        <li>
-                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                           <a href="#"
-                              ><i class="fa-brands fa-pinterest-p"></i
-                           ></a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-12 col-lg-3">
-                     <h3
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000">
-                        Useful Links
-                     </h3>
-                     <ul
-                        class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000"
-                           class="list-unstyled gray-paragraph">
-                           <a href="/index.html">Home</a>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="300"
-                           data-aos-duration="1000"
-                           class="list-unstyled gray-paragraph">
-                           <a href="/about.html">About Us</a>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="400"
-                           data-aos-duration="1000"
-                           class="list-unstyled gray-paragraph">
-                           <a href="/project.html">Projects</a>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="500"
-                           data-aos-duration="1000"
-                           class="list-unstyled gray-paragraph">
-                           <a href="/blog.html">Blog</a>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="600"
-                           data-aos-duration="1000"
-                           class="list-unstyled gray-paragraph">
-                           <a href="/contact.html">Contact</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                     <h3
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000">
-                        Latest News
-                     </h3>
-                     <ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000"
-                           class="d-flex footer-lst-news-list">
-                           <div>
-                              <img
-                                 src="./assets/images/home/latest-news-1.png"
-                                 alt="Blogs" />
-                           </div>
-                           <div>
-                              <div class="d-flex gap-2 align-items-center">
-                                 <i
-                                    class="fa-solid fa-calendar-days text-color"></i>
-                                 <p class="gray-paragraph">October 19, 2022</p>
-                              </div>
-                              <a
-                                 href="/single-blog.html"
-                                 class="gray-paragraph">
-                                 Market research helps businesses understand
-                              </a>
-                           </div>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="300"
-                           data-aos-duration="1000"
-                           class="d-flex footer-lst-news-list">
-                           <div>
-                              <img
-                                 src="./assets/images/home/latest-news-2.png"
-                                 alt="Blogs" />
-                           </div>
-                           <div>
-                              <div class="d-flex gap-2 align-items-center">
-                                 <i
-                                    class="fa-solid fa-calendar-days text-color"></i>
-                                 <p class="gray-paragraph">October 19, 2022</p>
-                              </div>
-                              <a
-                                 href="/single-blog.html"
-                                 class="gray-paragraph">
-                                 Market research helps businesses understand
-                              </a>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                     <h3
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000">
-                        Contact
-                     </h3>
-                     <ul
-                        class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="200"
-                           data-aos-duration="1000">
-                           <div class="align-items-center d-flex main-foo-ci">
-                              <i class="fa-solid fa-envelope text-color"></i>
-                              <a
-                                 href="mailto:debra.holt@example.com"
-                                 class="gray-paragraph"
-                                 >debra.holt@example.com</a
-                              >
-                           </div>
-                        </li>
-                        <li
-                           data-aos="fade-up"
-                           data-aos-delay="300"
-                           data-aos-duration="1000">
-                           <div class="align-items-baseline d-flex main-foo-ci">
-                              <i
-                                 class="fa-solid fa-location-dot text-color"></i>
-                              <p class="gray-paragraph">
-                                 3891 Ranchview Dr. Richardson, California 62639
-                              </p>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="footer-divider"></div>
-               <div
-                  class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
-                  <div>
-                     <p class="gray-paragraph">
-                        &copy; Copyright 2024 | All Rights Reserved.
-                     </p>
-                  </div>
-                  <div>
-                     <ul
-                        class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
-                        <li class="gray-paragraph list-unstyled gray-paragraph">
-                           <a href="/contact.html">Contact Us</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </footer>
-      </div>
+					<!-- Footer details -->
+					<div class="row footer-content-wrapper">
+						<div class="col-12 col-lg-3 pt-4 pt-lg-0">
+							<!-- Logo -->
+							<div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
+								<img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src="./assets/images/home/footer-logo.png" alt="Logo" />
+								<h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="">
+									Tikka
+								</h3>
+							</div>
+							<p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="gray-paragraph my-3">
+								Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh ellentes
+							</p>
+							<ul data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="d-flex footer-social-icons-wrapper gap-4 p-0">
+								<li>
+									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3">
+							<h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+								Useful Links
+							</h3>
+							<ul class="d-flex flex-column footer-useful-links m-0 mt-2 p-0">
+								<li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="list-unstyled gray-paragraph">
+									<a href="/index.html">Home</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="list-unstyled gray-paragraph">
+									<a href="/about.html">About Us</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="list-unstyled gray-paragraph">
+									<a href="/project.html">Projects</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="list-unstyled gray-paragraph">
+									<a href="/blog.html">Blog</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="list-unstyled gray-paragraph">
+									<a href="/contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3 pt-4 pt-lg-0">
+							<h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+								Latest News
+							</h3>
+							<ul class="m-0 p-0 d-flex flex-column gap-4 mt-2">
+								<li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="d-flex footer-lst-news-list">
+									<div>
+										<img src="./assets/images/home/latest-news-1.png" alt="Blogs" />
+									</div>
+									<div>
+										<div class="d-flex gap-2 align-items-center">
+											<i class="fa-solid fa-calendar-days text-color"></i>
+											<p class="gray-paragraph">October 19, 2022</p>
+										</div>
+										<a href="/single-blog.html" class="gray-paragraph">
+											Market research helps businesses understand
+										</a>
+									</div>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="d-flex footer-lst-news-list">
+									<div>
+										<img src="./assets/images/home/latest-news-2.png" alt="Blogs" />
+									</div>
+									<div>
+										<div class="d-flex gap-2 align-items-center">
+											<i class="fa-solid fa-calendar-days text-color"></i>
+											<p class="gray-paragraph">October 19, 2022</p>
+										</div>
+										<a href="/single-blog.html" class="gray-paragraph">
+											Market research helps businesses understand
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3 pt-4 pt-lg-0">
+							<h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+								Contact
+							</h3>
+							<ul class="d-flex flex-column footer-ci-wrapper m-0 mt-2 p-0">
+								<li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+									<div class="align-items-center d-flex main-foo-ci">
+										<i class="fa-solid fa-envelope text-color"></i>
+										<a href="mailto:debra.holt@example.com" class="gray-paragraph">debra.holt@example.com</a>
+									</div>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+									<div class="align-items-baseline d-flex main-foo-ci">
+										<i class="fa-solid fa-location-dot text-color"></i>
+										<p class="gray-paragraph">
+											3891 Ranchview Dr. Richardson, California 62639
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-divider"></div>
+					<div class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
+						<div>
+							<p class="gray-paragraph">
+								&copy; Copyright 2024 | All Rights Reserved.
+							</p>
+						</div>
+						<div>
+							<ul class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
+								<li class="gray-paragraph list-unstyled gray-paragraph">
+									<a href="/contact.html">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
-      <!-- Jquery v-3.7.1 -->
-      <script src="./assets/js/jquery/jquery-3.7.1.min.js"></script>
+		<!-- Jquery v-3.7.1 -->
+		<script src="./assets/js/jquery/jquery-3.7.1.min.js"></script>
 
-      <!-- Popper Js -->
-      <script src="./assets/js/popper/popper.min.js"></script>
+		<!-- Popper Js -->
+		<script src="./assets/js/popper/popper.min.js"></script>
 
-      <!-- Bootstrap Js -->
-      <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+		<!-- Bootstrap Js -->
+		<script src="./assets/js/bootstrap/bootstrap.min.js"></script>
 
-      <!-- Counter JS -->
-      <script src="./assets/js/plugins/counter.js"></script>
+		<!-- Counter JS -->
+		<script src="./assets/js/plugins/counter.js"></script>
 
-      <!-- Owl Carousel -->
-      <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+		<!-- Owl Carousel -->
+		<script src="./assets/js/plugins/owl.carousel.min.js"></script>
 
-      <!-- AOS Animation -->
-      <script src="./assets/js/plugins/aos.js"></script>
+		<!-- AOS Animation -->
+		<script src="./assets/js/plugins/aos.js"></script>
 
-      <!-- Custom Js -->
-      <script src="./assets/js/main.js"></script>
-   </body>
+		<!-- Custom Js -->
+		<script src="./assets/js/main.js"></script>
+	</body>
 </html>
