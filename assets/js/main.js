@@ -47,6 +47,7 @@ $(document).ready(function () {
          },
       },
    });
+
    // Gallery carousel
    $(".project-details-images-wrapper").owlCarousel({
       autoplay: true,
@@ -95,7 +96,7 @@ $(document).ready(function () {
       },
    });
 
-   // Customer feedback carousel
+   // Home 1 Customer feedback carousel
    const owl = $(".customers-feedback-carousel");
    owl.owlCarousel({
       autoPlay: true,
@@ -120,22 +121,28 @@ $(document).ready(function () {
       },
    });
 
-   // Owl prev slider
+   // Home 1 trigger prev slider
    $(".prev-customer-feedback").click(function () {
       owl.trigger("prev.owl.carousel");
    });
 
-   // Home 2 testimonial prev slider
-   $(".home2-prev-customer-feedback").click(function () {
-      home2Testimonial.trigger("prev.owl.carousel");
-   });
-
-   //   Owl next slider
+   //   Home 1 trigger next slider
    $(".next-customer-feedback").click(function () {
       owl.trigger("next.owl.carousel");
    });
 
-   // New show more & less
+   // Home 2 trigger prev slider
+   $(".home2-prev-customer-feedback").click(function () {
+      home2Testimonial.trigger("prev.owl.carousel");
+   });
+
+   // Home 2 trigger prev slider
+   $(".home2-next-customer-feedback").click(function () {
+      home2Testimonial.trigger("next.owl.carousel");
+   });
+   
+
+   // Projects show more & less
    $("#show__more--content").hide();
 
    $("#show__more").click(function () {
