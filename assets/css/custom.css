@@ -404,9 +404,8 @@ ul {
    white-space: nowrap;
 
    + label {
-      position: fixed;
-      top: calc(1rem * 1.5);
-      right: calc(1rem * 2);
+      position: absolute;
+      right: 10px;
       cursor: pointer;
       z-index: 2;
    }
@@ -417,7 +416,7 @@ ul {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 50px;
+   width: 40px;
    height: 50px;
    stroke-width: 6;
 }
@@ -435,7 +434,9 @@ ul {
    stroke: #ffffff;
    transform: translateX(-100%);
 }
-
+.mobile-navbar-menu-wrapper {
+   border-bottom: 1px solid #ffffff65;
+}
 .main-navigation {
    position: fixed;
    top: 0;
@@ -1914,6 +1915,25 @@ button.tags-pill {
    color: #fff;
    opacity: 0.3;
 }
+.home2-footer__ci-info {
+   font-size: 20px;
+   font-weight: 400;
+   font-family: "Alata";
+   line-height: 30px;
+}
+.home2-footer__ci-wrapper {
+   margin-top: -7px;
+}
+.home2-footer-description {
+   padding-top: 25px;
+   padding-bottom: 40px;
+   color: #ffff;
+}
+.home2-footer__ci-main-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
 .home2-footer-cf input,
 .home2-footer-cf textarea {
    width: 100%;
@@ -1929,22 +1949,29 @@ button.tags-pill {
 .home2-footer-cf textarea::placeholder {
    color: #ffffff;
 }
+.home2-footer-cf-btn {
+   border-radius: 20px;
+   background: transparent;
+   margin-top: 40px;
+   color: #fff;
+   font-size: 12px;
+}
+.home2-footer-cf-btn:hover .home2-footer-form-submit-btn-icon-wrapper {
+   transform: rotate(0deg);
+}
+.home2-footer-form-submit-btn-icon-wrapper {
+   transform: rotate(-45deg);
+   transition: 0.3s all;
+   font-size: 20px;
+}
+.home2-footer-cf-btn:hover {
+   color: var(--secondary);
+}
 .home2-footer-cf input:focus,
 .home2-footer-cf textarea:focus {
    outline: none;
 }
-.home2-footer-form-submit-btn-icon-wrapper i {
-   font-size: 20px;
-   color: #fff;
-   transform: rotate(-45deg);
-   transition: 0.3s all;
-}
-.home2-footer-form-submit-btn:hover
-   .home2-footer-form-submit-btn-icon-wrapper
-   i {
-   color: var(--secondary);
-   transform: rotate(0deg);
-}
+
 .home2-footer-form-submit-btn {
    margin-top: 40px;
 }
@@ -2154,5 +2181,22 @@ button.tags-pill {
    font-weight: 400;
    line-height: 40px;
    font-family: "Alata", sans-serif;
+   display: block;
+}
+
+.mobile-menu__dropdown-list {
+   position: absolute;
+   background: rebeccapurple;
+   top: 65px;
+   z-index: 2;
+   display: none;
+   transition: 0.5s all;
+}
+.dropdown-mobile-wrapper {
+   position: relative;
+   overflow: visible;
+}
+.dropdown-mobile-wrapper:hover,
+.mobile-menu__dropdown-list {
    display: block;
 }
