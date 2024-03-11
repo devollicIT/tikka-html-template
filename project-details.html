@@ -35,48 +35,39 @@
 	</head>
 	<body>
 		<!-- Mobile menu -->
-		<div class="ftco-section d-lg-none">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
-					<div class="container">
-						<a class="navbar-brand" href="/index.html"><img src="./assets/images/home/tikka-logo.png" alt="" ></a>
-						<button class="navbar-toggler mobile-hamburgar-icon" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="fa fa-bars"></span> Menu
-						</button>
-						<div class="collapse navbar-collapse" id="ftco-nav">
-							<ul class="navbar-nav ml-auto mt-3">
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle drop-item" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home <i class="fa-solid fa-plus mobile-drop-icon"></i></a>
-									<div class="dropdown-menu p-4" aria-labelledby="dropdown04">
-										<div class="row">
-											<div class="col-md-3">
-												<a class="dropdown-item" href="/index.html">Home 1</a>
-												<a class="dropdown-item" href="/index-2.html">Home 2</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="nav-item"><a href="/about.html" class="nav-link drop-item">About</a></li>
-								<li class="nav-item"><a href="/project.html" class="nav-link drop-item">Projects</a></li>
-								<li class="nav-item"><a href="/blog.html" class="nav-link drop-item">Blog</a></li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle drop-item" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i class="fa-solid fa-plus mobile-drop-icon"></i></a>
-									<div class="dropdown-menu p-4" aria-labelledby="dropdown05">
-										<div class="row">
-											<div class="col-md-3">
-												<a class="dropdown-item" href="/single-blog.html">Blog Details</a>
-												<a class="dropdown-item" href="/project-details.html">Project Details</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="nav-item"><a href="/contact.html" class="nav-link drop-item">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+		<nav class="d-lg-none mobile-nav">
+			<div class="navbar">
+				<a href="/index.html"><img src="./assets/images/home/tikka-logo.png" alt="Logo"></a>
+				<i class="fa-solid fa-bars tkk-bar"></i>
+			  <div class="nav-links">
+				<div class="sidebar-logo">
+				  <i class="fa-solid fa-xmark tkk-x-bar"></i>
+				</div>
+				<ul class="links">
+				  <li>
+					<a href="#">Home</a>
+					<i class="fa-solid fa-angle-down tkk-chevron-down"></i>
+					<ul class="htmlCss-sub-menu sub-menu">
+					  <li><a href="/index.html">Home 1</a></li>
+					  <li><a href="/index-2.html">Home 2</a></li>
+					</ul>
+				  </li>
+				  <li><a href="/about.html">About Us</a></li>
+				  <li><a href="/project.html">Projects</a></li>
+				  <li><a href="/blog.html">Blog</a></li>
+				  <li>
+					<a href="#">Pages</a>
+					<i class="fa-solid fa-angle-down tkk-chevron-page-down"></i>
+					<ul class="js-sub-menu sub-menu">
+					  <li><a href="/single-blog.html">Blog Details</a></li>
+					  <li><a href="/project-details.html">Project Details</a></li>
+					</ul>
+				  </li>
+				  <li><a href="/contact.html">Contact</a></li>
+				</ul>
+			  </div>
 			</div>
-		</div>
+		  </nav>
 
 		<div class="page-main-wrapper">
 			<!-- Start: Hero section -->

@@ -155,6 +155,9 @@
    .global-page-banner {
       padding: 40px 0;
    }
+   .global-page-banner-wrapper{
+      padding: 0;
+   }
 }
 
 /* Mobile screen */
