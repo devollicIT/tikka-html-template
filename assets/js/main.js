@@ -146,13 +146,13 @@ $(document).ready(function () {
    $("#show__more--content").hide();
 
    $("#show__more").click(function () {
-      $("#show__more--content").show(450);
+      $("#show__more--content").show(600);
       $("#show__less").show();
       $("#show__more").hide();
    });
 
    $("#show__less").click(function () {
-      $("#show__more--content").hide(450);
+      $("#show__more--content").hide(600);
       $("#show__more").show();
       $(this).hide();
    });
@@ -175,15 +175,6 @@ $(document).ready(function () {
   let navbar = document.querySelector(".navbar");
   let searchBox = document.querySelector(".search-box .bx-search");
   let searchBoxCancel = document.querySelector(".search-box .bx-x");
-  
-//   searchBox.addEventListener("click", ()=>{
-//     navbar.classList.toggle("showInput");
-//     if(navbar.classList.contains("showInput")){
-//       searchBox.classList.replace("bx-search" ,"tkk-x-bar");
-//     }else {
-//       searchBox.classList.replace("tkk-x-bar" ,"bx-search");
-//     }
-//   });
   
   // sidebar open close js code
   let navLinks = document.querySelector(".nav-links");
@@ -208,6 +199,7 @@ $(document).ready(function () {
    navLinks.classList.toggle("show3");
   }
   
+  $
 
    // Init AOS
    AOS.init();
