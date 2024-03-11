@@ -384,9 +384,7 @@ ul {
 .navbar-toggler-icon {
    color: #ffffff;
 }
-.dropdown-menu {
-   top: 20px !important;
-}
+
 .dropdown-toggle::after {
    display: none;
 }
@@ -2187,16 +2185,24 @@ button.tags-pill {
    font-family: "Alata", sans-serif;
    display: block;
 }
-
-.mobile-menu__dropdown-list {
-   position: absolute;
-   background: rebeccapurple;
-   top: 65px;
-   z-index: 2;
-   display: none;
-   transition: 0.5s all;
+.mobile-hamburgar-icon{
+   color: #fff;
 }
-.dropdown-mobile-wrapper {
-   position: relative;
-   overflow: visible;
+.mobile-hamburgar-icon:focus{
+   box-shadow: none;
+}
+.drop-item{
+   color: #fff;
+}
+.drop-item:focus{
+   color: #fff;
+}
+.drop-item:hover{
+   color: #fff;
+}
+.dropdown-item{
+   color: var(--secondary);
+}
+.navbar-nav .dropdown-menu{
+   position: absolute;
 }
