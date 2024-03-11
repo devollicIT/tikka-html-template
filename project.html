@@ -34,50 +34,49 @@
 		<link rel="stylesheet" href="./assets/css/responsive.css" >
 	</head>
 	<body>
-		<!-- Mobile navigation -->
-		<nav class="navbar p-3 d-lg-none navbar-expand-lg navbar-light mobile-menu">
-			<a class="navbar-brand" href="/index.html">
-				<!-- Logo -->
-				<div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-					<img src="./assets/images/home/logo.svg" alt="Logo" >
-					<h3 class="">Tikka</h3>
-				</div>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<!-- <span class="navbar-toggler-icon"></span> -->
-				<i class="fa-solid fa-bars navbar-toggler-icon"></i>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="d-flex flex-column gap-2">
-					<li class="dropdown">
-						<a class="nav-link dropdown-toggle mobile-dropdown-toggler" id="mobile-expand-dropdown" data-toggle="dropdown" href="#"> Home <i class="fa-solid fa-angle-down"></i></a>
-						<div class="dropdown-menu" aria-labelledby="mobile-expand-dropdown">
-							<a class="dropdown-item" href="/index.html">Home version 1</a>
-							<a class="dropdown-item" href="/index-2.html">Home version 2</a>
+		<!-- Mobile menu -->
+		<div class="ftco-section d-lg-none">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+					<div class="container">
+						<a class="navbar-brand" href="/index.html"><img src="./assets/images/home/tikka-logo.png" alt="" ></a>
+						<button class="navbar-toggler mobile-hamburgar-icon" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="fa fa-bars"></span> Menu
+						</button>
+						<div class="collapse navbar-collapse" id="ftco-nav">
+							<ul class="navbar-nav ml-auto mt-3">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle drop-item" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home <i class="fa-solid fa-plus mobile-drop-icon"></i></a>
+									<div class="dropdown-menu p-4" aria-labelledby="dropdown04">
+										<div class="row">
+											<div class="col-md-3">
+												<a class="dropdown-item" href="/index.html">Home 1</a>
+												<a class="dropdown-item" href="/index-2.html">Home 2</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item"><a href="/about.html" class="nav-link drop-item">About</a></li>
+								<li class="nav-item"><a href="/project.html" class="nav-link drop-item">Projects</a></li>
+								<li class="nav-item"><a href="/blog.html" class="nav-link drop-item">Blog</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle drop-item" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i class="fa-solid fa-plus mobile-drop-icon"></i></a>
+									<div class="dropdown-menu p-4" aria-labelledby="dropdown05">
+										<div class="row">
+											<div class="col-md-3">
+												<a class="dropdown-item" href="/single-blog.html">Blog Details</a>
+												<a class="dropdown-item" href="/project-details.html">Project Details</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item"><a href="/contact.html" class="nav-link drop-item">Contact</a></li>
+							</ul>
 						</div>
-					</li>
-					<li>
-						<a href="/about.html">About Us</a>
-					</li>
-					<li>
-						<a href="#">Services</a>
-					</li>
-					<li>
-						<a href="#">Projects</a>
-					</li>
-					<li>
-						<a href="/blog.html">Blog</a>
-					</li>
-					<li>
-						<a href="#">Page</a>
-					</li>
-					<li>
-						<a href="/contact.html">Contact</a>
-					</li>
-				</ul>
+					</div>
+				</nav>
 			</div>
-		</nav>
+		</div>
 
 		<div class="page-main-wrapper">
 			<!-- Start: Hero section -->

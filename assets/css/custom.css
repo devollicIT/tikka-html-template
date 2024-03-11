@@ -2206,3 +2206,7 @@ button.tags-pill {
 .navbar-nav .dropdown-menu{
    position: absolute;
 }
+i.fa-solid.fa-plus.mobile-drop-icon {
+   margin-left: 2px;
+   font-size: 13px;
+}
