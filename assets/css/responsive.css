@@ -159,7 +159,11 @@
       padding: 0;
    }
 }
-
+@media screen and (max-width:768px) {
+   .highlightedWord{
+      position: inherit;
+   }
+}
 /* Mobile screen */
 @media screen and (max-width: 576px) {
    .company-logos {
@@ -209,4 +213,5 @@
       align-items: center;
       justify-content: center;
    }
+   
 }

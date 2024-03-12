@@ -461,6 +461,7 @@ ul {
    position: absolute;
    left: 50%;
    transform: translate(-50%, 0);
+   background-repeat: no-repeat;
 }
 .highlightedWord::before {
    content: url(../images/home/home-banner-star-1.svg);
