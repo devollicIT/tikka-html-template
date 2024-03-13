@@ -499,10 +499,6 @@ ul {
    align-items: center;
    gap: 15px;
 }
-.banner-right-image-inner-wrapper {
-   position: absolute;
-   right: 0;
-}
 .banner-play-button p {
    font-size: 20px;
 }
@@ -934,6 +930,14 @@ ul {
 .footer-lst-news-list {
    gap: 20px;
 }
+.footer-title-gap-wrapper {
+   margin-top: 16px;
+}
+
+.footer-title-latest-news-gap-wrapper {
+   margin-top: 26px;
+}
+
 /* 
   *************************
   * 20. Elements Page
@@ -2349,3 +2353,79 @@ i.fa-solid.fa-plus.mobile-drop-icon {
    padding-top: 15px;
    display: inline-block;
 }
+.home1-blog-card-title {
+   font-family: Alata;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 40px;
+   margin: 10px 0;
+   display: inline-block;
+}
+
+/* Video popup */
+#fade {
+   display: none;
+   position: fixed;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   z-index: 1001;
+   -moz-opacity: 0.8;
+   opacity: .80;
+   filter: alpha(opacity=80);
+ }
+ 
+ #light {
+   display: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   max-width: 600px;
+   max-height: 360px;
+   margin-left: -300px;
+   margin-top: -180px;
+   border: 2px solid #FFF;
+   background: #FFF;
+   z-index: 1002;
+   overflow: visible;
+ }
+ 
+ #boxclose {
+   float: right;
+   cursor: pointer;
+   color: #fff;
+   border: 1px solid #AEAEAE;
+   border-radius: 3px;
+   background: #222222;
+   font-size: 31px;
+   font-weight: bold;
+   display: inline-block;
+   line-height: 0px;
+   padding: 11px 3px;
+   position: absolute;
+   right: 2px;
+   top: 2px;
+   z-index: 1002;
+   opacity: 0.9;
+ }
+ 
+ .boxclose:before {
+   content: "×";
+ }
+ 
+ #fade:hover ~ #boxclose {
+   display:none;
+ }
+ 
+ .test:hover ~ .test2 {
+   display: none;
+ }
+
+
+
+
+
+

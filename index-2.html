@@ -27,6 +27,9 @@
 		<!-- AOS Animation -->
 		<link rel="stylesheet" href="./assets/css/aos.css" >
 
+		<!-- Mobile menu stylesheet -->
+        <link rel="stylesheet" href="./assets/css/mobile-menu.css">
+
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="./assets/css/custom.css" >
 
@@ -35,39 +38,63 @@
 	</head>
 	<body>
 		<!-- Mobile menu -->
-		<nav class="d-lg-none mobile-nav">
-			<div class="navbar">
-				<a href="/index.html"><img src="./assets/images/home/tikka-logo.png" alt="Logo"></a>
-				<i class="fa-solid fa-bars tkk-bar"></i>
-			  <div class="nav-links">
-				<div class="sidebar-logo">
-				  <i class="fa-solid fa-xmark tkk-x-bar"></i>
-				</div>
-				<ul class="links">
-				  <li>
-					<a href="#">Home</a>
-					<i class="fa-solid fa-angle-down tkk-chevron-down"></i>
-					<ul class="htmlCss-sub-menu sub-menu">
-					  <li><a href="/index.html">Home 1</a></li>
-					  <li><a href="/index-2.html">Home 2</a></li>
-					</ul>
-				  </li>
-				  <li><a href="/about.html">About Us</a></li>
-				  <li><a href="/project.html">Projects</a></li>
-				  <li><a href="/blog.html">Blog</a></li>
-				  <li>
-					<a href="#">Pages</a>
-					<i class="fa-solid fa-angle-down tkk-chevron-page-down"></i>
-					<ul class="js-sub-menu sub-menu">
-					  <li><a href="/single-blog.html">Blog Details</a></li>
-					  <li><a href="/project-details.html">Project Details</a></li>
-					</ul>
-				  </li>
-				  <li><a href="/contact.html">Contact</a></li>
-				</ul>
-			  </div>
-			</div>
-		  </nav>
+		<nav id="mobile-nav" class="d-lg-none">
+                <ul class="right-nav">
+                    <li>
+                      <img src="./assets/images/home/tikka-logo.png" alt="Logo">
+                    </li>
+                  </ul>
+                <label for="toggleMainNav" class="hamburger-menu"></label>
+                <input type="checkbox" id="toggleMainNav" class="check-toggle" />
+                <label for="toggleMainNav" class="menu-overlay"></label>
+                <div class="main-nav-holder">
+                  <ul class="main-nav">
+                    <li class="close-nav">
+                      <label for="toggleMainNav"></label>
+                    </li>
+                    <li class="has-submenu">
+                        <input type="checkbox" id="labelMen" class="check-toggle" />
+                        <label for="labelMen">Home</label>
+                
+                        <i class="menu-caret"></i>
+                        <ul class="submenu">
+                          <li>
+                            <a href="/index.html">Home 1</a>
+                          </li>
+                          <li>
+                            <a href="/index-2.html">Home 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                    <li>
+                      <a href="/about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/project.html">Projects</a>
+                    </li>
+                    <li>
+                      <a href="/blog.html">Blog</a>
+                    </li>
+                    <li class="has-submenu">
+                      <input type="checkbox" id="labelWomen" class="check-toggle" />
+                      <label for="labelWomen">Pages</label>
+              
+                      <i class="menu-caret"></i>
+                      <ul class="submenu">
+                        <li>
+                          <a href="/single-blog.html">Blog Details</a>
+                        </li>
+                        <li>
+                          <a href="/project-details.html">Project Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="/contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
 		<div class="page-main-wrapper">
 			<!-- Navigation start -->
 			<div class="navMainWrapper rounded-0 d-none d-lg-block mt-0 home2-navigation-bar">
@@ -79,24 +106,27 @@
 						<!-- Menu links -->
 						<div class="d-flex align-items-center justify-content-end menuWrapper">
 							<nav class="navbarLinksWrapper d-flex align-items-center">
-								<div class="dropdown">
-									<a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-									<div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="dropdownMenuButton">
-										<a class="dropdown-item" href="/index.html">Home 1</a>
-										<a class="dropdown-item" href="/index-2.html">Home 2</a>
-									</div>
-								</div>
-								<a href="/about.html">About Us</a>
-								<a href="/project.html">Projects</a>
-								<a href="/blog.html">Blog</a>
-								<div class="dropdown">
-									<a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
-									<div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="pagesDropdownBtn">
-										<a class="dropdown-item" href="/single-blog.html">Blog Details</a>
-										<a class="dropdown-item" href="/project-details.html">Project Details</a>
-									</div>
-								</div>
-								<a href="/contact.html">Contact</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="/index.html">Home 1</a>
+                                        <a class="dropdown-item" href="/index-2.html">Home 2</a>
+                                    </div>
+                                </div>
+                                <a href="/about.html">About Us</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" id="ProjectDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/project.html">Projects <i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="ProjectDropdownBtn">
+                                        <a class="dropdown-item" href="/project-details.html">Project Details</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" id="pagesDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/blog.html">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="pagesDropdownBtn">
+                                        <a class="dropdown-item" href="/single-blog.html">Blog Details</a>
+                                    </div>
+                                </div>
+                                <a href="/contact.html">Contact</a>
 								<div>
 									<a href="/contact.html" class="button fillBtn">
 										<div class="d-flex align-items-center justify-content-center m-0 btn-inner-wrapper">
@@ -107,7 +137,8 @@
 										</div>
 									</a>
 								</div>
-							</nav>
+                            </nav>
+							
 						</div>
 					</div>
 				</div>

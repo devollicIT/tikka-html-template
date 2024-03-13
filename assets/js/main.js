@@ -169,37 +169,37 @@ $(document).ready(function () {
 			$this.find('> a').attr('aria-expanded', false);
 			$this.find('.dropdown-menu').removeClass('show');
 	});
+  
+   $('nav input[type="checkbox"]').on('change', function() {
+     $('.main-nav input[type="checkbox"]').not(this).prop('checked', false);
+     $('.right-nav input[type="checkbox"]').not(this).prop('checked', false);
+   });
 
-
-  // search-box open close js code
-  let navbar = document.querySelector(".navbar");
-  let searchBox = document.querySelector(".search-box .bx-search");
-  let searchBoxCancel = document.querySelector(".search-box .bx-x");
-  
-  // sidebar open close js code
-  let navLinks = document.querySelector(".nav-links");
-  let menuOpenBtn = document.querySelector(".navbar .tkk-bar");
-  let menuCloseBtn = document.querySelector(".nav-links .tkk-x-bar");
-  menuOpenBtn.onclick = function() {
-  navLinks.style.right = "0";
-  }
-  menuCloseBtn.onclick = function() {
-  navLinks.style.right = "-100%";
-  }
-  
-  
-  // sidebar submenu open close js code
-  let htmlcssArrow = document.querySelector(".tkk-chevron-down");
-  htmlcssArrow.onclick = function() {
-   navLinks.classList.toggle("show1");
-  }
-
-  let jsArrow = document.querySelector(".tkk-chevron-page-down");
-  jsArrow.onclick = function() {
-   navLinks.classList.toggle("show3");
-  }
-  
-  $
+   // Video popup
+   window.document.onkeydown = function(e) {
+      if (!e) {
+        e = event;
+      }
+      if (e.keyCode == 27) {
+        lightbox_close();
+      }
+    }
+    
+    function lightbox_open() {
+      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+      window.scrollTo(0, 0);
+      document.getElementById('light').style.display = 'block';
+      document.getElementById('fade').style.display = 'block';
+      lightBoxVideo.play();
+    }
+    
+    function lightbox_close() {
+      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+      document.getElementById('light').style.display = 'none';
+      document.getElementById('fade').style.display = 'none';
+      lightBoxVideo.pause();
+    }
+ 
 
    // Init AOS
    AOS.init();
