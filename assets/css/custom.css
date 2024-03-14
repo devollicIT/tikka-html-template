@@ -2135,7 +2135,7 @@ i.fa-solid.fa-plus.mobile-drop-icon {
    width: 200px;
    background: var(--sectionBg);
    border: 1px solid #c8f31d41;
-   top: 134% !important;
+   top: 118% !important;
 }
  .navbar .links li .sub-menu li{
    padding: 0 22px;
@@ -2366,69 +2366,41 @@ i.fa-solid.fa-plus.mobile-drop-icon {
    display: inline-block;
 }
 
-/* Video popup */
-#fade {
-   display: none;
-   position: fixed;
-   top: 0%;
-   left: 0%;
+ /* Video popup */
+/* This adds padding from top and bottom */
+.custom-popup-class .mfp-container {
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+ /* This adds max-width to popup content */
+ .custom-popup-class .mfp-content {
+   width: 100%;
+   max-width: 700px;
+ }
+ 
+ /* This makes "#popup-with-something" scale down proportionally */
+ #popup-with-something {
+   width: 100%;
+   height: 0;
+   overflow: hidden;
+   /* This is scale ratio */
+   padding-top: 56.25%;
+ }
+ /* This shifts close button outside of the container */
+ #popup-with-something .mfp-close {
+   top: -44px;
+   color: #FFF;
+   text-align: right;
+   right: 1px;
+ }
+ /* This is an element itself */
+ .some-element {
+   background: #EBE8E8;
+   position: absolute;
+   top: -3px;
+   left: 0;
    width: 100%;
    height: 100%;
-   background-color: black;
-   z-index: 1001;
-   -moz-opacity: 0.8;
-   opacity: .80;
-   filter: alpha(opacity=80);
+   box-shadow: 0 0 8px rgba(0, 0, 0, .6);
  }
  
- #light {
-   display: none;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   max-width: 600px;
-   max-height: 360px;
-   margin-left: -300px;
-   margin-top: -180px;
-   border: 2px solid #FFF;
-   background: #FFF;
-   z-index: 1002;
-   overflow: visible;
- }
- 
- #boxclose {
-   float: right;
-   cursor: pointer;
-   color: #fff;
-   border: 1px solid #AEAEAE;
-   border-radius: 3px;
-   background: #222222;
-   font-size: 31px;
-   font-weight: bold;
-   display: inline-block;
-   line-height: 0px;
-   padding: 11px 3px;
-   position: absolute;
-   right: 2px;
-   top: 2px;
-   z-index: 1002;
-   opacity: 0.9;
- }
- 
- .boxclose:before {
-   content: "×";
- }
- 
- #fade:hover ~ #boxclose {
-   display:none;
- }
- 
- .test:hover ~ .test2 {
-   display: none;
- }
-
-
-
-
-
-

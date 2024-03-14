@@ -1,6 +1,5 @@
 $(document).ready(function () {
-   // Counter up
-   $("#counter-up").countMe(40, 2);
+    
 
    // Logo carousel
    $(".logo_carousel").owlCarousel({
@@ -175,32 +174,39 @@ $(document).ready(function () {
      $('.right-nav input[type="checkbox"]').not(this).prop('checked', false);
    });
 
-   // Video popup
-   window.document.onkeydown = function(e) {
-      if (!e) {
-        e = event;
-      }
-      if (e.keyCode == 27) {
-        lightbox_close();
-      }
-    }
-    
-    function lightbox_open() {
-      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
-      window.scrollTo(0, 0);
-      document.getElementById('light').style.display = 'block';
-      document.getElementById('fade').style.display = 'block';
-      lightBoxVideo.play();
-    }
-    
-    function lightbox_close() {
-      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
-      document.getElementById('light').style.display = 'none';
-      document.getElementById('fade').style.display = 'none';
-      lightBoxVideo.pause();
-    }
- 
-
    // Init AOS
    AOS.init();
+ 
+   //  Counter 1
+   const counterUp = window.counterUp.default
+   const callback = entries => {
+      entries.forEach( entry => {
+         const el = entry.target
+         if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
+            counterUp( el, {
+               duration: 2000,
+               delay: 10,
+            } )
+            el.classList.add( 'is-visible' )
+         }
+      } )
+   }
+   const IO = new IntersectionObserver( callback, { threshold: 1 } )
+   const el = document.querySelector('.counterup' )
+   IO.observe( el )
+   const el2 = document.querySelector('.counterup2' )
+   IO.observe( el2 )
+   const el3 = document.querySelector('.counterup3' )
+   IO.observe( el3 )
+   const el4 = document.querySelector('.counterup4' )
+   IO.observe( el4 )
+
+   // Video popup
+   $('.open-popup-link').magnificPopup({
+      type:'inline',
+      midClick: true,
+      mainClass: 'custom-popup-class'
+    });
+
+  
 });

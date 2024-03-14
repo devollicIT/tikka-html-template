@@ -27,6 +27,9 @@
         <!-- AOS Animation -->
         <link rel="stylesheet" href="./assets/css/aos.css" >
 
+        <!-- Magnific Css -->
+        <link rel="stylesheet" href="./assets/css/magnific.min.css">
+
         <!-- Mobile menu stylesheet -->
         <link rel="stylesheet" href="./assets/css/mobile-menu.css">
 
@@ -70,26 +73,35 @@
                     <li>
                       <a href="/about.html">About Us</a>
                     </li>
-                    <li>
-                      <a href="/project.html">Projects</a>
-                    </li>
-                    <li>
-                      <a href="/blog.html">Blog</a>
-                    </li>
                     <li class="has-submenu">
-                      <input type="checkbox" id="labelWomen" class="check-toggle">
-                      <label for="labelWomen">Pages</label>
-              
-                      <i class="menu-caret"></i>
-                      <ul class="submenu">
-                        <li>
-                          <a href="/single-blog.html">Blog Details</a>
-                        </li>
-                        <li>
-                          <a href="/project-details.html">Project Details</a>
-                        </li>
-                      </ul>
-                    </li>
+                        <input type="checkbox" id="labelproject" class="check-toggle">
+                        <label for="labelproject">Projects</label>
+                
+                        <i class="menu-caret"></i>
+                        <ul class="submenu">
+                          <li>
+                            <a href="/project.html">Projects</a>
+                          </li>
+                          <li>
+                            <a href="/project-details.html">Project Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                    <li>
+                    <li class="has-submenu">
+                        <input type="checkbox" id="labelBlog" class="check-toggle">
+                        <label for="labelBlog">Blog</label>
+                
+                        <i class="menu-caret"></i>
+                        <ul class="submenu">
+                          <li>
+                            <a href="/blog.html">Blog</a>
+                          </li>
+                          <li>
+                            <a href="/single-blog.html">Blog Details</a>
+                          </li>
+                        </ul>
+                      </li>
                     <li>
                       <a href="/contact.html">Contact Us</a>
                     </li>
@@ -187,19 +199,15 @@
                                         </p>
                                     </div>
                                 </a>
-                                <a target="_blank" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" href="https://youtu.be/D0UnqGm_miA?feature=shared" class="banner-play-button mt-4 mt-md-0">
+                                <a target="_blank" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" href="#popup-with-something" class="open-popup-link banner-play-button mt-4 mt-md-0">
                                     <img src="./assets/images/home/banner-play-icon.svg" alt="Banner Play Icon" >
                                     <h4>Watch Now</h4>
                                 </a>
 
                                 <!-- Video popup -->
-                                <div id="light">
-                                    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                    <video id="VisaChipCardVideo" width="600" controls>
-                                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                      </video>
+                                <div id="popup-with-something" class="mfp-hide">
+                                    <div class="some-element"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/D0UnqGm_miA?si=hJ-sjK_-D_7mO120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                                   </div>
-                                  <div id="fade" onClick="lightbox_close();"></div>
                             </div>
                         </div>
 
@@ -224,14 +232,14 @@
                     <div class="row g-3 g-lg-0">
                         <div class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0">
                             <div data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000" class="counter-item p-2 p-lg-0 text-center">
-                                <h1><span>200</span>+</h1>
+                                <h1><span class="counterup">200</span>+</h1>
                                 <p class="white-paragraph counter-title">Team member</p>
                             </div>
                         </div>
 
                         <div class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0">
                             <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000" class="counter-item p-2 p-lg-0 text-center">
-                                <h1>20+</h1>
+                                <h1><span class="counterup2">20</span>+</h1>
                                 <p class="white-paragraph counter-title">
                                     Winning award
                                 </p>
@@ -239,7 +247,7 @@
                         </div>
                         <div class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0">
                             <div data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000" class="counter-item p-2 p-lg-0 text-center">
-                                <h1>10k+</h1>
+                                <h1><span class="counterup3">10</span>k+</h1>
                                 <p class="white-paragraph counter-title">
                                     Complete project
                                 </p>
@@ -247,7 +255,7 @@
                         </div>
                         <div class="col-6 col-lg-3 d-flex flex-column justify-content-center m-0">
                             <div data-aos="fade-in" data-aos-delay="400" data-aos-duration="1000" class="text-center p-2 p-lg-0 counter-item-last">
-                                <h1>900+</h1>
+                                <h1><span class="counterup4">900</span>+</h1>
                                 <p class="white-paragraph counter-title">
                                     Client review
                                 </p>
@@ -916,16 +924,16 @@
                             </p>
                             <ul data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="d-flex footer-social-icons-wrapper gap-4 p-0">
                                 <li>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    <a href="https://pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -1048,6 +1056,9 @@
 
         <!-- AOS Animation -->
         <script src="./assets/js/plugins/aos.js"></script>
+
+        <!-- Magnific Js -->
+        <script src="./assets/js/plugins/magnific.min.js"></script>
 
         <!-- Custom Js -->
         <script src="./assets/js/main.js"></script>
