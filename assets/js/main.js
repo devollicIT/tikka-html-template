@@ -200,13 +200,4 @@ $(document).ready(function () {
    IO.observe( el3 )
    const el4 = document.querySelector('.counterup4' )
    IO.observe( el4 )
-
-   // Video popup
-   $('.open-popup-link').magnificPopup({
-      type:'inline',
-      midClick: true,
-      mainClass: 'custom-popup-class'
-    });
-
-  
 });
