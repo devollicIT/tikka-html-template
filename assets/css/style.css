@@ -2477,3 +2477,7 @@ img {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+.b-right-radius {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
