@@ -1,431 +1,696 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" >
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-		<title>Contact - Tikka Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Tikka Portfolio</title>
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" >
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
 
-		<!-- Bootstrap 5 CSS -->
-		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 
-		<!-- Fonts: Montserrat & Alata -->
-		<link rel="stylesheet" href="./assets/fonts/fonts.css" >
+    <!-- Fonts: Montserrat & Alata -->
+    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
 
-		<!-- Font Awesome v-6.5.1 -->
-		<link rel="stylesheet" href="./assets/fontawesome-6.5.1/all.min.css" >
-		<link rel="stylesheet" href="./assets/fontawesome-6.5.1/fontawesome.min.css" >
+    <!-- Font Awesome v-6.5.1 -->
+    <link rel="stylesheet" href="./assets/fontawesome-6.5.1/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-6.5.1/fontawesome.min.css"
+    />
 
-		<!-- Owl carousel v-2.3.4 basic stylesheet -->
-		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" >
+    <!-- Owl carousel v-2.3.4 basic stylesheet -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
 
-		<!-- Owl carousel v-2.3.4 theme stylesheet -->
-		<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" >
+    <!-- Owl carousel v-2.3.4 theme stylesheet -->
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
 
-		<!-- AOS Animation -->
-		<link rel="stylesheet" href="./assets/css/aos.css" >
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="./assets/css/aos.css" />
 
-		<!-- Mobile menu stylesheet -->
-        <link rel="stylesheet" href="./assets/css/mobile-menu.css">
+    <!-- Mobile menu stylesheet -->
+    <link rel="stylesheet" href="./assets/css/mobile-menu.css" />
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./assets/css/custom.css" >
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
 
-		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="./assets/css/responsive.css" >
-	</head>
-	 <body id="page-top">
-		<!-- Mobile menu -->
-		<nav id="mobile-nav" class="d-lg-none">
-                <ul class="right-nav">
-                    <li>
-                      <img src="./assets/images/home/tikka-logo.png" alt="Logo">
-                    </li>
-                  </ul>
-                <label for="toggleMainNav" class="hamburger-menu"></label>
-                <input type="checkbox" id="toggleMainNav" class="check-toggle" />
-                <label for="toggleMainNav" class="menu-overlay"></label>
-                <div class="main-nav-holder">
-                  <ul class="main-nav">
-                    <li class="close-nav">
-                      <label for="toggleMainNav"></label>
-                    </li>
-                    <li class="has-submenu">
-                        <input type="checkbox" id="labelMen" class="check-toggle">
-                        <label for="labelMen">Home</label>
-                
-                        <i class="menu-caret"></i>
-                        <ul class="submenu">
-                          <li>
-                            <a href="./index.html">Home 1</a>
-                          </li>
-                          <li>
-                            <a href="./index-2.html">Home 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    <li>
-                      <a href="./about.html">About Us</a>
-                    </li>
-                    <li class="has-submenu">
-                        <input type="checkbox" id="labelproject" class="check-toggle">
-                        <label for="labelproject">Projects</label>
-                
-                        <i class="menu-caret"></i>
-                        <ul class="submenu">
-                          <li>
-                            <a href="./project.html">Projects</a>
-                          </li>
-                          <li>
-                            <a href="./project-details.html">Project Details</a>
-                          </li>
-                        </ul>
-                      </li>
-                    <li>
-                    <li class="has-submenu">
-                        <input type="checkbox" id="labelBlog" class="check-toggle">
-                        <label for="labelBlog">Blog</label>
-                
-                        <i class="menu-caret"></i>
-                        <ul class="submenu">
-                          <li>
-                            <a href="./blog.html">Blog</a>
-                          </li>
-                          <li>
-                            <a href="./single-blog.html">Blog Details</a>
-                          </li>
-                        </ul>
-                      </li>
-                    <li>
-                      <a href="./contact.html">Contact Us</a>
-                    </li>
-                  </ul>
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body id="page-top">
+    <!-- Mobile menu -->
+    <nav id="mobile-nav" class="d-lg-none">
+      <ul class="right-nav">
+        <li>
+          <img src="./assets/images/home/tikka-logo.png" alt="Logo" />
+        </li>
+      </ul>
+      <label for="toggleMainNav" class="hamburger-menu"></label>
+      <input type="checkbox" id="toggleMainNav" class="check-toggle" />
+      <label for="toggleMainNav" class="menu-overlay"></label>
+      <div class="main-nav-holder">
+        <ul class="main-nav">
+          <li class="close-nav">
+            <label for="toggleMainNav"></label>
+          </li>
+          <li class="has-submenu">
+            <input type="checkbox" id="labelMen" class="check-toggle" />
+            <label for="labelMen">Home</label>
+
+            <i class="menu-caret"></i>
+            <ul class="submenu">
+              <li>
+                <a href="./index.html">Home 1</a>
+              </li>
+              <li>
+                <a href="./index-2.html">Home 2</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./about.html">About Us</a>
+          </li>
+          <li class="has-submenu">
+            <input type="checkbox" id="labelproject" class="check-toggle" />
+            <label for="labelproject">Projects</label>
+
+            <i class="menu-caret"></i>
+            <ul class="submenu">
+              <li>
+                <a href="./project.html">Projects</a>
+              </li>
+              <li>
+                <a href="./project-details.html">Project Details</a>
+              </li>
+            </ul>
+          </li>
+          <li></li>
+          <li class="has-submenu">
+            <input type="checkbox" id="labelBlog" class="check-toggle" />
+            <label for="labelBlog">Blog</label>
+
+            <i class="menu-caret"></i>
+            <ul class="submenu">
+              <li>
+                <a href="./blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="./single-blog.html">Blog Details</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="page-main-wrapper">
+      <!-- Start: Hero section -->
+      <div class="global-page-banner-wrapper">
+        <div class="container">
+          <!-- Navigation start -->
+          <header
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper"
+          >
+            <!-- Logo -->
+            <a href="./index.html">
+              <div
+                class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+              >
+                <img src="./assets/images/home/logo.svg" alt="Logo" />
+                <h3>Tikka</h3>
+              </div>
+            </a>
+
+            <!-- Menu links -->
+            <div
+              class="d-flex align-items-center justify-content-end menuWrapper"
+            >
+              <nav class="navbarLinksWrapper d-flex align-items-center">
+                <div class="dropdown">
+                  <p
+                    class="dropdown-toggle p-0 text-white cursor-pointer"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    role="button"
+                  >
+                    Home <i class="fa-solid fa-angle-down"></i>
+                  </p>
+                  <div
+                    class="dropdown-menu dropdown-menu-end animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="./index.html">Home 1</a>
+                    <a class="dropdown-item" href="./index-2.html">Home 2</a>
+                  </div>
                 </div>
-        </nav>
-		<div class="page-main-wrapper">
-			<!-- Start: Hero section -->
-			<div class="global-page-banner-wrapper">
-				<div class="container">
-					<!-- Navigation start -->
-					<div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class="d-none d-lg-flex align-items-center justify-content-between navMainWrapper">
-						<!-- Logo -->
-						<a href="./index.html">
-							<div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-								<img src="./assets/images/home/logo.svg" alt="Logo" >
-								<h3>Tikka</h3>
-							</div>
-						</a>
-
-						<!-- Menu links -->
-						<div class="d-flex align-items-center justify-content-end menuWrapper">
-                            <nav class="navbarLinksWrapper d-flex align-items-center">
-                                <div class="dropdown">
-                                    <p class="dropdown-toggle p-0 text-white cursor-pointer" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Home <i class="fa-solid fa-angle-down"></i></p>
-                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="./index.html">Home 1</a>
-                                        <a class="dropdown-item" href="./index-2.html">Home 2</a>
-                                    </div>
-                                </div>
-                                <a href="./about.html">About Us</a>
-                                <div class="dropdown">
-                                    <p class="dropdown-toggle cursor-pointer p-0 text-white" id="ProjectDropdownBtn" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <i class="fa-solid fa-angle-down"></i></p>
-                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="ProjectDropdownBtn">
-                                        <a class="dropdown-item" href="./project.html">Projects</a>
-                                        <a class="dropdown-item" href="./project-details.html">Project Details</a>
-                                    </div>
-                                </div>
-                                <div class="dropdown">
-                                    <p class="dropdown-toggle cursor-pointer p-0 text-white" id="pagesDropdownBtn" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fa-solid fa-angle-down"></i></p>
-                                    <div class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="pagesDropdownBtn">
-                                        <a class="dropdown-item" href="./blog.html">Blog</a>
-                                        <a class="dropdown-item" href="./single-blog.html">Blog Details</a>
-                                    </div>
-                                </div>
-                                <a href="./contact.html">Contact</a>
-                            </nav>
-                        </div>
-
-						<!-- Button -->
-						<div>
-							<a href="./contact.html">
-								<div class="button navBtn d-flex justify-content-center align-items-center">
-									Hire Me
-									<p class="btn-plus-icon d-flex">
-										<i class="fa-solid fa-plus btnIcon"></i>
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- Navigation end -->
-
-					<!-- Banner section start -->
-
-					<div class="global-page-banner">
-						<h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="pb-2">
-							Contact Us
-						</h1>
-						<h4 class="global-banner__bredcamb-wrapper" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-							<a href="./">Home</a>
-							<span class="text-color">/</span>
-							<span> Contact Us </span>
-						</h4>
-					</div>
-
-					<!-- Banner section end -->
-				</div>
-			</div>
-			<!-- End: Hero section -->
-
-			<!-- Contact section start -->
-			<div class="container px-3 px-md-0 section-space">
-				<div class="row two-col-gap">
-					<div class="col-12 col-lg-8">
-						<h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="cf-title d-inline-block position-relative title-divider">
-							Feel free to message
-						</h4>
-						<form data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="comment-write-form">
-							<div class="contact-page__form--field-wrapper">
-								<input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Name" >
-								<input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Email" >
-								<input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Email" >
-								<input class="v2-input-field cf-input-field w-100" type="text" placeholder="Your Email" >
-							</div>
-							<div>
-								<textarea class="v2-input-field cf-input-field w-100 comment-writing-input-box" placeholder="Write your message" cols="30" rows="10"></textarea>
-							</div>
-
-							<div class="row">
-								<div class="col-12">
-									<input class="button fillBtn contact-page__form-submit-btn" type="submit" value="Send a message" >
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="col-12 col-lg-4 mt-4 mt-lg-0">
-						<h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="cf-title d-inline-block position-relative title-divider">
-							Get in touch
-						</h4>
-						<p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="cf-description white-paragraph">
-							It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt
-						</p>
-						<div class="contact-info-wrapper">
-							<!-- Address box -->
-							<div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="contact-info d-flex">
-								<div class="cf-icon">
-									<img src="./assets/images/contact/map-icon.svg" alt="Location Icon" >
-								</div>
-								<div class="cf-info-box">
-									<h4>Address</h4>
-									<p class="white-paragraph">
-										2972 Westheimer Rd. Santa Ana, Illinois 85486
-									</p>
-								</div>
-							</div>
-							<!-- Email box -->
-							<div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="contact-info d-flex">
-								<div class="cf-icon">
-									<img src="./assets/images/contact/envelop-icon.svg" alt="Email Icon" >
-								</div>
-								<div class="cf-info-box">
-									<h4>Email Address</h4>
-									<a href="mailto:nevaeh.simmons@example.com" class="white-paragraph">
-										nevaeh.simmons@example.com
-									</a>
-								</div>
-							</div>
-							<!-- Phone number box -->
-							<div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="contact-info d-flex">
-								<div class="cf-icon">
-									<img src="./assets/images/contact/phone-icon.svg" alt="Phone Icon" >
-								</div>
-								<div class="cf-info-box">
-									<h4>Phone number</h4>
-									<a href="tel:+7045550127" class="white-paragraph">(704) 555-0127</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End: Hero section -->
-
-			<!-- Map section -->
-			<div>
-				<iframe
-					class="contact-page__map"
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.167438386936!2d90.36211487592816!3d23.777051187751532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1c6359ad983%3A0x314174d61dc0ec0e!2sReformedTech!5e0!3m2!1sen!2sbd!4v1709794753004!5m2!1sen!2sbd"
-					allowfullscreen=""
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				></iframe>
-			</div>
-
-			<!-- Start: Footer section -->
-			<footer class="footer-main-wrapper mt-0">
-				<div class="container">
-					<!-- Footer heading -->
-					<div>
-						<h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="my-30">Got A <span class="text-color">Project</span> To Do ?</h1>
-						<a href="mailto:madbuz@yahoo.com" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="footer-email position-relative">
-							madbuz@yahoo.com
-						</a>
-					</div>
-
-					<!-- Footer details -->
-					<div class="row footer-content-wrapper">
-                        <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                            <!-- Logo -->
-                            <div class="d-flex align-items-center text-white m-0 text-uppercase gap-2">
-                                <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src="./assets/images/home/footer-logo.png" alt="Logo" >
-                                <h3 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="">
-                                    Tikka
-                                </h3>
-                            </div>
-                            <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="gray-paragraph my-3">
-                                Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh ellentes
-                            </p>
-                            <ul data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="d-flex footer-social-icons-wrapper gap-4 p-0">
-                                <li>
-                                    <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3">
-                            <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                                Useful Links
-                            </h3>
-                            <ul class="d-flex flex-column footer-title-gap-wrapper footer-useful-link-wrapper p-0">
-                                <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                    <a href="./index.html">Home</a>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                    <a href="./about.html">About Us</a>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                    <a href="./project.html">Projects</a>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                    <a href="./blog.html">Blog</a>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="list-unstyled gray-paragraph">
-                                    <a href="./contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                            <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                                Latest News
-                            </h3>
-                            <ul class="footer-title-latest-news-gap-wrapper p-0 d-flex flex-column gap-4">
-                                <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                                    <div>
-                                        <img src="./assets/images/home/latest-news-1.png" alt="Blogs" >
-                                    </div>
-                                    <div>
-                                        <div class="d-flex gap-2 align-items-center">
-                                            <i class="fa-solid fa-calendar-days text-color"></i>
-                                            <p class="gray-paragraph">October 19, 2022</p>
-                                        </div>
-                                        <a href="./single-blog.html" class="gray-paragraph">
-                                            Market research helps businesses understand
-                                        </a>
-                                    </div>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="d-flex footer-lst-news-list">
-                                    <div>
-                                        <img src="./assets/images/home/latest-news-2.png" alt="Blogs" >
-                                    </div>
-                                    <div>
-                                        <div class="d-flex gap-2 align-items-center">
-                                            <i class="fa-solid fa-calendar-days text-color"></i>
-                                            <p class="gray-paragraph">October 19, 2022</p>
-                                        </div>
-                                        <a href="./single-blog.html" class="gray-paragraph">
-                                            Market research helps businesses understand
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3 pt-4 pt-lg-0">
-                            <h3 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                                Contact
-                            </h3>
-                            <ul class="d-flex flex-column footer-title-gap-wrapper footer-ci-wrapper p-0">
-                                <li data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                                    <div class="align-items-center d-flex main-foo-ci">
-                                        <i class="fa-solid fa-envelope text-color"></i>
-                                        <a href="mailto:debra.holt@example.com" class="gray-paragraph">debra.holt@example.com</a>
-                                    </div>
-                                </li>
-                                <li data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                                    <div class="align-items-baseline d-flex main-foo-ci">
-                                        <i class="fa-solid fa-location-dot text-color"></i>
-                                        <p class="gray-paragraph">
-                                            3891 Ranchview Dr. Richardson, California 62639
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-					<div class="footer-divider"></div>
-					<div class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4">
-						<div>
-							<p class="gray-paragraph">
-								&copy; Copyright 2024 | All Rights Reserved.
-							</p>
-						</div>
-						<div>
-							<ul class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0">
-								<li class="gray-paragraph list-unstyled gray-paragraph">
-									<a href="./contact.html">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- End: Footer section -->
-			<!-- ============================================ -->
-
-			<!-- scroll top -->
-            <div class="scroll-top">
-                <a class="page-scroll" href="#page-top"><span class="fa fa-angle-up"></span></a>
+                <a href="./about.html">About Us</a>
+                <div class="dropdown">
+                  <p
+                    class="dropdown-toggle cursor-pointer p-0 text-white"
+                    id="ProjectDropdownBtn"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Projects <i class="fa-solid fa-angle-down"></i>
+                  </p>
+                  <div
+                    class="dropdown-menu dropdown-menu-end animate slideIn"
+                    aria-labelledby="ProjectDropdownBtn"
+                  >
+                    <a class="dropdown-item" href="./project.html">Projects</a>
+                    <a class="dropdown-item" href="./project-details.html"
+                      >Project Details</a
+                    >
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <p
+                    class="dropdown-toggle cursor-pointer p-0 text-white"
+                    id="pagesDropdownBtn"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Blog <i class="fa-solid fa-angle-down"></i>
+                  </p>
+                  <div
+                    class="dropdown-menu dropdown-menu-end animate slideIn"
+                    aria-labelledby="pagesDropdownBtn"
+                  >
+                    <a class="dropdown-item" href="./blog.html">Blog</a>
+                    <a class="dropdown-item" href="./single-blog.html"
+                      >Blog Details</a
+                    >
+                  </div>
+                </div>
+                <a href="./contact.html">Contact</a>
+              </nav>
             </div>
-		</div>
 
-		<!-- Jquery v-3.7.1 -->
-		<script src="./assets/js/jquery/jquery-3.7.1.min.js"></script>
+            <!-- Button -->
+            <div>
+              <a href="./contact.html">
+                <div
+                  class="button navBtn d-flex justify-content-center align-items-center"
+                >
+                  Hire Me
+                  <p class="btn-plus-icon d-flex">
+                    <i class="fa-solid fa-plus btnIcon"></i>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </header>
+          <!-- Navigation end -->
 
-		<!-- Popper Js -->
-		<script src="./assets/js/popper/popper.min.js"></script>
+          <!-- Banner section start -->
 
-		<!-- Bootstrap Js -->
-		<script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+          <div class="global-page-banner">
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="pb-2"
+            >
+              Contact Us
+            </h1>
+            <h4
+              class="global-banner__bredcamb-wrapper"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              <a href="./">Home</a>
+              <span class="text-color">/</span>
+              <span> Contact Us </span>
+            </h4>
+          </div>
 
-		<!-- Counter JS -->
-		<script src="./assets/js/plugins/counter.js"></script>
+          <!-- Banner section end -->
+        </div>
+      </div>
+      <!-- End: Hero section -->
 
-		<!-- Owl Carousel -->
-		<script src="./assets/js/plugins/owl.carousel.min.js"></script>
+      <!-- Contact section start -->
+      <div class="container px-3 px-md-0 section-space">
+        <div class="row two-col-gap">
+          <div class="col-12 col-lg-8">
+            <h4
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="cf-title d-inline-block position-relative title-divider"
+            >
+              Feel free to message
+            </h4>
+            <form
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="comment-write-form"
+            >
+              <div class="contact-page__form--field-wrapper">
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Email"
+                />
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Email"
+                />
+                <input
+                  class="v2-input-field cf-input-field w-100"
+                  type="text"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div>
+                <textarea
+                  class="v2-input-field cf-input-field w-100 comment-writing-input-box"
+                  placeholder="Write your message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
 
-		<!-- AOS Animation -->
-		<script src="./assets/js/plugins/aos.js"></script>
+              <div class="row">
+                <div class="col-12">
+                  <input
+                    class="button fillBtn contact-page__form-submit-btn"
+                    type="submit"
+                    value="Send a message"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+            <h4
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="cf-title d-inline-block position-relative title-divider"
+            >
+              Get in touch
+            </h4>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="cf-description white-paragraph"
+            >
+              It is a long established fact that a reader will be distrol acted
+              bioiiy desig the rea dablea contentIt
+            </p>
+            <div class="contact-info-wrapper">
+              <!-- Address box -->
+              <div
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+                class="contact-info d-flex"
+              >
+                <div class="cf-icon">
+                  <img
+                    src="./assets/images/contact/map-icon.svg"
+                    alt="Location Icon"
+                  />
+                </div>
+                <div class="cf-info-box">
+                  <h4>Address</h4>
+                  <p class="white-paragraph">
+                    2972 Westheimer Rd. Santa Ana, Illinois 85486
+                  </p>
+                </div>
+              </div>
+              <!-- Email box -->
+              <div
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                class="contact-info d-flex"
+              >
+                <div class="cf-icon">
+                  <img
+                    src="./assets/images/contact/envelop-icon.svg"
+                    alt="Email Icon"
+                  />
+                </div>
+                <div class="cf-info-box">
+                  <h4>Email Address</h4>
+                  <a
+                    href="mailto:nevaeh.simmons@example.com"
+                    class="white-paragraph"
+                  >
+                    nevaeh.simmons@example.com
+                  </a>
+                </div>
+              </div>
+              <!-- Phone number box -->
+              <div
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+                class="contact-info d-flex"
+              >
+                <div class="cf-icon">
+                  <img
+                    src="./assets/images/contact/phone-icon.svg"
+                    alt="Phone Icon"
+                  />
+                </div>
+                <div class="cf-info-box">
+                  <h4>Phone number</h4>
+                  <a href="tel:+7045550127" class="white-paragraph"
+                    >(704) 555-0127</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Hero section -->
 
-		<!-- Custom Js -->
-		<script src="./assets/js/main.js"></script>
-	</body>
+      <!-- Map section -->
+      <div>
+        <iframe
+          class="contact-page__map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.167438386936!2d90.36211487592816!3d23.777051187751532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1c6359ad983%3A0x314174d61dc0ec0e!2sReformedTech!5e0!3m2!1sen!2sbd!4v1709794753004!5m2!1sen!2sbd"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <!-- Start: Footer section -->
+      <footer class="footer-main-wrapper mt-0">
+        <div class="container">
+          <!-- Footer heading -->
+          <div>
+            <h1
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              class="my-30"
+            >
+              Got A <span class="text-color">Project</span> To Do ?
+            </h1>
+            <a
+              href="mailto:madbuz@yahoo.com"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="footer-email position-relative"
+            >
+              madbuz@yahoo.com
+            </a>
+          </div>
+
+          <!-- Footer details -->
+          <div class="row footer-content-wrapper">
+            <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+              <!-- Logo -->
+              <div
+                class="d-flex align-items-center text-white m-0 text-uppercase gap-2"
+              >
+                <img
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  src="./assets/images/home/footer-logo.png"
+                  alt="Logo"
+                />
+                <h3
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  class=""
+                >
+                  Tikka
+                </h3>
+              </div>
+              <p
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+                class="gray-paragraph my-3"
+              >
+                Lorem ipsum dolor amet, consectetur sell adipis elit phase nibh
+                ellentes
+              </p>
+              <ul
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                class="d-flex footer-social-icons-wrapper gap-4 p-0"
+              >
+                <li>
+                  <a href="https://facebook.com"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com"
+                    ><i class="fa-brands fa-x-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://pinterest.com"
+                    ><i class="fa-brands fa-pinterest-p"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+              <h3
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Useful Links
+              </h3>
+              <ul
+                class="d-flex flex-column footer-title-gap-wrapper footer-useful-link-wrapper p-0"
+              >
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  class="list-unstyled gray-paragraph"
+                >
+                  <a href="./index.html">Home</a>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                  class="list-unstyled gray-paragraph"
+                >
+                  <a href="./about.html">About Us</a>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                  class="list-unstyled gray-paragraph"
+                >
+                  <a href="./project.html">Projects</a>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                  class="list-unstyled gray-paragraph"
+                >
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                  data-aos-duration="1000"
+                  class="list-unstyled gray-paragraph"
+                >
+                  <a href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+              <h3
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Latest News
+              </h3>
+              <ul
+                class="footer-title-latest-news-gap-wrapper p-0 d-flex flex-column gap-4"
+              >
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  class="d-flex footer-lst-news-list"
+                >
+                  <div>
+                    <img
+                      src="./assets/images/home/latest-news-1.png"
+                      alt="Blogs"
+                    />
+                  </div>
+                  <div>
+                    <div class="d-flex gap-2 align-items-center">
+                      <i class="fa-solid fa-calendar-days text-color"></i>
+                      <p class="gray-paragraph">October 19, 2022</p>
+                    </div>
+                    <a href="./single-blog.html" class="gray-paragraph">
+                      Market research helps businesses understand
+                    </a>
+                  </div>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                  class="d-flex footer-lst-news-list"
+                >
+                  <div>
+                    <img
+                      src="./assets/images/home/latest-news-2.png"
+                      alt="Blogs"
+                    />
+                  </div>
+                  <div>
+                    <div class="d-flex gap-2 align-items-center">
+                      <i class="fa-solid fa-calendar-days text-color"></i>
+                      <p class="gray-paragraph">October 19, 2022</p>
+                    </div>
+                    <a href="./single-blog.html" class="gray-paragraph">
+                      Market research helps businesses understand
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-3 pt-4 pt-lg-0">
+              <h3
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                Contact
+              </h3>
+              <ul
+                class="d-flex flex-column footer-title-gap-wrapper footer-ci-wrapper p-0"
+              >
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
+                  <div class="align-items-center d-flex main-foo-ci">
+                    <i class="fa-solid fa-envelope text-color"></i>
+                    <a
+                      href="mailto:debra.holt@example.com"
+                      class="gray-paragraph"
+                      >debra.holt@example.com</a
+                    >
+                  </div>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                >
+                  <div class="align-items-baseline d-flex main-foo-ci">
+                    <i class="fa-solid fa-location-dot text-color"></i>
+                    <p class="gray-paragraph">
+                      3891 Ranchview Dr. Richardson, California 62639
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-divider"></div>
+          <div
+            class="align-items-md-center d-flex flex-column flex-md-row justify-content-between py-4"
+          >
+            <div>
+              <p class="gray-paragraph">
+                &copy; Copyright 2024 | All Rights Reserved.
+              </p>
+            </div>
+            <div>
+              <ul
+                class="d-flex flex-column flex-md-row gap-3 justify-content-start m-0 p-0"
+              >
+                <li class="gray-paragraph list-unstyled gray-paragraph">
+                  <a href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End: Footer section -->
+      <!-- ============================================ -->
+
+      <!-- scroll top -->
+      <div class="scroll-top">
+        <a class="page-scroll" href="#page-top"
+          ><span class="fa fa-angle-up"></span
+        ></a>
+      </div>
+    </div>
+
+    <!-- Jquery v-3.7.1 -->
+    <script src="./assets/js/jquery/jquery-3.7.1.min.js"></script>
+
+    <!-- Popper Js -->
+    <script src="./assets/js/popper/popper.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Counter JS -->
+    <script src="./assets/js/plugins/counter.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="./assets/js/plugins/owl.carousel.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="./assets/js/plugins/aos.js"></script>
+
+    <!-- Custom Js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
